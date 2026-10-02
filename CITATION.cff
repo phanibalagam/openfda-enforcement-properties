@@ -8,6 +8,10 @@ authors:
     orcid: "https://orcid.org/0009-0007-6762-399X"
     affiliation: "Independent Researcher"
 license: MIT
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23093731"
+    description: "Concept DOI, resolves to the latest version"
 repository-code: "https://github.com/phanibalagam/openfda-enforcement-properties"
 abstract: >-
   Code, recorded results and hand-mark records for a manuscript on the properties
