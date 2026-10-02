@@ -1,0 +1,4318 @@
+{
+ "data": {
+  "sha256": "c6eb46526a3ad52102a88b65727874c2e23c43300b27e704eada05960d755092",
+  "records": 17975
+ },
+ "run2_parser_sha256": "892aacebdeb522adef4ca4f2beef658b8ac9a61f843f4631cb26d77f4571b263",
+ "date_field": "report_date (year), as in runs 1 and 2",
+ "eras": [
+  [
+   "E1",
+   2013,
+   2016
+  ],
+  [
+   "E2",
+   2017,
+   2021
+  ],
+  [
+   "E3",
+   2022,
+   2026
+  ]
+ ],
+ "seeds_A": {
+  "E1": 31001,
+  "E2": 31002,
+  "E3": 31003
+ },
+ "seeds_B": {
+  "E1": 32001,
+  "E2": 32002,
+  "E3": 32003
+ },
+ "n_per_era": 40,
+ "recovered_total_check": 6651,
+ "A": {
+  "E1": {
+   "population_records": 1927,
+   "sample": [
+    {
+     "key": "D-849-2013#17906",
+     "year": 2013,
+     "extracted": [
+      "0093-5348-01"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...(LA), 40 mg, 100 count bottle, Rx only, TEVA PHARMACEUTICALS USA, NDC 0093-5348-01",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-66458-1#981",
+     "year": 2013,
+     "extracted": [
+      "0781-5780-92"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...India by Sandoz Private Ltd, for Sandoz Inc, Princeton, NJ 08540, NDC 0781-5780-92",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-879-2014#3172",
+     "year": 2014,
+     "extracted": [
+      "00185007201"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...IN, Tablet, 20 mg, Rx only, Distributed by: AidaPak Service, LLC, NDC 00185007201.",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-246-2013#17952",
+     "year": 2013,
+     "extracted": [
+      "0555-9123-66"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...ufactured For: Teva Pharmaceuticals USA, Sellersville, PA 18960, NDC 0555-9123-66.",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-488-2014#3572",
+     "year": 2014,
+     "extracted": [
+      "00904615760"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...00 units, Over The Counter, Distributed by: AidaPak Service, LLC, NDC 00904615760",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0185-2017#3276",
+     "year": 2016,
+     "extracted": [
+      "52533-171-12"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...nly Cantrell Drug Company 7321 Cantrell Rd Little Rock, AR 72207, NDC 52533-171-12",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-541-2013#7294",
+     "year": 2013,
+     "extracted": [
+      "13811-0081-30"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...TC, Manufactured for: Trigen Laboratories, Sayreville, NJ, 08872, NDC 13811-0081-30",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-1065-2015#9505",
+     "year": 2015,
+     "extracted": [
+      "44523-616-23"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...g), Manufactured for: BioComp Pharma Inc., San Antonio TX, 78230, NDC 44523-616-23",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0261-2016#8466",
+     "year": 2015,
+     "extracted": [
+      "62295-3099-07"
+     ],
+     "placeholder_codes": [],
+     "snippet": "..., Compounded by US Compounding Pharmacy, Conway, Arkansas, 72032, NDC 62295-3099-07",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0243-2015#8399",
+     "year": 2014,
+     "extracted": [
+      "60505-3620-3",
+      "60505-3620-9"
+     ],
+     "placeholder_codes": [],
+     "snippet": "Candesartan Cilexetil Tablets, 16 mg, a) 30-count bottle (NDC 60505-3620-3) b) 90-count bottles (NDC 60505-3620-9) Rx Only, Manufactured by Apo...",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-485-2014#1940",
+     "year": 2014,
+     "extracted": [
+      "00904582360"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...00 units, Over The Counter, Distributed by: AidaPak Service, LLC, NDC 00904582360",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-1300-2015#6531",
+     "year": 2015,
+     "extracted": [
+      "13861-2557-43"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...mL Vial, Apothecary Shoppe, Compounding Pharmacy, Tulsa OK 74135, NDC 13861-2557-43",
+     "mark": "incorrect",
+     "note": "11-digit form with no pad zero: printed by the firm as its NDC but structurally impossible as an FDA NDC"
+    },
+    {
+     "key": "D-166-2013#9206",
+     "year": 2013,
+     "extracted": [
+      "51079-254-21"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...p;amp; Distributed by UDL Laboratories, Inc., Rockford, IL 61103; NDC 51079-254-21.",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-637-2014#3528",
+     "year": 2014,
+     "extracted": [
+      "58468013001"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...TE Tablet, 800 mg, Rx only, Distributed by: AidaPak Service, LLC, NDC 58468013001",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-975-2014#2769",
+     "year": 2014,
+     "extracted": [
+      "00591543801"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...E, Tablet, 200 mg, Rx only, Distributed by: AidaPak Service, LLC, NDC 00591543801.",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-1264-2016#2637",
+     "year": 2016,
+     "extracted": [
+      "45183-0119-73"
+     ],
+     "placeholder_codes": [],
+     "snippet": "..., Compounded by PHARMAKON Pharmaceuticals, Noblesville, IN 46060, NDC 45183-0119-73",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0212-2017#8844",
+     "year": 2016,
+     "extracted": [
+      "76439-309-10"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...d for: Virtus Pharmaceuticals OPCO II, LLC., Nashville, TN 37217, NDC 76439-309-10.",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-465-2014#2843",
+     "year": 2014,
+     "extracted": [
+      "00904404360"
+     ],
+     "placeholder_codes": [],
+     "snippet": "... 1000 mg, Over The Counter, Distributed by: AidaPak Service, LLC, NDC 00904404360",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-339-2014#3330",
+     "year": 2013,
+     "extracted": [
+      "0078-9521-89"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...[REDACTED] Pharmaceuticals Corp. East Hanover, New Jersey 07936 , NDC # 0078-9521-89",
+     "mark": "correct",
+     "note": "labeler name redacted by the boundary filter"
+    },
+    {
+     "key": "D-1479-2016#1445",
+     "year": 2016,
+     "extracted": [
+      "51862-146-06"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...92618 Distributed by: Libertas Pharma, Inc. Montgomery, AL 36117. NDC 51862-146-06",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0285-2015#8766",
+     "year": 2014,
+     "extracted": [
+      "0409-7983-09"
+     ],
+     "placeholder_codes": [],
+     "snippet": "..., Rx Only, Manufactured by Hospira, Inc., Lake Forest, IL 60045, NDC 0409-7983-09.",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-853-2014#2697",
+     "year": 2014,
+     "extracted": [
+      "00093834201"
+     ],
+     "placeholder_codes": [],
+     "snippet": "..., Tablet, 1.25 mg, Rx only, Distributed by: AidaPak Service, LLC, NDC 00093834201.",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-688-2014#3756",
+     "year": 2014,
+     "extracted": [
+      "64376081601"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...N Tablet, Over The Counter, Distributed by: AidaPak Service, LLC, NDC 64376081601",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0203-2017#1469",
+     "year": 2016,
+     "extracted": [
+      "52533-185-75"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...Only, Cantrell Drug Co. 7321 Cantrell Road Little Rock, AR 72207, NDC 52533-185-75",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-1827-2015#9000",
+     "year": 2015,
+     "extracted": [
+      "61553-236-50"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...um Services, LLC, 12620 W. Airport Blvd., Sugar Land, TX 77478, NDC# 61553-236-50",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0190-2017#1477",
+     "year": 2016,
+     "extracted": [
+      "52533-080-75"
+     ],
+     "placeholder_codes": [],
+     "snippet": "..., Cantrell Drug Company 7321 Cantrell Road Little Road, AR 72207, NDC 52533-080-75",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-1195-2014#7430",
+     "year": 2014,
+     "extracted": [
+      "49807-2301-1"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...adale, WA 98248; Manufactured By: SANUM-Kehlbeck GmbH & Co. KG. NDC: 49807-2301-1.",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0237-2016#6261",
+     "year": 2015,
+     "extracted": [
+      "62295-3253-05"
+     ],
+     "placeholder_codes": [],
+     "snippet": "... Compounded by US Compounding Pharmacy, Conway, Arkansas, 72032, NDC: 62295-3253-05.",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-928-2013#8002",
+     "year": 2013,
+     "extracted": [
+      "0703-3249-11"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...iDose, Rx only, Teva Parenteral Medicines, Inc., Irvine, CA 92618 NDC 0703-3249-11",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-826-2014#1977",
+     "year": 2014,
+     "extracted": [
+      "00093075601"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...M, Capsule, 10 mg, Rx only, Distributed by: AidaPak Service, LLC, NDC 00093075601.",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-826-2013#5954",
+     "year": 2013,
+     "extracted": [
+      "54868-0031-04"
+     ],
+     "placeholder_codes": [],
+     "snippet": "... 0.0194 mg, Scopolamine Hydrobromide 0.0065 mg 30-count bottle (NDC 54868-0031-04), Rx only, Repackaged and dis...",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-1305-2015#6536",
+     "year": 2015,
+     "extracted": [
+      "13429-1540-18"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...mL Vial, Apothecary Shoppe, Compounding Pharmacy, Tulsa OK 74135, NDC 13429-1540-18",
+     "mark": "incorrect",
+     "note": "11-digit form with no pad zero: printed by the firm as its NDC but structurally impossible as an FDA NDC"
+    },
+    {
+     "key": "D-0094-2017#9683",
+     "year": 2016,
+     "extracted": [
+      "00264-1510-32"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...tainer, Rx only, B. Braun Medical Inc. Irvine, CA 92614-5895 USA, NDC 00264-1510-32",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-1251-2015#6332",
+     "year": 2015,
+     "extracted": [
+      "64679-140-00"
+     ],
+     "placeholder_codes": [],
+     "snippet": "... Wockhardt USA LLC 20 Waterview Blvd. Parsippany, NJ 07054 USA. NDC: 64679-140-00.",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-1336-2016#1804",
+     "year": 2016,
+     "extracted": [
+      "45183-0961-72"
+     ],
+     "placeholder_codes": [],
+     "snippet": "..., Compounded by PHARMAKON Pharmaceuticals, Noblesville, IN 46060, NDC 45183-0961-72",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-1490-2016#2955",
+     "year": 2016,
+     "extracted": [
+      "68084-887-32",
+      "68084-887-33"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...stributed by: American Health Packaging, Columbus, OH ---- Carton NDC 68084-887-32; Blister NDC 68084-887-33",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0399-2015#8795",
+     "year": 2015,
+     "extracted": [
+      "25021-672-10"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...njection, Mfd. for: Sagent Pharmaceuticals, Schaumberg, IL 60195, NDC 25021-672-10",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-1269-2015#8304",
+     "year": 2015,
+     "extracted": [
+      "64679-0670-01",
+      "64679-0670-07",
+      "64679-0670-05"
+     ],
+     "placeholder_codes": [],
+     "snippet": "... Capsules, USP, 30 mg Capsules, Packaged in A) 30 Count Bottles (NDC: 64679-0670-01), B) 90 Count Bottles (NDC: 64679-0670-07), and C) 1000 Count Bottles (NDC: 64679-0670-05), Rx only. Manufactured by: W...",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-616-2014#4229",
+     "year": 2014,
+     "extracted": [
+      "54458010022"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...g/400 mg, Over The Counter, Distributed by: AidaPak Service, LLC, NDC 54458010022",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-1338-2016#1464",
+     "year": 2016,
+     "extracted": [
+      "45183-0966-69"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...; Compounded by PHARMAKON Pharmaceuticals, Noblesville, IN 46060, NDC 45183-0966-69",
+     "mark": "correct",
+     "note": ""
+    }
+   ],
+   "marked": 40,
+   "correct": 38,
+   "precision_pct": 95.0,
+   "wilson95": [
+    83.5,
+    98.62
+   ],
+   "placeholder_codes_all_recovered": 41,
+   "codes_all_recovered": 2406,
+   "placeholder_records_all_recovered": 41,
+   "placeholder_codes_in_sample": 0,
+   "no_pad_zero_codes_all_recovered": 54,
+   "no_pad_zero_codes_in_sample": 2
+  },
+  "E2": {
+   "population_records": 2790,
+   "sample": [
+    {
+     "key": "D-0942-2020#12033",
+     "year": 2020,
+     "extracted": [
+      "71283-0620-2"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...harmaceutical 1990 Westwood Blvd. Ste 135, Los Angeles, CA 90025; NDC 71283-0620-2",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0529-2018#9635",
+     "year": 2018,
+     "extracted": [
+      "58597-8032-4",
+      "58597-8032-6",
+      "58597-8032-7",
+      "58597-8032-8"
+     ],
+     "placeholder_codes": [],
+     "snippet": "... HCl USP (CIV) for prescription compounding, packaged in a) 25g (NDC 58597-8032-4); b) 100g (NDC 58597-8032-6); c) 500g (NDC 58597-8032-7); d)1000g (NDC 58597-8032-8), RX only, packed by American...",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0121-2021#17472",
+     "year": 2020,
+     "extracted": [
+      "72485-210-01",
+      "72485-210-08"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...ibuted by: Armas Pharmaceuticals, Inc., Manalapan, NJ 07726, Vial NDC 72485-210-01, Carton NDC 72485-210-08.",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-1009-2017#9826",
+     "year": 2017,
+     "extracted": [
+      "70004-0202-40"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...ly, SCA Pharmaceuticals 8821 Knoedl Ct Little Rock, AR 72205 --- NDC# 70004-0202-40",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-1635-2019#11453",
+     "year": 2019,
+     "extracted": [
+      "70731-0914-65"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...Q Compounding, 340 West State Street, Unit 9, Athens, OH 45701. NDC: 70731-0914-65",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0623-2019#10841",
+     "year": 2019,
+     "extracted": [
+      "57955-5035-2"
+     ],
+     "placeholder_codes": [],
+     "snippet": "... Bio, Inc. 3 Westside Dr. Asheville, NC 28806, UPC 357955503521, NDC 57955-5035-2",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0955-2019#10352",
+     "year": 2019,
+     "extracted": [
+      "57955-4215-2"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...#25 Yin/Yang Balance Homeopathic Preparation, Oral Liquid, 57 mL, NDC 57955-4215-2",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0902-2019#10597",
+     "year": 2019,
+     "extracted": [
+      "57955-1601-6"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...o, Inc. 3 Westside Dr. Asheville, NC 28806 USA, UPC 357955160168, NDC 57955-1601-6",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0110-2019#10577",
+     "year": 2018,
+     "extracted": [
+      "61096-0012-1",
+      "61096-1012-1"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...l. oz (41ml), Manufactured for Sprayology Gaithersburg. MD 20879. NDC 61096-0012-1 and Tester NDC 61096-1012-1",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-1051-2020#3452",
+     "year": 2020,
+     "extracted": [
+      "51991-894-33",
+      "51991-894-90"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...enacin Succinate Tablets, 10 mg, packaged in a) 30-count bottles (NDC 51991-894-33) and b) 90-count bottles (NDC 51991-894-90), Distributed by: Breckenrid...",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0235-2019#2112",
+     "year": 2018,
+     "extracted": [
+      "69761-137-01",
+      "69761-137-06",
+      "69761-137-12",
+      "69761-137-30"
+     ],
+     "placeholder_codes": [],
+     "snippet": "Testosterone 37.5 mg pellet, 1 count (NDC 69761-137-01), 6 count (NDC 69761-137-06), 12 count (NDC 69761-137-12) and 30 count (NDC 69761-137-30) vials, Rx Only, Qualgen, LLC...",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-1376-2019#11262",
+     "year": 2019,
+     "extracted": [
+      "59741-301-12",
+      "59741-301-24"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...For rectal administration, a) 12 Adult Suppositories per carton, NDC: 59741-301-12, b) 24 Adult Suppositories per carton, NDC: 59741-301-24, Manufactured by Bio-Pharm In...",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-1526-2020#12345",
+     "year": 2020,
+     "extracted": [
+      "51224-0203-70"
+     ],
+     "placeholder_codes": [],
+     "snippet": "... Albuquerque, NM 87123, MFG: Tagi Pharma, South Beloit, IL 61080; NDC 51224-0203-70",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-1005-2020#5141",
+     "year": 2020,
+     "extracted": [
+      "52959-0002-30",
+      "52959-0002-42",
+      "52959-0002-45",
+      "52959-0002-50"
+     ],
+     "placeholder_codes": [],
+     "snippet": "Acetaminophen 500 mg tablet packaged in a) 30-count bottles ( NDC 52959-0002-30), b) 42-count bottles (NDC 52959-0002-42), c) 45-count bottles (NDC 52959-0002-45) and e) 50-count bottles (NDC 52959-0002-50) Repack: H.J. Harkins Co., In...",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-1712-2019#11570",
+     "year": 2019,
+     "extracted": [
+      "70731-0193-81"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...RXQ Compounding, 340 West State Street, Unit 9, Athens, OH 45701. NDC 70731-0193-81",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0534-2019#10549",
+     "year": 2019,
+     "extracted": [
+      "57955-8196-2"
+     ],
+     "placeholder_codes": [],
+     "snippet": "... Bio, Inc., 3 Westside Dr. Asheville, NC 28806, UPC 357955518822, NDC 57955-8196-2",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-1656-2019#11386",
+     "year": 2019,
+     "extracted": [
+      "70731-0113-22"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...XQ Compounding, 340 West State Street, Unit 9, Athens, OH 45701. NDC: 70731-0113-22",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-1197-2018#10040",
+     "year": 2018,
+     "extracted": [
+      "58066-7011-7"
+     ],
+     "placeholder_codes": [],
+     "snippet": "... bottle, Distributed by Beaumont Bio-Med, Inc., Waukon, IA 52172; NDC 58066-7011-7",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0825-2019#11010",
+     "year": 2019,
+     "extracted": [
+      "57955-0023-2"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...nc., 3 Westside Drive, Asheville, NC 28806 USA, UPC 357955002321, NDC 57955-0023-2",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0947-2020#11745",
+     "year": 2020,
+     "extracted": [
+      "71283-0411-1"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...harmaceutical 1990 Westwood Blvd. Ste 135, Los Angeles, CA 90025; NDC 71283-0411-1",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0634-2019#10588",
+     "year": 2019,
+     "extracted": [
+      "57955-5074-2"
+     ],
+     "placeholder_codes": [],
+     "snippet": "... Bio, Inc., 3 Westside Dr. Asheville, NC 28806, UPC 357955507420, NDC 57955-5074-2",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0088-2019#4817",
+     "year": 2018,
+     "extracted": [
+      "0067-6286-14",
+      "0067-6286-28",
+      "0067-6286-42"
+     ],
+     "placeholder_codes": [],
+     "snippet": "..., 15 mg, 14 capsules per bottle in a carton containing 1 bottle (NDC: 0067-6286-14), 2 bottles (NDC: 0067-6286-28) or 3 bottles (NDC: 0067-6286-42), Over-the-counter, Distribut...",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-1023-2020#1697",
+     "year": 2020,
+     "extracted": [
+      "0113-7950-09",
+      "59779-950-09",
+      "49035-800-09",
+      "46122-533-09",
+      "30142-891-09",
+      "36800-950-09",
+      "11673-950-09",
+      "0363-0950-09"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...lets, USP 150 mg, 65 tablets per bottle. [Brand, NDC] NDC Basic Care: 0113-7950-09; NDC CVS Health: 59779-950-09; NDC Equate: 49035-800-09; NDC Good Neighbor Pharmacy: 46122-533-09; NDC Kroger: 30142-891-09; NDC Topcare: 36800-950-09; NDC Up & Up: 11673-950-09; NDC Walgreens: 0363-0950-09",
+     "mark": "correct",
+     "note": "eight store-brand NDCs, all NDC-labeled"
+    },
+    {
+     "key": "D-1673-2019#11314",
+     "year": 2019,
+     "extracted": [
+      "70731-0176-05"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...XQ Compounding, 340 West State Street, Unit 9, Athens, OH 45701. NDC: 70731-0176-05",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0365-2020#14236",
+     "year": 2019,
+     "extracted": [
+      "49035-875-50"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...5g), Distributed by: Wal-Mart Stores Inc., Bentonville, AR 72716, NDC 49035-875-50",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0426-2017#3247",
+     "year": 2017,
+     "extracted": [
+      "69699-1709-04"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...y, For IM injection, Pharm D Solutions, Loop West Houston, TX --- NDA 69699-1709-04",
+     "mark": "correct",
+     "note": "labeled \"NDA\", evidently a typo for NDC; shape is a valid padded NDC"
+    },
+    {
+     "key": "D-0889-2017#9996",
+     "year": 2017,
+     "extracted": [
+      "69761-025-01"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...Manufactured by: Qualgen 14844 Bristol Park Blvd Edmond, OK 73013 NDC 69761-025-01,",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0520-2017#9153",
+     "year": 2017,
+     "extracted": [
+      "68084-295-21",
+      "68084-395-11",
+      "68084-295-21"
+     ],
+     "placeholder_codes": [],
+     "snippet": "GlipiZIDE Extended-release tablets, 2.5 mg, 30-count carton (NDC 68084-295-21), Individual dose (NDC 68084-395-11), Rx Only, Packaged and Distributed by American Health Packaging, Columbus, Ohio 43217, NDC 68084-295-21",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0668-2019#10373",
+     "year": 2019,
+     "extracted": [
+      "57955-0416-2"
+     ],
+     "placeholder_codes": [],
+     "snippet": "..., Inc., 3 Westside dr. Asheville, NC 28806 USA, UPC 357955531524, NDC 57955-0416-2",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0535-2020#1792",
+     "year": 2019,
+     "extracted": [
+      "41167-0300-0",
+      "41167-0300-1",
+      "41167-0300-3",
+      "41167-0300-5",
+      "41167-0300-6",
+      "41167-0300-7",
+      "41167-0300-8"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...a Sanofi Company P.O. Box 2219, Chattanooga, TN 37409-0219 NDC's 41167-0300-0, 41167-0300-1, 41167-0300-3, 41167-0300-5, 41167-0300-6, 41167-0300-7, 41167-0300-8",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0309-2020#11668",
+     "year": 2019,
+     "extracted": [
+      "54838-550-80"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...nly Distributed by: Lannett Company, Inc. Philadelphia, PA 19154 NDC 54838-550-80",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0685-2019#10413",
+     "year": 2019,
+     "extracted": [
+      "57955-0145-2"
+     ],
+     "placeholder_codes": [],
+     "snippet": "..., Inc., 3 Westside Dr. Asheville, NC 28806 USA, UPC 357955014522, NDC 57955-0145-2",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0604-2019#10324",
+     "year": 2019,
+     "extracted": [
+      "57955-5194-2"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...g Bio, Inc. 3 Westside Dr. Asheville, NC 28806, UPC 357955519928, NDC 57955-5194-2",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0099-2020#11624",
+     "year": 2019,
+     "extracted": [
+      "3321673588"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...al Biotechnology 791 Park of Commerce Blvd, Boca Raton, FL 33487. NDC 3321673588",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0639-2021#12566",
+     "year": 2021,
+     "extracted": [
+      "68682-170-30"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...ant Pharmaceuticals North America LLC, Bridgewater, NJ 08807 USA, NDC 68682-170-30",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0890-2019#10853",
+     "year": 2019,
+     "extracted": [
+      "57955-0420-2"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...nc., 3 Westside Drive, Asheville, NC 28806 USA, UPC 357955040026, NDC 57955-0420-2",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0621-2019#10602",
+     "year": 2019,
+     "extracted": [
+      "57955-0173-2"
+     ],
+     "placeholder_codes": [],
+     "snippet": "... Bio, Inc., 3 Westside Dr. Asheville, NC 28806, UPC 357955528524, NDC 57955-0173-2",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-1024-2019#11184",
+     "year": 2019,
+     "extracted": [
+      "42852-829-67"
+     ],
+     "placeholder_codes": [],
+     "snippet": "... (1 mg per mL), 5mL Sterile single use syringe, For IV use only, NDC: 42852-829-67 Avella of Houston 9265 Kirby ...",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0638-2020#2180",
+     "year": 2020,
+     "extracted": [
+      "68180-866-11"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...2, Manufactured for: Lupin Limited Pithampur 454775 INDIA 240875, NDC 68180-866-11",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-1091-2020#14138",
+     "year": 2020,
+     "extracted": [
+      "71030-001-09"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...For IV Use, Rx Only, PharMEDium 913 N Davis Avenue Cleveland, MS NDC 71030-001-09",
+     "mark": "correct",
+     "note": ""
+    }
+   ],
+   "marked": 40,
+   "correct": 40,
+   "precision_pct": 100.0,
+   "wilson95": [
+    91.24,
+    100.0
+   ],
+   "placeholder_codes_all_recovered": 4,
+   "codes_all_recovered": 3770,
+   "placeholder_records_all_recovered": 4,
+   "placeholder_codes_in_sample": 0,
+   "no_pad_zero_codes_all_recovered": 83,
+   "no_pad_zero_codes_in_sample": 0
+  },
+  "E3": {
+   "population_records": 1827,
+   "sample": [
+    {
+     "key": "D-1249-2022#13584",
+     "year": 2022,
+     "extracted": [
+      "69374-514-50"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...cing facility, 4500 12th St. Extension, West Columbia, SC 29172, NDC: 69374-514-50",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0446-2022#5045",
+     "year": 2022,
+     "extracted": [
+      "05446-1341-01"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...e Only, Edge Pharma, LLC, 856 Hercules Dr., Colchester, VT 05446, NDC 05446-1341-01",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0328-2022#12982",
+     "year": 2022,
+     "extracted": [
+      "41163-571-22",
+      "41163-571-01"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...ochloride tablets, 180 mg, 24 HR, packaged as a) 15 count bottle, NDC 41163-571-22, UPC 0 41163 48067 4; b) 70 tablets per bottle, NDC 41163-571-01, UPC 0 41163 49847 1; Made in...",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0252-2024#13897",
+     "year": 2024,
+     "extracted": [
+      "69423-385-10"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...8 OZ (107 g), Distr. by: Procter & Gamble, Cincinnati, OH 45202. NDC: 69423-385-10, UPC 0 37000 74947 9",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0398-2022#5052",
+     "year": 2022,
+     "extracted": [
+      "05446-1003-01"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...ection, Edge Pharma, LLC, 656 Hercules Dr., Colchester, VT 05446 NDC 05446-1003-01",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0618-2023#13531",
+     "year": 2023,
+     "extracted": [
+      "70594-096-02"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...ed for: Xellia Pharmaceuticals USA, LLC, Buffalo Grove, IL 60089, NDC 70594-096-02",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-1507-2022#15936",
+     "year": 2022,
+     "extracted": [
+      "0869-0166-38"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...L), Distributed by: Vi-Jon, Inc. One Swan Drive Smyrna, TN 37167; NDC 0869-0166-38 UPC 0 72785 13405 8",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0473-2022#12927",
+     "year": 2022,
+     "extracted": [
+      "65193-320-24"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...ivision of Dickery Consumer Products, Inc. Noblesville, IN 46060, NDC 65193-320-24",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0152-2023#13314",
+     "year": 2023,
+     "extracted": [
+      "17478-704-12"
+     ],
+     "placeholder_codes": [],
+     "snippet": "... Rx only, Manufactured by: Akorn, Inc., Lake Forest, IL 60045. NDC: 17478-704-12",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0689-2022#13872",
+     "year": 2022,
+     "extracted": [
+      "52565-073-15",
+      "52565-073-51"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...alobetasol Propionate Ointment, 0.05%, packaged as a) 15 g tubes, NDC 52565-073-15; b) 50 g tubes, NDC 52565-073-51, Rx Only, Manufactured by: Te...",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0577-2022#15324",
+     "year": 2022,
+     "extracted": [
+      "43598-865-60"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...Dr. Reddy's Laboratories Limited, Visakhapatnam - 530 046, India, NDC 43598-865-60",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0420-2024#14312",
+     "year": 2024,
+     "extracted": [
+      "70004-0816-12"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...Rx Only, SCA Pharmaceuticals, 755 Rainbow Rd., Windsor, CT 06095, NDC 70004-0816-12, Bar Code 700040081612.",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0310-2024#12807",
+     "year": 2024,
+     "extracted": [
+      "0536-1282-94"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...) bottles, Distributed by: Rugby Laboratories, Livonia, MI 48152, NDC 0536-1282-94",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-1057-2022#912",
+     "year": 2022,
+     "extracted": [
+      "0904-6461-61"
+     ],
+     "placeholder_codes": [],
+     "snippet": "... USP, 25 mg, 100-count unit dose box, Rx only, MFG: Major Pharma, NDC 0904-6461-61",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0558-2022#12738",
+     "year": 2022,
+     "extracted": [
+      "0527-1768-36"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...y, Distributed by: Lannett Company, Inc., Philadelphia, PA 19136, NDC 0527-1768-36.",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0362-2023#14343",
+     "year": 2023,
+     "extracted": [
+      "69374-321-25"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...rcing Facility, 4500 12th St. Extension, West Columbia, SC 29172, NDC 69374-321-25.",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0002-2025#887",
+     "year": 2024,
+     "extracted": [
+      "68462-0455-35",
+      "68462-0455-47",
+      "68462-0455-94"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...rmatologic Use Only, Not for Use in Eyes, Rx Only, a) 30 gm Tube, NDC 68462-0455-35; b) 45 gm Tube, NDC 68462-0455-47; c) 100 gm Tube, NDC 68462-0455-94, Manufactured by: Glenmark Ph...",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0380-2024#14215",
+     "year": 2024,
+     "extracted": [
+      "17312-098-15"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...or TRP Company, Inc, 1575 Delucchi Lane, Suite # 208, Reno, NV, NDC # 17312-098-15.",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0717-2023#15741",
+     "year": 2023,
+     "extracted": [
+      "71285-6064-1"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...ervices, Inc., 6580 Snowdrift Rd., Ste 100, Allentown, PA 18106, NDC 71285-6064-1.",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0396-2022#5086",
+     "year": 2022,
+     "extracted": [
+      "05446-1268-01"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...rma, LLC, 856 Hercules Dr., Colchester, VT 05446, (802) 992-1178, NDC 05446-1268-01",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0640-2023#12670",
+     "year": 2023,
+     "extracted": [
+      "71170-254-25"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...Apollo Care, LLC, 3801 Mojave Ct., Suite 101, Columbia, MO 65202. NDC 71170-254-25",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0322-2026#432",
+     "year": 2026,
+     "extracted": [
+      "79559-1087-32"
+     ],
+     "placeholder_codes": [],
+     "snippet": "... Pellet, Asteria Health 432 Industrial Ln, Birmingham, AL 35211, NDC: 79559-1087-32.",
+     "mark": "incorrect",
+     "note": "11-digit form with no pad zero: printed by the firm as its NDC but structurally impossible as an FDA NDC"
+    },
+    {
+     "key": "D-0360-2026#60",
+     "year": 2026,
+     "extracted": [
+      "65517-0004-1"
+     ],
+     "placeholder_codes": [],
+     "snippet": "... Manufactured For: Dukal, LLC, Ronkonkoma, NY 11779, Made in USA, NDC 65517-0004-1",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0438-2024#16692",
+     "year": 2024,
+     "extracted": [
+      "16571-742-41"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...buted by: Rising Pharma Holdings, Inc. East Brunswick, NJ. 08816. NDC 16571-742-41",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0025-2024#14347",
+     "year": 2023,
+     "extracted": [
+      "71286-2003-7"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...ervices, Inc., 7935 Dunbrook Road, Suite C, San Diego, CA 92126, NDC: 71286-2003-7",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0957-2023#14634",
+     "year": 2023,
+     "extracted": [
+      "72196-6030-1"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...rmacy Services, Inc., 2200 South 43rd Avenue, Phoenix, AZ 85043, NDC: 72196-6030-1.",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-1484-2022#15525",
+     "year": 2022,
+     "extracted": [
+      "0904-6738-70"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...euticals, 17177 N Laurel Park Dr., Suite 233, Livonia, MI 48152, NDC 0904-6738-70",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0508-2023#14704",
+     "year": 2023,
+     "extracted": [
+      "72189-213-30",
+      "72189-213-60"
+     ],
+     "placeholder_codes": [],
+     "snippet": "Alprazolam C-IV, 1 mg, packaged in a) 30 Tabs per bottle, NDC 72189-213-30; b) 60 Tabs per bottle, NDC 72189-213-60; Rx only, Packaged and Distri...",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0297-2025#15404",
+     "year": 2025,
+     "extracted": [
+      "70092-1259-75"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...arma, 1075 West Park One Drive, Suite 100, Sugar Land, Tx 77478. NDC: 70092-1259-75",
+     "mark": "incorrect",
+     "note": "11-digit form with no pad zero: printed by the firm as its NDC but structurally impossible as an FDA NDC"
+    },
+    {
+     "key": "D-0681-2023#15515",
+     "year": 2023,
+     "extracted": [
+      "71285-0219-1"
+     ],
+     "placeholder_codes": [],
+     "snippet": "..., Inc., Lehigh Valley, 6580 Snowdrift Road, Allentown, PA 18106, NDC 71285-0219-1.",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-1073-2023#14195",
+     "year": 2023,
+     "extracted": [
+      "71286-6004-1"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...APS Inc., Inc., 7935 Dunbrook Road, Suite C, San Diego, CA 92126, NDC 71286-6004-1",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0377-2026#380",
+     "year": 2026,
+     "extracted": [
+      "0924-7130-00"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...Made in USA for Food Service Resources, Flowery Branch, GA 30542, NDC 0924-7130-00",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0685-2022#13392",
+     "year": 2022,
+     "extracted": [
+      "52565-025-20",
+      "52565-025-59"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...nonide Topical Solution USP, 0.05%, packaged in a) 20 mL bottles, NDC 52565-025-20; b) 60 mL bottles, NDC 52565-025-59, Rx only, Teligent Pharma, In...",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0568-2024#17645",
+     "year": 2024,
+     "extracted": [
+      "60429-165-30",
+      "60429-165-90"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...yed-Release Capsules, USP, 30mg, Rx Only, a) 30 capsules bottles, NDC 60429-165-30; b) 90 capsules bottles, NDC 60429-165-90, Mfr. by: Towa Pharmaceutical...",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0729-2023#14419",
+     "year": 2023,
+     "extracted": [
+      "71285-7018-1"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...ervices, Inc., 6580 Snowdrift Rd., Ste 100, Allentown, PA 18106, NDC 71285-7018-1.",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0297-2023#16836",
+     "year": 2023,
+     "extracted": [
+      "63323-0322-25"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...Services, 535 Independence Pkwy, Ste 300, Chesapeake, VA 23320, NDC# 63323-0322-25",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0606-2023#13298",
+     "year": 2023,
+     "extracted": [
+      "71288-009-20"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...al, Rx only, Mfd. for Meitheal Pharmaceuticals Chicago, IL 60631, NDC 71288-009-20",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0476-2022#12644",
+     "year": 2022,
+     "extracted": [
+      "47682-073-00"
+     ],
+     "placeholder_codes": [],
+     "snippet": "... 2-count packets, Mfd for MEDIQUE PRODUCTS, Fort Myers, FL 33967, NDC 47682-073-00",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0480-2023#13966",
+     "year": 2023,
+     "extracted": [
+      "61919-0723-30",
+      "61919-0723-90"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...de, USP, 1 mg Tablets, Rx Only, Packaged as a a) 30-count bottle, NDC 61919-0723-30; b) 90-count bottle, NDC 61919-0723-90 Packaged and Distributed By: ...",
+     "mark": "correct",
+     "note": ""
+    },
+    {
+     "key": "D-0716-2022#13083",
+     "year": 2022,
+     "extracted": [
+      "63739-053-66"
+     ],
+     "placeholder_codes": [],
+     "snippet": "...y Packaging, 4971 Southridge Blvd., Suite 101, Memphis, TN 38141, NDC 63739-053-66.",
+     "mark": "correct",
+     "note": ""
+    }
+   ],
+   "marked": 40,
+   "correct": 38,
+   "precision_pct": 95.0,
+   "wilson95": [
+    83.5,
+    98.62
+   ],
+   "placeholder_codes_all_recovered": 1,
+   "codes_all_recovered": 2161,
+   "placeholder_records_all_recovered": 1,
+   "placeholder_codes_in_sample": 0,
+   "no_pad_zero_codes_all_recovered": 30,
+   "no_pad_zero_codes_in_sample": 2
+  }
+ },
+ "A_pooled": {
+  "correct": 116,
+  "marked": 120,
+  "precision_pct": 96.67,
+  "wilson95": [
+   91.74,
+   98.7
+  ]
+ },
+ "B": {
+  "E1": {
+   "population_records": 3819,
+   "sample": [
+    {
+     "key": "D-1491-2014#2552",
+     "year": 2014,
+     "description": "Dermamedics Calm and Correct Serum, 2 oz. containers with a SKU number of BB10062 and 4 oz. containers with a SKU number of BB10068.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-581-2013#5641",
+     "year": 2013,
+     "description": "Proplete 34 - 39 KG (Intradialytic Parenteral Nutrition composed of amino acids, dextrose and sterile water), in 330mL bag, Pentec Health Inc., 4 Creek Parkway Suite A, Boothwyn, PA 19061-13132",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-1191-2016#1432",
+     "year": 2016,
+     "description": "HYDROXY B12 5MG/ML IN NACL 0.9% (PF), In a) 1ML Vials and b) 2ML Vials, MEDAUS PHARMACY",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0449-2016#3363",
+     "year": 2015,
+     "description": "Sal-Acid 60% Plaster Paste, Rx, Western Drug Inc. 106 E. Main Street, Springerville, Arizona 85938",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0069-2017#9106",
+     "year": 2016,
+     "description": "lidocaine HCl, 2%, 20 mg per mL (60 mg per 3 mL), 3 mL Total Volume in a syringe, Rx only, PharMEDium, Product code 2R3450.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-487-2013#8080",
+     "year": 2013,
+     "description": "Methylcobalamin Inj 25mg/ml Syr: 8x0.06mlsyr, 10x0.06 ml syr, 12x0.06 ml syr Subcutaneous, 30 and 90 day expiration,",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-1614-2015#1658",
+     "year": 2015,
+     "description": "Morphine 70 mg/ml + Bupivacaine 40 mg/ml Solution, Sterile-Preservative Free, The Compounding Pharmacy of America, Knoxville, TN",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-066-2014#5893",
+     "year": 2013,
+     "description": "Calcium Gluconate 2.5% Gel, Main Street Compounding Pharmacy, 126 East Main Street, Newbern, TN 38059, 888-658-6200",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-782-2013#4562",
+     "year": 2013,
+     "description": "Sodium Tetradecyl Sulfate (0.125%, 1%, 2.5%, 3%, and 4%) Injection, compounded by Olympia Pharmacy, Orlando, FL",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-155-2014#6034",
+     "year": 2013,
+     "description": "L-Carnitine 30ml, Main Street Compounding Pharmacy, 126 East Main Street, Newbern, TN 38059, 888-658-6200",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0207-2015#9173",
+     "year": 2014,
+     "description": "MITOMYCIN, 0.3mg/mL, injectable, 1 mL glass vial, RX, Creative Compounds, Wilsonville, OR 97070",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-113-2014#6163",
+     "year": 2013,
+     "description": "HCG 175 iu prefilled syringes, Main Street Compounding Pharmacy, 126 East Main Street, Newbern, TN 38059, 888-658-6200",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0994-2015#9114",
+     "year": 2015,
+     "description": "Forever Beautiful BEE POLLEN, capsules, 250mg in 60-count bottles, 900 Commonwealth Place, Ste 104, Virginia Beach, VA",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-783-2015#9260",
+     "year": 2015,
+     "description": "Methazolamide active pharmaceutical ingredient packaged in varying grams or kg in bags or drums, Attix Pharmaceuticals, 184 Front Street East, Unit 801, Toronto, Ontario M5A 4N3, Canada",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-1169-2015#3964",
+     "year": 2015,
+     "description": "CefTRIAXone Sodium, Ceftriaxone 1 gram / NS 50 mL, Qty: 10 50 mL Bags, Rx Only. Compounded by: United Medical IV Center (Little Rock) 1527 South Bowman Rd. Ste. D Little Rock, AR 72211-4200 501-227-0900.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-145-2014#6008",
+     "year": 2013,
+     "description": "HCG 5,000U, Main Street Compounding Pharmacy, 126 East Main Street, Newbern, TN 38059, 888-658-6200",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-310-2014#5988",
+     "year": 2013,
+     "description": "Tetracaine 2%/Pontocaine, 60ml Main Street Compounding Pharmacy, 126 East Main Street, Newbern, TN 38059, 888-658-6200",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-479-2013#5825",
+     "year": 2013,
+     "description": "HCG Inj 500un/ml MDV, 5 ml Subcutaneous, 30 day expiration,",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-737-2015#8585",
+     "year": 2015,
+     "description": "Isosorbide Dinitrate active pharmaceutical ingredient packaged in varying grams or kg in bags or drums, Attix Pharmaceuticals, 184 Front Street East, Unit 801, Toronto, Ontario M5A 4N3, Canada",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-448-2014#3984",
+     "year": 2014,
+     "description": "QUAD MIX* IN NACL (1.8/0.2/0.02)mg/18 mcg/mL INJECTABLE, Rx only, Specialty Medicine Compounding Pharmacy, 350 S Lafayette, South Lyon, MI 48178",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-828-2015#8039",
+     "year": 2015,
+     "description": "Oxcarbazepine active pharmaceutical ingredient packaged in varying grams or kg in bags or drums, Attix Pharmaceuticals, 184 Front Street East, Unit 801, Toronto, Ontario M5A 4N3, Canada",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-826-2015#9612",
+     "year": 2015,
+     "description": "Orphenadrine Citrate active pharmaceutical ingredient packaged in varying grams or kg in bags or drums, Attix Pharmaceuticals, 184 Front Street East, Unit 801, Toronto, Ontario M5A 4N3, Canada",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-600-2015#8037",
+     "year": 2015,
+     "description": "Cortisone Acetate Micronized active pharmaceutical ingredient packaged in varying grams or kg in bags or drums, Attix Pharmaceuticals, 184 Front Street East, Unit 801, Toronto, Ontario M5A 4N3, Canada",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0488-2016#4048",
+     "year": 2015,
+     "description": "HYDROXOCOBALAMIN Injection, Rx, compounded by Life Science Pharmacy Inc., Harriman, NY",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-787-2015#7897",
+     "year": 2015,
+     "description": "Methscopolamine Bromide active pharmaceutical ingredient packaged in varying grams or kg in bags or drums, Attix Pharmaceuticals, 184 Front Street East, Unit 801, Toronto, Ontario M5A 4N3, Canada",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0208-2016#9248",
+     "year": 2015,
+     "description": "BIEST TD 80/20 (Estradiol (E2) Trit (Yellow)/Estriol USP Micronized (E3) VAN CR (vanishing cream) W/V (weight/volume) (4812) 2.5MG/ML Transdermal cream, dispensed in a) 1mL and b)3 mL prefilled, amber syringes, Rx only, The Compounder, 340 Marshall Avenue Unit 100, Aurora, IL 60506.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-1378-2014#6310",
+     "year": 2014,
+     "description": "Slim Xtreme Weight loss capsules, 500 mg, supplied in 30 count bottles, Another product from Globe All Wellness, LLC Hollywood, FL 33020, distributed by MyNicKnaxs, LLC Deltona, FL",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-1341-2014#7667",
+     "year": 2014,
+     "description": "QVAR\u00bf (beclomethasone dipropionate HFA), 80mcg Inhalation Aerosol, 50 metered inhalations/120 metered inhalations, packaged in an aluminum cylinder, Mktd. by: Teva Respiratory, LLC, Horsham, PA, Mfd. by: 3M Drug Delivery Systems, Northridge, CA.",
+     "mark": "none",
+     "note": "finished branded product, but no code in the text",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0688-2016#3090",
+     "year": 2016,
+     "description": "papaverine prostaglandin 30 mg/30 mcg/mL, 5 mL unit size, refrigerate, This Rx is Compounded, Abbott's Compounding Pharmacy, Berkeley, CA 94705",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0733-2016#6991",
+     "year": 2016,
+     "description": "Baclofen, 2.5 mg/mL INJ, in 100 mL vial, Rx Only, TexasStar Pharmacy, Plano, Texas 75023",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-946-2015#6339",
+     "year": 2015,
+     "description": "Uridine-5'Triphosphate Trisodium Salt active pharmaceutical ingredient packaged in varying grams or kg in bags or drums, Attix Pharmaceuticals, 184 Front Street East, Unit 801, Toronto, Ontario M5A 4N3, Canada",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0940-2016#8710",
+     "year": 2016,
+     "description": "Water for Injection 1000 mL Bags, FOR IV USE ONLY, Baptist Health Medical Towers Pharmacy & Infusion, Little Rock Arkansas",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-1066-2015#8119",
+     "year": 2015,
+     "description": "Methylcobalamin/Hydroxocobalamin Rx 3.125/3.125 mg/0.5 mL Injection, Fallon Wellness Pharmacy, L.L.C., Latham, NY 12110",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0003-2015#7728",
+     "year": 2014,
+     "description": "All sterile drugs compounded between 2/21/14 and 2/24/14.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-404-2013#4270",
+     "year": 2013,
+     "description": "Sodium Chloride and Dexamethasone Injection, all strengths and all presentations including a) SOD_CHLOR-DEXAMETH-0.9-10-3, b) SOD_CHLORIDE/DEXAMETH syringe 0.9-10-3, Rx only, Green Valley Drugs, 1850 Whitney Mesa, #180, Henderson, NV 89014.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0081-2016#6680",
+     "year": 2015,
+     "description": "ESTRADIOL, Pellet, 20 mg, Rx only, JD & SN Inc, DBA Moses Lake Professional Pharmacy, 1555 S. Pilgrim St. Moses Lake WA 98837, (509)764-2314",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-1054-2015#6311",
+     "year": 2015,
+     "description": "Methenamine/Phenyl Salicylate Capsule, Health Innov Pharmacy, 295 Pinehurst Ave, Southern Pines, NC 28387, (910) 246-5155",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0532-2016#6674",
+     "year": 2016,
+     "description": "Primaxin (Imipenem-Cilastatin) 500 mg/NS 100 mL Minibag Plus, Rx Only, Compounded by Option Care 148, San Antonio, TX 78232-5045",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0126-2017#2818",
+     "year": 2016,
+     "description": "Testosterone 200 mg/Anastrozole 9 mg Pellet, Compounded by: Wells Pharmacy Network",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-136-2013#8849",
+     "year": 2013,
+     "description": "Flanax (aluminum hydroxide, magnesium hydroxide, and simethicone) Fast Acting Antacid, 200 mg/200 mg/20 mg, 12 fl oz (355 mL) bottles, Distributed by: Belmora LLC, PO Box 3063, Arlington, VA 22203, UPC 8 53030 00209 0, NDC 27854.101.01.",
+     "mark": "missed",
+     "note": "NDC printed with periods, 27854.101.01; dotted form is outside the accepted shapes",
+     "upc_ndc": false
+    }
+   ],
+   "marked": 40,
+   "missed": 1,
+   "upc_derivable": 0,
+   "miss_rate_pct": 2.5,
+   "wilson95": [
+    0.44,
+    12.88
+   ]
+  },
+  "E2": {
+   "population_records": 2869,
+   "sample": [
+    {
+     "key": "D-1072-2020#11962",
+     "year": 2020,
+     "description": "Gentamicin 80mg/60 mL Irrigation, containers, The Medicine Shoppe, 3524 B Tamiami Trail Port Charlotte, FL 33952",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-1159-2019#4665",
+     "year": 2019,
+     "description": "Heparin 10 mL/Marcain 0.25% 20 mL/Sodium Bicarbonate 8.4%-40 mL/per 70 mL, Anderson Compounding Pharmacy 310 Bluff City Hwy, Bristol, TN.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0477-2021#13817",
+     "year": 2021,
+     "description": "FLOVENT DISKUS 100MCG 60; NDC/UPC 173060202; RX; INHALER MEDICAL INTERNAL - MAY OR MAY NOT BE AEROSOL",
+     "mark": "missed",
+     "note": "NDC/UPC 173060202, a 10-digit NDC with its leading zero dropped (9 digits); outside the accepted shapes",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0030-2020#11830",
+     "year": 2019,
+     "description": "C-PAPAV/PHENTOL/PGE1 30MG/2MG/20MCG/ML, 5 mL vial, Rx only, Colonia Care Pharmacy, 515 Inman Ave., Suite A, Colonia, N.J. 07067",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0134-2019#10140",
+     "year": 2018,
+     "description": "Phenylephrine 25 mg added to NS 250 mL Bag, Rx only, Advanced Pharma, Inc. d/b/a Avella of Houston, and Avella of Deer Valley, Inc. #38",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0422-2017#8918",
+     "year": 2017,
+     "description": "Testosterone Cypionate in Grapeseed Oil Injectable, (NY STATE), 200 mg/mL, 10 mL vial, Compounded by Wells Pharmacy, Ocala, FL",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-1195-2020#4855",
+     "year": 2020,
+     "description": "Ergotamine Tartrate 1 mg/Caffeine 100 mg Base Suppository (Pink) 48 count box, Rx, The Medicine Shoppe Pharmacy, Port Charlotte, FL",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0266-2020#11372",
+     "year": 2019,
+     "description": "S-HCG/B12A 1000U/5MG/ML MDV INJ, packaged in a) 5ML b) 10 ML glass vials, Rx Only, Red Mountain Compounding Rx.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-1138-2020#12014",
+     "year": 2020,
+     "description": "Herpes-P, Distributed by Herbal Doctor Remedies Alhambra, CA 91801-7081 USA, 1(800) 600-0808",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0405-2021#13836",
+     "year": 2021,
+     "description": "Synthroid (levothyroxine sodium tablets, USP) in all pack sizes, styles and concentrations Rx only Abbott Laboratories North Chicago, IL",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-1543-2019#11666",
+     "year": 2019,
+     "description": "CHARMS BLOW POP WATERMELON SCENTED ANTIBACTERIAL HAND GEL (Ethyl Alcohol 62%), 1.35 fl oz / 40 mL, OTC, Distributed by: JFL Enterprises, Inc. Cleveland, Ohio 44102.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0057-2022#12440",
+     "year": 2021,
+     "description": "FOLIC ACID 10MG/ML MDV INJ, Rx only, Red Mountain Compounding Rx",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0308-2018#5208",
+     "year": 2018,
+     "description": "Medline Incision and Drainage Tray, Sterile, Single Use Only. Packaged in Mexico by Medline Industries, Inc., Mundelein, IL 60060",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0594-2017#8872",
+     "year": 2017,
+     "description": "AZELAIC ACID 15% CREAM, Rx only, Synergy RX, 4901 Morena Blvd # 504-A San Diego, CA 92117 (855) 792-6676",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-1083-2019#11097",
+     "year": 2019,
+     "description": "Losartan Potassium 100 mg Tablets # 30 Losartan potassium tablets USP, 100 mg are white to off white, film coated, tear drop shaped tablets, debossed with \"H\" on one side and \"145\" on the other side.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0254-2020#11757",
+     "year": 2019,
+     "description": "S-TRIMIX (15MG/0.5MG/10MCG/ML) INJ, Rx Only, 5ml glass vial, Red Mountain Compounding Rx.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0724-2018#9688",
+     "year": 2018,
+     "description": "LIPO-PLEX Injectable-30 mL MDV Coastal Meds LLC 1759 Medical Park Dr., Ste C Bioloxi, MS 39532",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0281-2018#5175",
+     "year": 2018,
+     "description": "Medline GHS Suture Removal Tray, Sterile, Single Use Only. Packaged in USA for Medline Industries, Inc., Mundelein, IL 60060",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-1726-2019#11432",
+     "year": 2019,
+     "description": "CVS Therapeutic Menthol Gel, 8 FL OZ (227 g) Distributed by: CVS Pharmacy, Inc. One CVS Drive Woonsocket, RI 02895. UPC 0 50428 48136 3",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0266-2017#9117",
+     "year": 2017,
+     "description": "L-Arginine HCL 100 mg/mL, (30 ML). Compounded by Tri-Coast Pharmacy",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0565-2018#2923",
+     "year": 2018,
+     "description": "MAX MAN capsules, 3000 mg, 6-count bottle, labeling is in foreign language",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0730-2018#10046",
+     "year": 2018,
+     "description": "Papaverine 9mg/Phentolamine 1mg/Atropine 0.1mg/Prostaglandinl 10mcg/ml, sterile injectable, Vitalab Pharmacy, Inc",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0014-2022#13121",
+     "year": 2021,
+     "description": "Coppertone SPORT Sunscreen Spray 50, (To Deliver) Avobenzone 3%, Homosalate 10%, Octisalate 5%, Octocrylene 5%, NET WT 1.6 OZ (45 g) can, Beiersdorf Inc., Wilton, CT 06897 UPC 0 41100 00506 9",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0804-2021#13074",
+     "year": 2021,
+     "description": "Spironolactone Ophthalmic Solution 0.005 mg/mL, 15 mL bottles, Rx only, Greenpark Compounding Pharmacy",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-1008-2020#4791",
+     "year": 2020,
+     "description": "Daptomycin, 500MG in 0.9% NACL 100ML Injectable Redline Specialty Pharmacy, 2415 Osborne Drive E, #100 Hastings, NE 68901",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0685-2020#1867",
+     "year": 2020,
+     "description": "BUP 15MG/CLON 600MCG/MORP 30MG/ML (40) INJ in 20 mL syringe Assurance Infusion (713) 533-8800",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-1455-2020#5479",
+     "year": 2020,
+     "description": "A Clean Choice CBD, Hemp Oil Extract Tincture, Strawberry Creme, 1000mg, 1 fl oz (30 ml) bottles, Made in Michigan for A Clean Choice, A Division of A Clean Cigarette, Inc., 3055 Bay Rd Suite 1, Saginaw, MI 48603",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-1551-2019#11225",
+     "year": 2019,
+     "description": "TOOTSIE ROLL SCENTED ANTIBACTERIAL HAND GEL (Ethyl Alcohol 62%), 1.35 fl oz / 40 mL, OTC, Distributed by: JFL Enterprises, Inc. Cleveland, Ohio 44102.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0302-2018#5161",
+     "year": 2018,
+     "description": "Medline Incision and Drainage Tray, Sterile, Single Use Only. Packaged in Mexico by Medline Industries, Inc., Mundelein, IL 60060",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0266-2022#13078",
+     "year": 2021,
+     "description": "AmericanScreening HAND SANITIZER (ethyl alcohol 70%) ANTIMICROBIAL FORMULA Vitamin E & Moisturizer, 8 FL OZ (237 mL) bottle with either a black or clear top, Distributed by American Screening LLC Shreveport, LA, 71106 UPC 8 40050 51579 2",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0062-2022#12593",
+     "year": 2021,
+     "description": "MIC 25/50/50MG/ML MDV, Rx only,Red Mountain Compounding Rx",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0273-2017#7548",
+     "year": 2017,
+     "description": "Methylcobalamin/Folic Acid/Pyridoxine 1 mg/1 mg/50 mg/mL, 1 ML). Compounded by Tri-Coast Pharmacy",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-1015-2018#4525",
+     "year": 2018,
+     "description": "Gaia Kratom (mitragyna speciosa) powder, Yellow Thai, 1oz, 250g, 1kg packages, Gaia Ethnobotanical.com",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0384-2017#7566",
+     "year": 2017,
+     "description": "QUAD2 (PAP/PHEN/ALPROS/ATRO) 9 mg/1 mg/10 mg/0.1 mg/mL Injectable a) 2 mL and b) 5 mL vial, Compounded by Wells Pharmacy, Ocala, FL",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-1772-2019#14162",
+     "year": 2019,
+     "description": "Durvalumab 651 mg/ 250 ml NS IVPB; Durvalumab 650 mg/ 250 ml NS IVPB, Rx Only, Infusion Options, Inc. 5924 13the Ave, Brooklyn, NY 11219-4934, 718-283-7233",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-1569-2019#11677",
+     "year": 2019,
+     "description": "Dexamethasone Sodium Phosphate PF 24 mg/mL Injection, Refrigerate, Single Use Vial, 1 mL vial, Rx only, Compounded by Wise Pharmacy, Littleton, CO 80123.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-1137-2019#4642",
+     "year": 2019,
+     "description": "Acetylcysteine 10% Ophthalmic Eye Drop 2 mL droptainer, Anderson Compounding Pharmacy 310 Bluff City Hwy Bristol, TN.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-1085-2018#4811",
+     "year": 2018,
+     "description": "Morphine Sulf inhalation, 5mg/3cc, 3cc per vial, Rx only, Ranier's Rx Laboratory, 1107 Lowry Avenue Suite A, Jeannette, PA 15644.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0669-2018#2669",
+     "year": 2018,
+     "description": "Testosterone 80 mg pellet packaged in amber vial, Rx only, Partell Specialty Pharmacy, 5835 S. Eastern Ave. #101, Las Vegas, NV 89119 (702) 791-3800",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0676-2020#1309",
+     "year": 2020,
+     "description": "BACLOFEN 2000MCG/ML (40) INJ in 20 mL syringe Assurance Infusion (713) 533-8800",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    }
+   ],
+   "marked": 40,
+   "missed": 1,
+   "upc_derivable": 0,
+   "miss_rate_pct": 2.5,
+   "wilson95": [
+    0.44,
+    12.88
+   ]
+  },
+  "E3": {
+   "population_records": 1129,
+   "sample": [
+    {
+     "key": "D-0418-2025#759",
+     "year": 2025,
+     "description": "La Roche-Posay Laboratoire Dermatologique Effaclar Dermatological Acne System, 3 Step Acne Routine Kit, Medicated Gel Cleanser 3.4 fl. oz. (100 mL) Tube, Clarifying Solution 3.4 fl. oz. (100 mL) Tube, Dual Action Acne Treatment 0.7 fl. oz. (20 mL: UPC 883140035275) Tube, (benzoyl peroxide 0.5% and benzoyl peroxide 5.5% and salicylic acid 2%), La Roche-Posay LLC, 10 Hudson Yards, New York, NY 10001, La Roche-Posay, France, UPC 883140035282 (kit).",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-1421-2022#1160",
+     "year": 2022,
+     "description": "RIC STOOL SOFTENER SOFTGEL 100 CT SKU 917000 RIC STOOL SOFTNER 100 CT SKU 902493 distributed to specific Family Dollar Stores 04/30/2022 through 06/10/2022.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0061-2024#12775",
+     "year": 2023,
+     "description": "Calcium chloride Solution for Intravenous Injection, 20 mg/mL, 500 mL bags, Rx only, Compounded by Pine Pharmaceuticals 355 Riverwalk Parkway, Tonawanda, NY 14150.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-1183-2022#13198",
+     "year": 2022,
+     "description": "Boric Acid 600 mg capsules, 14 capsules per box, Qty: 1, Wedgewood Village Pharmacy LLC, 405 Heron Drive, Ste 200, Swedesboro, NJ 08085",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0298-2023#16866",
+     "year": 2023,
+     "description": "INTRALIPID 18GM, TPN, Rx Only, use with a Curlin pump, Sentara Home Infusion Pharmacy Services, 535 Independence Pkwy, Ste 300, Chesapeake, VA 23320,",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0360-2025#749",
+     "year": 2025,
+     "description": "Proactiv Skin Smoothing Exfoliator (Benzoyl Peroxide 2.5%), Packaged as a) 6 fl. oz. (177.4 mL), UPC 7 35786 01528 2; b) 0.33 OZ (9.45g), UPC 8 42944 10223 1; Distributed by Alchemee, LLC, Santa Monica, CA 90401,",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0465-2025#739",
+     "year": 2025,
+     "description": "ELECTRO BUZZ, Dietary Supplement, 10 capsules per box, Distributed By: Health Fixer, Tempe, AZ 85288, UPC B0DK68LF6J.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-1405-2022#1131",
+     "year": 2022,
+     "description": "ZARBEES NTRL CHLD COUGH MUCUS GRP 4 FL OZ distributed to specific Family Dollar Stores 04/30/2022 through 06/10/2022.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0487-2022#12920",
+     "year": 2022,
+     "description": "COLD TERMINATOR decongestant/cold relief (acetaminophen 325 mg, Guaifenesin 200mg, 5.0 Phenylephrine HCl) 2 tablet packets, Manufactured for: Tellus Medical Products, Carlsbad, CA 92011, NDC 69103-2556",
+     "mark": "missed",
+     "note": "NDC 69103-2556, product-level NDC with no package segment; outside the accepted shapes",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-1517-2022#5154",
+     "year": 2022,
+     "description": "MIC/B12/L-Carn (HD) 35/35/35/1/35 MG/ML Injectable, 10 ML vial, Rx only, Carolina Infusion LLC, 95 Bees Creek Road, Ridgeland, SC 29936.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0056-2024#13530",
+     "year": 2023,
+     "description": "Moxifloxacin in Balanced Salt Solution, Solution for Intraocular Injection, 600 mcg/0.4mL (150 mcg/0.1mL) Syringe, Rx only, Compounded by: Pine Pharmaceuticals 355 Riverwalk Parkway, Tonawanda, NY 14150.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0290-2023#16934",
+     "year": 2023,
+     "description": "DOBUTAMINE, (a) 1080MG IN D5W 270ML, (b) 760MG IN D5W 190ML, ionotrop, used with a home pump, Rx only, Sentara Home Infusion Pharmacy Services, 535 Independence Pkwy, Ste 300, Chesapeake, VA 23320",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0781-2022#5258",
+     "year": 2022,
+     "description": "Sermorelin Acetate 1 mg/mL (6 mL) Injection, 6 mL vials, Rx only, Farmakeio 1736 N Greenville Ave Richardson, TX 75081",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0556-2025#707",
+     "year": 2025,
+     "description": "Tirzepatide + Niacinamide 6.6 mg + 1.0mg/0.5 mL Inj Sol, Inject 0.5 mL (50 units on syringe) subcutaneously, Sterile, 2 mL Multi Dose Vial, Refrigerate, Do not freeze, Aequita Pharmacy LLC, Kirkland, WA 98034.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0670-2026#200",
+     "year": 2026,
+     "description": "Drogueria San Juan Puerto Rico Isopropyl Alcohol 70%, 32 oz., 946 mL, Distributed by: Drogueria San Juan, Calle De Diego 590, Sabana Llana Rio Piedras, PR 00924, UPC 659685696567.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0317-2023#15643",
+     "year": 2023,
+     "description": "TOBRAMYCIN 660MG IN NS 66ML, antibiotic, Rx Only, use with homepump, Sentara Home Infusion Pharmacy Services, 535 Independence Pkwy, Ste 300, Chesapeake, VA 23320,",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0182-2023#12847",
+     "year": 2023,
+     "description": "Advil Liqui Gels, Solubilized ibuprofen capsules, 200mg, Pain Reliever Fever Reducer (NSAID), 200 liquid filled capsules, Distributed by: Pfizer, Madison, NJ 07940, UPC 3 0573 0169 49 3",
+     "mark": "none",
+     "note": "UPC 3 0573 0169 49 3 encodes NDC 0573-0169-49; a UPC is not an NDC, counted in the named category",
+     "upc_ndc": true
+    },
+    {
+     "key": "D-1377-2022#1185",
+     "year": 2022,
+     "description": "DIAL MENS EUCALYPTUS AB BODY WASH 20 FLOZ SKU 2096030 distributed to specific Family Dollar Stores 04/30/2022 through 06/10/2022.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-1414-2022#1158",
+     "year": 2022,
+     "description": "GUARDIAN ANTACID EX STRGTH TBLT FRT 96CT SKU 901379 GUARDIAN CHWABLE SMTHIES BRRY FSION 60CT SKU 999845 GS EFFERVESCENT ANTACID TABLET 36 CT SKU 913102 GUARDIAN ANTCD TBLT XTRA STGTH BRY 96 CT SKU 914109 GUARDIAN ANTCID TBLT REG STTH FRT 150 CT SKU 914726 GC ANTACID SUPREME CHERRY 12 FL OZ SKU 914112 GUARDIAN ANTD ULTR STRGTH 1000 FRT 72 CT SKU 902322 distributed to specific Family Dollar Stores 04/30/2022 through 06/10/2022.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-1197-2022#1197",
+     "year": 2022,
+     "description": "Biotin 5mg/mL, 5mL-vial, Refrigerate, Tailor Made Compounding",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0323-2023#16604",
+     "year": 2023,
+     "description": "VANCOMYCIN (a)700 MG NS 140ML, (b) 1000MG IN NS 200ML, abtibiotic, Rx only, use with home pump, Sentara Home Infusion Pharmacy Services, 535 Independence Pkwy, Ste 300, Chesapeake, VA 23320",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-1298-2022#14128",
+     "year": 2022,
+     "description": "Juice Beauty, The Organic Solution, SPF 8, Joyful Lip Moisturizer, Hydratant pour les Levres, NET WT 0.15 oz (4.25 g) per tube, Active Ingredient: Zinc oxide 4%, Manufactured for Juice Beauty, Inc., 709 Fifth Ave., San Rafael, California 94901-3566",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0609-2025#621",
+     "year": 2025,
+     "description": "Semaglutide, 2.5 mg/mL injection, 4 mL, Boothwyn Pharmacy",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0640-2026#205",
+     "year": 2026,
+     "description": "Med Pride, HYDROCORTISONE CREAM 1%, Net Wt. 1 oz (28.3g) tubes, Manufactured for: Shield Line LLC, 59 Hook Road, Bayonne, NJ 07002 USA, Made in India, UPC 3 52410 30503 0.",
+     "mark": "none",
+     "note": "UPC 3 52410 30503 0 encodes an NDC; a UPC is not an NDC, counted in the named category",
+     "upc_ndc": true
+    },
+    {
+     "key": "D-0376-2025#745",
+     "year": 2025,
+     "description": "Kapsin Ointment, Camphor 3.16% and Capsaicin 0.03%. Net Wt. 2 oz (60g) tubes, Manufactured by: Apipharma d.o.o, Jeronima Kavanjina 26, 10090 Zagreb, Croatia, Distributed by: Apipharma, LLC, 2331 West Alameda Drive, Tempe, AZ 85282 UPC 3 858882 101363",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0061-2026#15739",
+     "year": 2025,
+     "description": "Lysine for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0664-2022#12944",
+     "year": 2022,
+     "description": "Ketamine 50 mg Infusion (LV 1) Solution in 250 mL bags, Rx only, Family Pharmacy of Statesville, Inc.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-1206-2022#1238",
+     "year": 2022,
+     "description": "Glycyrrhizic Acid 8mg/mL, 10mL-vial, Refrigerate, Tailor Made Compounding",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0088-2026#17082",
+     "year": 2025,
+     "description": "Tesamorelin for Injection, 15mg, 10 mL Multi-Dose Vial, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-1448-2022#1214",
+     "year": 2022,
+     "description": "GUARDIAN BISMUTH CHWBLE CHRY TABS 30 CTSKU 902321 RIC BISMUTH MAXIMUM STRENGTH 8 FL OZ SKU 914325 PEPTO BISMOL ORIGINAL 8 FL OZ SKU 914324 RIC BISMUTH REG STRENGTH CHERRY 8 FL OZ SKU 914781 PEPTO BISMOL CHERRY 8 FL OZ SKU 916063 PEPTO B LIQUID ORIGINAL TRAVEL 3.4 FL OZ SKU 999812 distributed to specific Family Dollar Stores 04/30/2022 through 06/10/2022.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0775-2022#5332",
+     "year": 2022,
+     "description": "ARA-290 (Cibinetide Acetate) 6 mg/mL (4 mL) Injection, 4 mL vials, Rx only, Farmakeio 1736 N Greenville Ave Richardson, TX 75081 USA",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0659-2025#654",
+     "year": 2025,
+     "description": "Quick Touch Alcohol Prep Pads(Isopropyl Alcohol 70%), 100 Sterile Pads per carton, AUM Pharmaceuticals, 320 Oser Ave., Hauppauge, NY 11788.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0986-2022#13481",
+     "year": 2022,
+     "description": "Ethanol for Injection 95%, 67 mL Multi-Dose vial, Rx only, US Specialty Formulations, 1403 South Albert Street, Allentown, PA 18103, PN: 69389-06229",
+     "mark": "none",
+     "note": "PN: 69389-06229 is labeled a product number, not presented as an NDC",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0772-2026#71",
+     "year": 2026,
+     "description": "Glutathione (MDV), 200 mg/mL, 30 mL vial, each mL contains Glutathione 200 mg, Ascorbic Acid 20 mg, Benzyl Alcohol 1.5%, Na Hydroxide (Ph Adjust) in sterile water for injection, VMC.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0009-2023#1058",
+     "year": 2022,
+     "description": "Skincell Mole & Skin Corrector Serum, 1 fl. oz./30 mL jars, Distributed By: Justified Laboratoires, Arlington, TX 76011 USA UPC 8 10077 53221 8",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-1385-2022#1182",
+     "year": 2022,
+     "description": "BENADRYL EXTRA STRENGTH CREAM 1 OZ distributed to specific Family Dollar Stores 04/30/2022 through 06/10/2022.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0284-2025#15463",
+     "year": 2025,
+     "description": "CVS Health Concealing Acne Treatment Cream, CVS, 10% benzoyl peroxide, 1 oz (28 g), Distributed by: CVS Pharmacy, Inc",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0004-2025#891",
+     "year": 2024,
+     "description": "Gold Hard Steel Plus Liquid, 2 FL OZ bottles, UPC 787188873199",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0450-2024#12470",
+     "year": 2024,
+     "description": "Flower Power, CBD infused Female Enhancement, 59 ml bottle, UPC 0 678741 351646.",
+     "mark": "none",
+     "note": "",
+     "upc_ndc": false
+    },
+    {
+     "key": "D-0790-2023#13379",
+     "year": 2023,
+     "description": "Calcitriol Injection 1 mcg/mL, 1 mL ampules Rx Only, Distributed by: Akorn Operating Company, LLC., Gurnee, IL 60031. ALL NDCs",
+     "mark": "none",
+     "note": "says ALL NDCs but gives no code",
+     "upc_ndc": false
+    }
+   ],
+   "marked": 40,
+   "missed": 1,
+   "upc_derivable": 2,
+   "miss_rate_pct": 2.5,
+   "wilson95": [
+    0.44,
+    12.88
+   ]
+  }
+ },
+ "boundary_redactions": 1,
+ "C": {
+  "complete": true,
+  "point": {
+   "rows": [
+    {
+     "year": 2013,
+     "total": 1377,
+     "openfda": 119,
+     "recovered": 292,
+     "unrecovered": 966,
+     "combined": 411,
+     "era": "E1",
+     "est_missed": 24.15,
+     "adjusted": 435.15,
+     "adjusted_pct": 31.6,
+     "dev_pp": -24.95
+    },
+    {
+     "year": 2014,
+     "total": 1562,
+     "openfda": 165,
+     "recovered": 836,
+     "unrecovered": 561,
+     "combined": 1001,
+     "era": "E1",
+     "est_missed": 14.03,
+     "adjusted": 1015.02,
+     "adjusted_pct": 64.98,
+     "dev_pp": 8.43
+    },
+    {
+     "year": 2015,
+     "total": 2020,
+     "openfda": 103,
+     "recovered": 338,
+     "unrecovered": 1579,
+     "combined": 441,
+     "era": "E1",
+     "est_missed": 39.48,
+     "adjusted": 480.48,
+     "adjusted_pct": 23.79,
+     "dev_pp": -32.76
+    },
+    {
+     "year": 2016,
+     "total": 1254,
+     "openfda": 80,
+     "recovered": 461,
+     "unrecovered": 713,
+     "combined": 541,
+     "era": "E1",
+     "est_missed": 17.82,
+     "adjusted": 558.83,
+     "adjusted_pct": 44.56,
+     "dev_pp": -11.99
+    },
+    {
+     "year": 2017,
+     "total": 1073,
+     "openfda": 137,
+     "recovered": 410,
+     "unrecovered": 526,
+     "combined": 547,
+     "era": "E2",
+     "est_missed": 13.15,
+     "adjusted": 560.15,
+     "adjusted_pct": 52.2,
+     "dev_pp": -4.35
+    },
+    {
+     "year": 2018,
+     "total": 1426,
+     "openfda": 209,
+     "recovered": 642,
+     "unrecovered": 575,
+     "combined": 851,
+     "era": "E2",
+     "est_missed": 14.38,
+     "adjusted": 865.38,
+     "adjusted_pct": 60.69,
+     "dev_pp": 4.14
+    },
+    {
+     "year": 2019,
+     "total": 2152,
+     "openfda": 213,
+     "recovered": 1105,
+     "unrecovered": 834,
+     "combined": 1318,
+     "era": "E2",
+     "est_missed": 20.85,
+     "adjusted": 1338.85,
+     "adjusted_pct": 62.21,
+     "dev_pp": 5.66
+    },
+    {
+     "year": 2020,
+     "total": 1035,
+     "openfda": 184,
+     "recovered": 368,
+     "unrecovered": 483,
+     "combined": 552,
+     "era": "E2",
+     "est_missed": 12.08,
+     "adjusted": 564.08,
+     "adjusted_pct": 54.5,
+     "dev_pp": -2.05
+    },
+    {
+     "year": 2021,
+     "total": 1016,
+     "openfda": 300,
+     "recovered": 265,
+     "unrecovered": 451,
+     "combined": 565,
+     "era": "E2",
+     "est_missed": 11.28,
+     "adjusted": 576.27,
+     "adjusted_pct": 56.72,
+     "dev_pp": 0.17
+    },
+    {
+     "year": 2022,
+     "total": 1349,
+     "openfda": 315,
+     "recovered": 625,
+     "unrecovered": 409,
+     "combined": 940,
+     "era": "E3",
+     "est_missed": 10.23,
+     "adjusted": 950.23,
+     "adjusted_pct": 70.44,
+     "dev_pp": 13.89
+    },
+    {
+     "year": 2023,
+     "total": 1252,
+     "openfda": 270,
+     "recovered": 631,
+     "unrecovered": 351,
+     "combined": 901,
+     "era": "E3",
+     "est_missed": 8.78,
+     "adjusted": 909.77,
+     "adjusted_pct": 72.67,
+     "dev_pp": 16.12
+    },
+    {
+     "year": 2024,
+     "total": 657,
+     "openfda": 310,
+     "recovered": 237,
+     "unrecovered": 110,
+     "combined": 547,
+     "era": "E3",
+     "est_missed": 2.75,
+     "adjusted": 549.75,
+     "adjusted_pct": 83.68,
+     "dev_pp": 27.13
+    },
+    {
+     "year": 2025,
+     "total": 765,
+     "openfda": 400,
+     "recovered": 209,
+     "unrecovered": 156,
+     "combined": 609,
+     "era": "E3",
+     "est_missed": 3.9,
+     "adjusted": 612.9,
+     "adjusted_pct": 80.12,
+     "dev_pp": 23.57
+    },
+    {
+     "year": 2026,
+     "total": 603,
+     "openfda": 375,
+     "recovered": 125,
+     "unrecovered": 103,
+     "combined": 500,
+     "era": "E3",
+     "est_missed": 2.58,
+     "adjusted": 502.57,
+     "adjusted_pct": 83.35,
+     "dev_pp": 26.8
+    }
+   ],
+   "A1_pooled_pct": 56.55,
+   "A2_years_outside": [
+    2013,
+    2015,
+    2016,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "A2_n_outside": 8,
+   "A3_abs_spearman": 0.8198,
+   "verdict": "TREND SURVIVES (finding stands)"
+  },
+  "sensitivity_upper_wilson": {
+   "rows": [
+    {
+     "year": 2013,
+     "total": 1377,
+     "openfda": 119,
+     "recovered": 292,
+     "unrecovered": 966,
+     "combined": 411,
+     "era": "E1",
+     "est_missed": 124.42,
+     "adjusted": 535.42,
+     "adjusted_pct": 38.88,
+     "dev_pp": -22.3
+    },
+    {
+     "year": 2014,
+     "total": 1562,
+     "openfda": 165,
+     "recovered": 836,
+     "unrecovered": 561,
+     "combined": 1001,
+     "era": "E1",
+     "est_missed": 72.26,
+     "adjusted": 1073.26,
+     "adjusted_pct": 68.71,
+     "dev_pp": 7.53
+    },
+    {
+     "year": 2015,
+     "total": 2020,
+     "openfda": 103,
+     "recovered": 338,
+     "unrecovered": 1579,
+     "combined": 441,
+     "era": "E1",
+     "est_missed": 203.38,
+     "adjusted": 644.38,
+     "adjusted_pct": 31.9,
+     "dev_pp": -29.28
+    },
+    {
+     "year": 2016,
+     "total": 1254,
+     "openfda": 80,
+     "recovered": 461,
+     "unrecovered": 713,
+     "combined": 541,
+     "era": "E1",
+     "est_missed": 91.83,
+     "adjusted": 632.83,
+     "adjusted_pct": 50.47,
+     "dev_pp": -10.71
+    },
+    {
+     "year": 2017,
+     "total": 1073,
+     "openfda": 137,
+     "recovered": 410,
+     "unrecovered": 526,
+     "combined": 547,
+     "era": "E2",
+     "est_missed": 67.75,
+     "adjusted": 614.75,
+     "adjusted_pct": 57.29,
+     "dev_pp": -3.89
+    },
+    {
+     "year": 2018,
+     "total": 1426,
+     "openfda": 209,
+     "recovered": 642,
+     "unrecovered": 575,
+     "combined": 851,
+     "era": "E2",
+     "est_missed": 74.06,
+     "adjusted": 925.06,
+     "adjusted_pct": 64.87,
+     "dev_pp": 3.69
+    },
+    {
+     "year": 2019,
+     "total": 2152,
+     "openfda": 213,
+     "recovered": 1105,
+     "unrecovered": 834,
+     "combined": 1318,
+     "era": "E2",
+     "est_missed": 107.42,
+     "adjusted": 1425.42,
+     "adjusted_pct": 66.24,
+     "dev_pp": 5.06
+    },
+    {
+     "year": 2020,
+     "total": 1035,
+     "openfda": 184,
+     "recovered": 368,
+     "unrecovered": 483,
+     "combined": 552,
+     "era": "E2",
+     "est_missed": 62.21,
+     "adjusted": 614.21,
+     "adjusted_pct": 59.34,
+     "dev_pp": -1.84
+    },
+    {
+     "year": 2021,
+     "total": 1016,
+     "openfda": 300,
+     "recovered": 265,
+     "unrecovered": 451,
+     "combined": 565,
+     "era": "E2",
+     "est_missed": 58.09,
+     "adjusted": 623.09,
+     "adjusted_pct": 61.33,
+     "dev_pp": 0.15
+    },
+    {
+     "year": 2022,
+     "total": 1349,
+     "openfda": 315,
+     "recovered": 625,
+     "unrecovered": 409,
+     "combined": 940,
+     "era": "E3",
+     "est_missed": 52.68,
+     "adjusted": 992.68,
+     "adjusted_pct": 73.59,
+     "dev_pp": 12.41
+    },
+    {
+     "year": 2023,
+     "total": 1252,
+     "openfda": 270,
+     "recovered": 631,
+     "unrecovered": 351,
+     "combined": 901,
+     "era": "E3",
+     "est_missed": 45.21,
+     "adjusted": 946.21,
+     "adjusted_pct": 75.58,
+     "dev_pp": 14.4
+    },
+    {
+     "year": 2024,
+     "total": 657,
+     "openfda": 310,
+     "recovered": 237,
+     "unrecovered": 110,
+     "combined": 547,
+     "era": "E3",
+     "est_missed": 14.17,
+     "adjusted": 561.17,
+     "adjusted_pct": 85.41,
+     "dev_pp": 24.23
+    },
+    {
+     "year": 2025,
+     "total": 765,
+     "openfda": 400,
+     "recovered": 209,
+     "unrecovered": 156,
+     "combined": 609,
+     "era": "E3",
+     "est_missed": 20.09,
+     "adjusted": 629.09,
+     "adjusted_pct": 82.23,
+     "dev_pp": 21.05
+    },
+    {
+     "year": 2026,
+     "total": 603,
+     "openfda": 375,
+     "recovered": 125,
+     "unrecovered": 103,
+     "combined": 500,
+     "era": "E3",
+     "est_missed": 13.27,
+     "adjusted": 513.27,
+     "adjusted_pct": 85.12,
+     "dev_pp": 23.94
+    }
+   ],
+   "A1_pooled_pct": 61.18,
+   "A2_years_outside": [
+    2013,
+    2015,
+    2016,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "A2_n_outside": 8,
+   "A3_abs_spearman": 0.8198,
+   "verdict": "TREND SURVIVES (finding stands)"
+  },
+  "sensitivity_upc_derivable_as_missed": {
+   "rows": [
+    {
+     "year": 2013,
+     "total": 1377,
+     "openfda": 119,
+     "recovered": 292,
+     "unrecovered": 966,
+     "combined": 411,
+     "era": "E1",
+     "est_missed": 24.15,
+     "adjusted": 435.15,
+     "adjusted_pct": 31.6,
+     "dev_pp": -25.27
+    },
+    {
+     "year": 2014,
+     "total": 1562,
+     "openfda": 165,
+     "recovered": 836,
+     "unrecovered": 561,
+     "combined": 1001,
+     "era": "E1",
+     "est_missed": 14.03,
+     "adjusted": 1015.02,
+     "adjusted_pct": 64.98,
+     "dev_pp": 8.11
+    },
+    {
+     "year": 2015,
+     "total": 2020,
+     "openfda": 103,
+     "recovered": 338,
+     "unrecovered": 1579,
+     "combined": 441,
+     "era": "E1",
+     "est_missed": 39.48,
+     "adjusted": 480.48,
+     "adjusted_pct": 23.79,
+     "dev_pp": -33.08
+    },
+    {
+     "year": 2016,
+     "total": 1254,
+     "openfda": 80,
+     "recovered": 461,
+     "unrecovered": 713,
+     "combined": 541,
+     "era": "E1",
+     "est_missed": 17.82,
+     "adjusted": 558.83,
+     "adjusted_pct": 44.56,
+     "dev_pp": -12.31
+    },
+    {
+     "year": 2017,
+     "total": 1073,
+     "openfda": 137,
+     "recovered": 410,
+     "unrecovered": 526,
+     "combined": 547,
+     "era": "E2",
+     "est_missed": 13.15,
+     "adjusted": 560.15,
+     "adjusted_pct": 52.2,
+     "dev_pp": -4.67
+    },
+    {
+     "year": 2018,
+     "total": 1426,
+     "openfda": 209,
+     "recovered": 642,
+     "unrecovered": 575,
+     "combined": 851,
+     "era": "E2",
+     "est_missed": 14.38,
+     "adjusted": 865.38,
+     "adjusted_pct": 60.69,
+     "dev_pp": 3.82
+    },
+    {
+     "year": 2019,
+     "total": 2152,
+     "openfda": 213,
+     "recovered": 1105,
+     "unrecovered": 834,
+     "combined": 1318,
+     "era": "E2",
+     "est_missed": 20.85,
+     "adjusted": 1338.85,
+     "adjusted_pct": 62.21,
+     "dev_pp": 5.34
+    },
+    {
+     "year": 2020,
+     "total": 1035,
+     "openfda": 184,
+     "recovered": 368,
+     "unrecovered": 483,
+     "combined": 552,
+     "era": "E2",
+     "est_missed": 12.08,
+     "adjusted": 564.08,
+     "adjusted_pct": 54.5,
+     "dev_pp": -2.37
+    },
+    {
+     "year": 2021,
+     "total": 1016,
+     "openfda": 300,
+     "recovered": 265,
+     "unrecovered": 451,
+     "combined": 565,
+     "era": "E2",
+     "est_missed": 11.28,
+     "adjusted": 576.27,
+     "adjusted_pct": 56.72,
+     "dev_pp": -0.15
+    },
+    {
+     "year": 2022,
+     "total": 1349,
+     "openfda": 315,
+     "recovered": 625,
+     "unrecovered": 409,
+     "combined": 940,
+     "era": "E3",
+     "est_missed": 30.67,
+     "adjusted": 970.67,
+     "adjusted_pct": 71.96,
+     "dev_pp": 15.09
+    },
+    {
+     "year": 2023,
+     "total": 1252,
+     "openfda": 270,
+     "recovered": 631,
+     "unrecovered": 351,
+     "combined": 901,
+     "era": "E3",
+     "est_missed": 26.32,
+     "adjusted": 927.33,
+     "adjusted_pct": 74.07,
+     "dev_pp": 17.2
+    },
+    {
+     "year": 2024,
+     "total": 657,
+     "openfda": 310,
+     "recovered": 237,
+     "unrecovered": 110,
+     "combined": 547,
+     "era": "E3",
+     "est_missed": 8.25,
+     "adjusted": 555.25,
+     "adjusted_pct": 84.51,
+     "dev_pp": 27.64
+    },
+    {
+     "year": 2025,
+     "total": 765,
+     "openfda": 400,
+     "recovered": 209,
+     "unrecovered": 156,
+     "combined": 609,
+     "era": "E3",
+     "est_missed": 11.7,
+     "adjusted": 620.7,
+     "adjusted_pct": 81.14,
+     "dev_pp": 24.27
+    },
+    {
+     "year": 2026,
+     "total": 603,
+     "openfda": 375,
+     "recovered": 125,
+     "unrecovered": 103,
+     "combined": 500,
+     "era": "E3",
+     "est_missed": 7.72,
+     "adjusted": 507.73,
+     "adjusted_pct": 84.2,
+     "dev_pp": 27.33
+    }
+   ],
+   "A1_pooled_pct": 56.87,
+   "A2_years_outside": [
+    2013,
+    2015,
+    2016,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "A2_n_outside": 8,
+   "A3_abs_spearman": 0.8198,
+   "verdict": "TREND SURVIVES (finding stands)"
+  },
+  "sensitivity_upper_E1_only": {
+   "rows": [
+    {
+     "year": 2013,
+     "total": 1377,
+     "openfda": 119,
+     "recovered": 292,
+     "unrecovered": 966,
+     "combined": 411,
+     "era": "E1",
+     "est_missed": 124.42,
+     "adjusted": 535.42,
+     "adjusted_pct": 38.88,
+     "dev_pp": -19.93
+    },
+    {
+     "year": 2014,
+     "total": 1562,
+     "openfda": 165,
+     "recovered": 836,
+     "unrecovered": 561,
+     "combined": 1001,
+     "era": "E1",
+     "est_missed": 72.26,
+     "adjusted": 1073.26,
+     "adjusted_pct": 68.71,
+     "dev_pp": 9.9
+    },
+    {
+     "year": 2015,
+     "total": 2020,
+     "openfda": 103,
+     "recovered": 338,
+     "unrecovered": 1579,
+     "combined": 441,
+     "era": "E1",
+     "est_missed": 203.38,
+     "adjusted": 644.38,
+     "adjusted_pct": 31.9,
+     "dev_pp": -26.91
+    },
+    {
+     "year": 2016,
+     "total": 1254,
+     "openfda": 80,
+     "recovered": 461,
+     "unrecovered": 713,
+     "combined": 541,
+     "era": "E1",
+     "est_missed": 91.83,
+     "adjusted": 632.83,
+     "adjusted_pct": 50.47,
+     "dev_pp": -8.34
+    },
+    {
+     "year": 2017,
+     "total": 1073,
+     "openfda": 137,
+     "recovered": 410,
+     "unrecovered": 526,
+     "combined": 547,
+     "era": "E2",
+     "est_missed": 13.15,
+     "adjusted": 560.15,
+     "adjusted_pct": 52.2,
+     "dev_pp": -6.61
+    },
+    {
+     "year": 2018,
+     "total": 1426,
+     "openfda": 209,
+     "recovered": 642,
+     "unrecovered": 575,
+     "combined": 851,
+     "era": "E2",
+     "est_missed": 14.38,
+     "adjusted": 865.38,
+     "adjusted_pct": 60.69,
+     "dev_pp": 1.88
+    },
+    {
+     "year": 2019,
+     "total": 2152,
+     "openfda": 213,
+     "recovered": 1105,
+     "unrecovered": 834,
+     "combined": 1318,
+     "era": "E2",
+     "est_missed": 20.85,
+     "adjusted": 1338.85,
+     "adjusted_pct": 62.21,
+     "dev_pp": 3.4
+    },
+    {
+     "year": 2020,
+     "total": 1035,
+     "openfda": 184,
+     "recovered": 368,
+     "unrecovered": 483,
+     "combined": 552,
+     "era": "E2",
+     "est_missed": 12.08,
+     "adjusted": 564.08,
+     "adjusted_pct": 54.5,
+     "dev_pp": -4.31
+    },
+    {
+     "year": 2021,
+     "total": 1016,
+     "openfda": 300,
+     "recovered": 265,
+     "unrecovered": 451,
+     "combined": 565,
+     "era": "E2",
+     "est_missed": 11.28,
+     "adjusted": 576.27,
+     "adjusted_pct": 56.72,
+     "dev_pp": -2.09
+    },
+    {
+     "year": 2022,
+     "total": 1349,
+     "openfda": 315,
+     "recovered": 625,
+     "unrecovered": 409,
+     "combined": 940,
+     "era": "E3",
+     "est_missed": 10.23,
+     "adjusted": 950.23,
+     "adjusted_pct": 70.44,
+     "dev_pp": 11.63
+    },
+    {
+     "year": 2023,
+     "total": 1252,
+     "openfda": 270,
+     "recovered": 631,
+     "unrecovered": 351,
+     "combined": 901,
+     "era": "E3",
+     "est_missed": 8.78,
+     "adjusted": 909.77,
+     "adjusted_pct": 72.67,
+     "dev_pp": 13.86
+    },
+    {
+     "year": 2024,
+     "total": 657,
+     "openfda": 310,
+     "recovered": 237,
+     "unrecovered": 110,
+     "combined": 547,
+     "era": "E3",
+     "est_missed": 2.75,
+     "adjusted": 549.75,
+     "adjusted_pct": 83.68,
+     "dev_pp": 24.87
+    },
+    {
+     "year": 2025,
+     "total": 765,
+     "openfda": 400,
+     "recovered": 209,
+     "unrecovered": 156,
+     "combined": 609,
+     "era": "E3",
+     "est_missed": 3.9,
+     "adjusted": 612.9,
+     "adjusted_pct": 80.12,
+     "dev_pp": 21.31
+    },
+    {
+     "year": 2026,
+     "total": 603,
+     "openfda": 375,
+     "recovered": 125,
+     "unrecovered": 103,
+     "combined": 500,
+     "era": "E3",
+     "est_missed": 2.58,
+     "adjusted": 502.57,
+     "adjusted_pct": 83.35,
+     "dev_pp": 24.54
+    }
+   ],
+   "A1_pooled_pct": 58.81,
+   "A2_years_outside": [
+    2013,
+    2015,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "A2_n_outside": 7,
+   "A3_abs_spearman": 0.8198,
+   "verdict": "TREND SURVIVES (finding stands)"
+  }
+ },
+ "D": {
+  "E1": {
+   "openfda NDC": {
+    "n": 467,
+    "desc_len": {
+     "n": 467,
+     "median": 207.0,
+     "q1": 172.5,
+     "q3": 253.0
+    },
+    "ndc_token_pct": 100.0,
+    "ndc_like_digits_pct": 100.0,
+    "bulk_any_pct": 0.43,
+    "bulk_components_pct": {
+     "bulk": 0.43,
+     "active pharmaceutical ingredient / API": 0.0,
+     "drug substance / raw material / intermediate": 0.0,
+     "kilogram or drum quantity": 0.0
+    },
+    "compounding_pct": 0.0,
+    "fields": {
+     "product_type": {
+      "Drugs": [
+       467,
+       100.0
+      ]
+     },
+     "classification": {
+      "Class I": [
+       56,
+       11.99
+      ],
+      "Class II": [
+       274,
+       58.67
+      ],
+      "Class III": [
+       137,
+       29.34
+      ]
+     },
+     "voluntary_mandated": {
+      "Voluntary: Firm initiated": [
+       467,
+       100.0
+      ]
+     },
+     "initial_firm_notification": {
+      "(missing)": [
+       3,
+       0.64
+      ],
+      "E-Mail": [
+       18,
+       3.85
+      ],
+      "Letter": [
+       396,
+       84.8
+      ],
+      "N/A": [
+       5,
+       1.07
+      ],
+      "Press Release": [
+       15,
+       3.21
+      ],
+      "Telephone": [
+       12,
+       2.57
+      ],
+      "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit": [
+       18,
+       3.85
+      ]
+     },
+     "status": {
+      "Completed": [
+       14,
+       3.0
+      ],
+      "Ongoing": [
+       5,
+       1.07
+      ],
+      "Terminated": [
+       448,
+       95.93
+      ]
+     }
+    }
+   },
+   "parse-recovered": {
+    "n": 1927,
+    "desc_len": {
+     "n": 1927,
+     "median": 174.0,
+     "q1": 111.0,
+     "q3": 237.0
+    },
+    "ndc_token_pct": 99.79,
+    "ndc_like_digits_pct": 100.0,
+    "bulk_any_pct": 0.78,
+    "bulk_components_pct": {
+     "bulk": 0.42,
+     "active pharmaceutical ingredient / API": 0.0,
+     "drug substance / raw material / intermediate": 0.0,
+     "kilogram or drum quantity": 0.36
+    },
+    "compounding_pct": 15.1,
+    "fields": {
+     "product_type": {
+      "Drugs": [
+       1927,
+       100.0
+      ]
+     },
+     "classification": {
+      "Class I": [
+       96,
+       4.98
+      ],
+      "Class II": [
+       1476,
+       76.6
+      ],
+      "Class III": [
+       355,
+       18.42
+      ]
+     },
+     "voluntary_mandated": {
+      "Voluntary: Firm initiated": [
+       1927,
+       100.0
+      ]
+     },
+     "initial_firm_notification": {
+      "(missing)": [
+       2,
+       0.1
+      ],
+      "E-Mail": [
+       192,
+       9.96
+      ],
+      "FAX": [
+       9,
+       0.47
+      ],
+      "Letter": [
+       915,
+       47.48
+      ],
+      "N/A": [
+       3,
+       0.16
+      ],
+      "Press Release": [
+       126,
+       6.54
+      ],
+      "Telephone": [
+       600,
+       31.14
+      ],
+      "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit": [
+       80,
+       4.15
+      ]
+     },
+     "status": {
+      "Completed": [
+       5,
+       0.26
+      ],
+      "Ongoing": [
+       13,
+       0.67
+      ],
+      "Terminated": [
+       1909,
+       99.07
+      ]
+     }
+    }
+   },
+   "no NDC": {
+    "n": 3819,
+    "desc_len": {
+     "n": 3819,
+     "median": 138.0,
+     "q1": 110.0,
+     "q3": 185.0
+    },
+    "ndc_token_pct": 0.58,
+    "ndc_like_digits_pct": 0.6,
+    "bulk_any_pct": 13.33,
+    "bulk_components_pct": {
+     "bulk": 0.42,
+     "active pharmaceutical ingredient / API": 12.18,
+     "drug substance / raw material / intermediate": 0.0,
+     "kilogram or drum quantity": 13.2
+    },
+    "compounding_pct": 43.36,
+    "fields": {
+     "product_type": {
+      "Drugs": [
+       3819,
+       100.0
+      ]
+     },
+     "classification": {
+      "Class I": [
+       306,
+       8.01
+      ],
+      "Class II": [
+       3398,
+       88.98
+      ],
+      "Class III": [
+       115,
+       3.01
+      ]
+     },
+     "voluntary_mandated": {
+      "Voluntary: Firm initiated": [
+       3819,
+       100.0
+      ]
+     },
+     "initial_firm_notification": {
+      "(missing)": [
+       1,
+       0.03
+      ],
+      "E-Mail": [
+       301,
+       7.88
+      ],
+      "Letter": [
+       405,
+       10.6
+      ],
+      "Other": [
+       1,
+       0.03
+      ],
+      "Press Release": [
+       641,
+       16.78
+      ],
+      "Telephone": [
+       1415,
+       37.05
+      ],
+      "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit": [
+       1050,
+       27.49
+      ],
+      "Visit": [
+       5,
+       0.13
+      ]
+     },
+     "status": {
+      "Completed": [
+       7,
+       0.18
+      ],
+      "Ongoing": [
+       146,
+       3.82
+      ],
+      "Terminated": [
+       3666,
+       95.99
+      ]
+     }
+    }
+   }
+  },
+  "E2": {
+   "openfda NDC": {
+    "n": 1043,
+    "desc_len": {
+     "n": 1043,
+     "median": 210.0,
+     "q1": 169.0,
+     "q3": 255.0
+    },
+    "ndc_token_pct": 99.81,
+    "ndc_like_digits_pct": 99.81,
+    "bulk_any_pct": 0.58,
+    "bulk_components_pct": {
+     "bulk": 0.48,
+     "active pharmaceutical ingredient / API": 0.1,
+     "drug substance / raw material / intermediate": 0.0,
+     "kilogram or drum quantity": 0.0
+    },
+    "compounding_pct": 0.0,
+    "fields": {
+     "product_type": {
+      "Drugs": [
+       1043,
+       100.0
+      ]
+     },
+     "classification": {
+      "Class I": [
+       89,
+       8.53
+      ],
+      "Class II": [
+       705,
+       67.59
+      ],
+      "Class III": [
+       249,
+       23.87
+      ]
+     },
+     "voluntary_mandated": {
+      "(missing)": [
+       1,
+       0.1
+      ],
+      "N/A": [
+       5,
+       0.48
+      ],
+      "Voluntary: Firm initiated": [
+       1037,
+       99.42
+      ]
+     },
+     "initial_firm_notification": {
+      "(missing)": [
+       5,
+       0.48
+      ],
+      "E-Mail": [
+       21,
+       2.01
+      ],
+      "Letter": [
+       869,
+       83.32
+      ],
+      "N/A": [
+       5,
+       0.48
+      ],
+      "Press Release": [
+       85,
+       8.15
+      ],
+      "Telephone": [
+       17,
+       1.63
+      ],
+      "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit": [
+       41,
+       3.93
+      ]
+     },
+     "status": {
+      "Completed": [
+       29,
+       2.78
+      ],
+      "Ongoing": [
+       78,
+       7.48
+      ],
+      "Terminated": [
+       936,
+       89.74
+      ]
+     }
+    }
+   },
+   "parse-recovered": {
+    "n": 2790,
+    "desc_len": {
+     "n": 2790,
+     "median": 181.0,
+     "q1": 151.0,
+     "q3": 228.0
+    },
+    "ndc_token_pct": 99.57,
+    "ndc_like_digits_pct": 100.0,
+    "bulk_any_pct": 1.29,
+    "bulk_components_pct": {
+     "bulk": 0.97,
+     "active pharmaceutical ingredient / API": 0.18,
+     "drug substance / raw material / intermediate": 0.0,
+     "kilogram or drum quantity": 0.36
+    },
+    "compounding_pct": 8.49,
+    "fields": {
+     "product_type": {
+      "Drugs": [
+       2790,
+       100.0
+      ]
+     },
+     "classification": {
+      "Class I": [
+       532,
+       19.07
+      ],
+      "Class II": [
+       1935,
+       69.35
+      ],
+      "Class III": [
+       323,
+       11.58
+      ]
+     },
+     "voluntary_mandated": {
+      "(missing)": [
+       7,
+       0.25
+      ],
+      "FDA Mandated": [
+       3,
+       0.11
+      ],
+      "N/A": [
+       8,
+       0.29
+      ],
+      "Voluntary: Firm initiated": [
+       2772,
+       99.35
+      ]
+     },
+     "initial_firm_notification": {
+      "(missing)": [
+       14,
+       0.5
+      ],
+      "E-Mail": [
+       108,
+       3.87
+      ],
+      "Letter": [
+       1476,
+       52.9
+      ],
+      "N/A": [
+       12,
+       0.43
+      ],
+      "Press Release": [
+       998,
+       35.77
+      ],
+      "Telephone": [
+       72,
+       2.58
+      ],
+      "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit": [
+       110,
+       3.94
+      ]
+     },
+     "status": {
+      "Completed": [
+       93,
+       3.33
+      ],
+      "Ongoing": [
+       137,
+       4.91
+      ],
+      "Terminated": [
+       2560,
+       91.76
+      ]
+     }
+    }
+   },
+   "no NDC": {
+    "n": 2869,
+    "desc_len": {
+     "n": 2869,
+     "median": 139.0,
+     "q1": 108.0,
+     "q3": 178.0
+    },
+    "ndc_token_pct": 2.54,
+    "ndc_like_digits_pct": 2.58,
+    "bulk_any_pct": 1.78,
+    "bulk_components_pct": {
+     "bulk": 0.35,
+     "active pharmaceutical ingredient / API": 0.17,
+     "drug substance / raw material / intermediate": 0.07,
+     "kilogram or drum quantity": 1.32
+    },
+    "compounding_pct": 26.98,
+    "fields": {
+     "product_type": {
+      "Drugs": [
+       2869,
+       100.0
+      ]
+     },
+     "classification": {
+      "Class I": [
+       307,
+       10.7
+      ],
+      "Class II": [
+       2453,
+       85.5
+      ],
+      "Class III": [
+       109,
+       3.8
+      ]
+     },
+     "voluntary_mandated": {
+      "FDA Mandated": [
+       26,
+       0.91
+      ],
+      "Voluntary: Firm initiated": [
+       2843,
+       99.09
+      ]
+     },
+     "initial_firm_notification": {
+      "(missing)": [
+       1,
+       0.03
+      ],
+      "E-Mail": [
+       155,
+       5.4
+      ],
+      "Letter": [
+       1518,
+       52.91
+      ],
+      "N/A": [
+       90,
+       3.14
+      ],
+      "Other": [
+       71,
+       2.47
+      ],
+      "Press Release": [
+       430,
+       14.99
+      ],
+      "Telephone": [
+       389,
+       13.56
+      ],
+      "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit": [
+       214,
+       7.46
+      ],
+      "Visit": [
+       1,
+       0.03
+      ]
+     },
+     "status": {
+      "Completed": [
+       100,
+       3.49
+      ],
+      "Ongoing": [
+       156,
+       5.44
+      ],
+      "Terminated": [
+       2613,
+       91.08
+      ]
+     }
+    }
+   }
+  },
+  "E3": {
+   "openfda NDC": {
+    "n": 1670,
+    "desc_len": {
+     "n": 1670,
+     "median": 218.0,
+     "q1": 177.0,
+     "q3": 257.0
+    },
+    "ndc_token_pct": 99.7,
+    "ndc_like_digits_pct": 99.94,
+    "bulk_any_pct": 0.84,
+    "bulk_components_pct": {
+     "bulk": 0.78,
+     "active pharmaceutical ingredient / API": 0.06,
+     "drug substance / raw material / intermediate": 0.0,
+     "kilogram or drum quantity": 0.0
+    },
+    "compounding_pct": 0.0,
+    "fields": {
+     "product_type": {
+      "Drugs": [
+       1670,
+       100.0
+      ]
+     },
+     "classification": {
+      "Class I": [
+       101,
+       6.05
+      ],
+      "Class II": [
+       1369,
+       81.98
+      ],
+      "Class III": [
+       200,
+       11.98
+      ]
+     },
+     "voluntary_mandated": {
+      "(missing)": [
+       2,
+       0.12
+      ],
+      "N/A": [
+       4,
+       0.24
+      ],
+      "Voluntary: Firm initiated": [
+       1664,
+       99.64
+      ]
+     },
+     "initial_firm_notification": {
+      "(missing)": [
+       31,
+       1.86
+      ],
+      "E-Mail": [
+       76,
+       4.55
+      ],
+      "Letter": [
+       1407,
+       84.25
+      ],
+      "N/A": [
+       48,
+       2.87
+      ],
+      "Other": [
+       1,
+       0.06
+      ],
+      "Press Release": [
+       57,
+       3.41
+      ],
+      "Telephone": [
+       5,
+       0.3
+      ],
+      "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit": [
+       45,
+       2.69
+      ]
+     },
+     "status": {
+      "Completed": [
+       61,
+       3.65
+      ],
+      "Ongoing": [
+       1001,
+       59.94
+      ],
+      "Terminated": [
+       608,
+       36.41
+      ]
+     }
+    }
+   },
+   "parse-recovered": {
+    "n": 1827,
+    "desc_len": {
+     "n": 1827,
+     "median": 194.0,
+     "q1": 161.0,
+     "q3": 231.0
+    },
+    "ndc_token_pct": 99.73,
+    "ndc_like_digits_pct": 100.0,
+    "bulk_any_pct": 3.39,
+    "bulk_components_pct": {
+     "bulk": 2.79,
+     "active pharmaceutical ingredient / API": 0.05,
+     "drug substance / raw material / intermediate": 0.0,
+     "kilogram or drum quantity": 0.66
+    },
+    "compounding_pct": 3.89,
+    "fields": {
+     "product_type": {
+      "Drugs": [
+       1827,
+       100.0
+      ]
+     },
+     "classification": {
+      "Class I": [
+       101,
+       5.53
+      ],
+      "Class II": [
+       1598,
+       87.47
+      ],
+      "Class III": [
+       127,
+       6.95
+      ],
+      "Not Yet Classified": [
+       1,
+       0.05
+      ]
+     },
+     "voluntary_mandated": {
+      "(missing)": [
+       2,
+       0.11
+      ],
+      "N/A": [
+       4,
+       0.22
+      ],
+      "Voluntary: Firm initiated": [
+       1821,
+       99.67
+      ]
+     },
+     "initial_firm_notification": {
+      "(missing)": [
+       29,
+       1.59
+      ],
+      "E-Mail": [
+       181,
+       9.91
+      ],
+      "Letter": [
+       1358,
+       74.33
+      ],
+      "N/A": [
+       18,
+       0.99
+      ],
+      "Other": [
+       1,
+       0.05
+      ],
+      "Press Release": [
+       154,
+       8.43
+      ],
+      "Telephone": [
+       14,
+       0.77
+      ],
+      "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit": [
+       72,
+       3.94
+      ]
+     },
+     "status": {
+      "Completed": [
+       87,
+       4.76
+      ],
+      "Ongoing": [
+       537,
+       29.39
+      ],
+      "Terminated": [
+       1203,
+       65.85
+      ]
+     }
+    }
+   },
+   "no NDC": {
+    "n": 1129,
+    "desc_len": {
+     "n": 1129,
+     "median": 154.0,
+     "q1": 123.0,
+     "q3": 201.0
+    },
+    "ndc_token_pct": 3.1,
+    "ndc_like_digits_pct": 1.77,
+    "bulk_any_pct": 1.68,
+    "bulk_components_pct": {
+     "bulk": 0.89,
+     "active pharmaceutical ingredient / API": 0.0,
+     "drug substance / raw material / intermediate": 0.0,
+     "kilogram or drum quantity": 1.51
+    },
+    "compounding_pct": 12.75,
+    "fields": {
+     "product_type": {
+      "Drugs": [
+       1129,
+       100.0
+      ]
+     },
+     "classification": {
+      "Class I": [
+       140,
+       12.4
+      ],
+      "Class II": [
+       954,
+       84.5
+      ],
+      "Class III": [
+       34,
+       3.01
+      ],
+      "Not Yet Classified": [
+       1,
+       0.09
+      ]
+     },
+     "voluntary_mandated": {
+      "N/A": [
+       2,
+       0.18
+      ],
+      "Voluntary: Firm initiated": [
+       1127,
+       99.82
+      ]
+     },
+     "initial_firm_notification": {
+      "(missing)": [
+       10,
+       0.89
+      ],
+      "E-Mail": [
+       137,
+       12.13
+      ],
+      "Letter": [
+       534,
+       47.3
+      ],
+      "N/A": [
+       17,
+       1.51
+      ],
+      "Other": [
+       107,
+       9.48
+      ],
+      "Press Release": [
+       78,
+       6.91
+      ],
+      "Telephone": [
+       168,
+       14.88
+      ],
+      "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit": [
+       78,
+       6.91
+      ]
+     },
+     "status": {
+      "Completed": [
+       40,
+       3.54
+      ],
+      "Ongoing": [
+       662,
+       58.64
+      ],
+      "Terminated": [
+       427,
+       37.82
+      ]
+     }
+    }
+   }
+  }
+ },
+ "D_years": [
+  {
+   "year": 2013,
+   "no_ndc_records": 966,
+   "ndc_token_pct": 0.93,
+   "bulk_pct": 2.48,
+   "compounding_pct": 67.39,
+   "bulk_or_compounding_pct": 69.88
+  },
+  {
+   "year": 2014,
+   "no_ndc_records": 561,
+   "ndc_token_pct": 1.6,
+   "bulk_pct": 1.43,
+   "compounding_pct": 22.46,
+   "bulk_or_compounding_pct": 23.71
+  },
+  {
+   "year": 2015,
+   "no_ndc_records": 1579,
+   "ndc_token_pct": 0.13,
+   "bulk_pct": 30.02,
+   "compounding_pct": 40.28,
+   "bulk_or_compounding_pct": 70.11
+  },
+  {
+   "year": 2016,
+   "no_ndc_records": 713,
+   "ndc_token_pct": 0.28,
+   "bulk_pct": 0.42,
+   "compounding_pct": 34.08,
+   "bulk_or_compounding_pct": 34.36
+  },
+  {
+   "year": 2017,
+   "no_ndc_records": 526,
+   "ndc_token_pct": 1.33,
+   "bulk_pct": 1.14,
+   "compounding_pct": 50.38,
+   "bulk_or_compounding_pct": 51.33
+  },
+  {
+   "year": 2018,
+   "no_ndc_records": 575,
+   "ndc_token_pct": 1.39,
+   "bulk_pct": 5.22,
+   "compounding_pct": 8.35,
+   "bulk_or_compounding_pct": 13.22
+  },
+  {
+   "year": 2019,
+   "no_ndc_records": 834,
+   "ndc_token_pct": 1.56,
+   "bulk_pct": 0.48,
+   "compounding_pct": 32.97,
+   "bulk_or_compounding_pct": 33.45
+  },
+  {
+   "year": 2020,
+   "no_ndc_records": 483,
+   "ndc_token_pct": 1.86,
+   "bulk_pct": 1.24,
+   "compounding_pct": 2.07,
+   "bulk_or_compounding_pct": 3.31
+  },
+  {
+   "year": 2021,
+   "no_ndc_records": 451,
+   "ndc_token_pct": 7.98,
+   "bulk_pct": 1.11,
+   "compounding_pct": 39.02,
+   "bulk_or_compounding_pct": 40.13
+  },
+  {
+   "year": 2022,
+   "no_ndc_records": 409,
+   "ndc_token_pct": 2.2,
+   "bulk_pct": 0.98,
+   "compounding_pct": 21.76,
+   "bulk_or_compounding_pct": 22.74
+  },
+  {
+   "year": 2023,
+   "no_ndc_records": 351,
+   "ndc_token_pct": 2.56,
+   "bulk_pct": 2.56,
+   "compounding_pct": 13.39,
+   "bulk_or_compounding_pct": 15.95
+  },
+  {
+   "year": 2024,
+   "no_ndc_records": 110,
+   "ndc_token_pct": 5.45,
+   "bulk_pct": 1.82,
+   "compounding_pct": 1.82,
+   "bulk_or_compounding_pct": 3.64
+  },
+  {
+   "year": 2025,
+   "no_ndc_records": 156,
+   "ndc_token_pct": 2.56,
+   "bulk_pct": 1.92,
+   "compounding_pct": 1.92,
+   "bulk_or_compounding_pct": 3.85
+  },
+  {
+   "year": 2026,
+   "no_ndc_records": 103,
+   "ndc_token_pct": 6.8,
+   "bulk_pct": 0.97,
+   "compounding_pct": 2.91,
+   "bulk_or_compounding_pct": 3.88
+  }
+ ],
+ "E": {
+  "E1": {
+   "distinct_codes": 2254,
+   "match_openfda_product": 86,
+   "pct": 3.82,
+   "wilson95": [
+    3.1,
+    4.69
+   ]
+  },
+  "E2": {
+   "distinct_codes": 3467,
+   "match_openfda_product": 63,
+   "pct": 1.82,
+   "wilson95": [
+    1.42,
+    2.32
+   ]
+  },
+  "E3": {
+   "distinct_codes": 1908,
+   "match_openfda_product": 37,
+   "pct": 1.94,
+   "wilson95": [
+    1.41,
+    2.66
+   ]
+  }
+ }
+}

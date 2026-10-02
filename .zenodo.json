@@ -1,0 +1,26 @@
+{
+  "title": "Properties of the openFDA drug enforcement export: code, recorded results and hand-mark records",
+  "upload_type": "software",
+  "description": "<p>Code, recorded results and hand-mark records for a manuscript on the properties of the openFDA drug enforcement bulk export. Not peer-reviewed.</p><p>The repository contains the five validation runs behind the manuscript, including 750 hand marks recorded as JSON, the National Drug Code recovery parser and its validation, and two independently designed labels built to test whether a change in product mix can be attributed from the text. Criteria for every run were written down before the sample was drawn; the rule text used in the final run is included as it stood before sampling. The exact data snapshot the analysis was run on is redistributed here, because the export is a snapshot rather than a history and re-downloading it returns a different file.</p><p>This work was carried out independently, on personal time and equipment, and is not connected to the author's employment. The views expressed are the author's own and do not represent the views, positions or policies of any current, former or future employer or client. No proprietary, confidential or internal data of any organization was used.</p>",
+  "creators": [
+    {
+      "name": "Balagam, Phani Kumar",
+      "affiliation": "Independent Researcher",
+      "orcid": "0009-0007-6762-399X"
+    }
+  ],
+  "license": "mit",
+  "access_right": "open",
+  "keywords": [
+    "openFDA",
+    "drug enforcement",
+    "recalls",
+    "National Drug Code",
+    "data quality",
+    "reproducibility",
+    "negative results",
+    "pharmacovigilance",
+    "regulatory informatics"
+  ],
+  "notes": "Code is MIT licensed. Recorded results and figure sources are CC BY 4.0. The redistributed openFDA export is a United States federal government work and is in the public domain; no rights are claimed over it."
+}

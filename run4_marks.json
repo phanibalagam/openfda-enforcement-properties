@@ -1,0 +1,929 @@
+{
+ "marked_by": "run 4 author, by reading every full description in RUN4-REPORT.md",
+ "rules": {
+  "A_correct": "the recalled item is a compounded preparation, bulk substance, API, raw material or intermediate",
+  "compounded": "prepared or admixed by a pharmacy, infusion pharmacy or outsourcing facility rather than a manufacturer-labeled finished product, judged from the description (named compounding or infusion pharmacy, non-commercial combination, beyond-use style dating)",
+  "bulk_finished": "finished dosage forms in bulk packaging are INCORRECT for this label: they are not drug substances and they carry NDCs"
+ },
+ "A": {
+  "D-436-2014#2901": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-281-2014#5758": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0996-2016#7125": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0178-2015#8393": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-1638-2015#2764": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0203-2016#6304": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-545-2015#8996": {
+   "mark": "correct",
+   "kind": "bulk"
+  },
+  "D-678-2013#5927": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-301-2014#6036": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-252-2014#8724": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-721-2013#2294": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-215-2014#6166": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-243-2014#5861": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0294-2016#9765": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-993-2013#5702": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-734-2015#9570": {
+   "mark": "correct",
+   "kind": "bulk"
+  },
+  "D-1553-2015#3163": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-841-2015#8021": {
+   "mark": "correct",
+   "kind": "bulk"
+  },
+  "D-1273-2016#4041": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-140-2014#5942": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-1277-2016#3604": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-559-2013#13865": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-313-2014#8524": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-943-2013#5694": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-1432-2016#7641": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0198-2016#8305": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0224-2015#8407": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-258-2014#5961": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0208-2015#6577": {
+   "mark": "correct",
+   "kind": "compounded",
+   "note": "commercial contrast agent repackaged into vials by a compounding pharmacy; marked compounded"
+  },
+  "D-1198-2015#4377": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-1292-2015#9327": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-1604-2015#2310": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-1397-2016#8689": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-1538-2016#9562": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-1018-2016#9966": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-1608-2015#4484": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-1197-2015#4353": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-866-2015#6713": {
+   "mark": "correct",
+   "kind": "bulk"
+  },
+  "D-0242-2016#8443": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-760-2013#4533": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0168-2022#12734": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0250-2020#11353": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0320-2018#9715": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0341-2017#7003": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0301-2017#7361": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0053-2022#13265": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0930-2017#9285": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-1165-2018#10073": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0744-2017#1588": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0501-2018#9912": {
+   "mark": "correct",
+   "kind": "bulk",
+   "note": "API sold for prescription compounding"
+  },
+  "D-0212-2022#12630": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0273-2020#11774": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-1106-2019#11176": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-1094-2019#11174": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0767-2017#2509": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-1676-2019#10921": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0260-2020#11367": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0771-2017#2084": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0119-2022#12716": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-1107-2019#10690": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0249-2017#8924": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0107-2022#13226": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0304-2017#7524": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0264-2017#7567": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0892-2018#2234": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0136-2018#9974": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0708-2017#1605": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0712-2017#2989": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0444-2019#10936": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0054-2022#12969": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-1640-2019#11490": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0233-2020#11824": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0151-2022#12586": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-1178-2019#4762": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-1101-2019#10771": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-1158-2019#4738": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-1251-2019#11125": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-1012-2018#4686": {
+   "mark": "incorrect",
+   "note": "retail botanical (kratom) powder; the kg match is a package size, not a bulk substance"
+  },
+  "D-0496-2018#7304": {
+   "mark": "correct",
+   "kind": "bulk",
+   "note": "API sold for prescription compounding"
+  },
+  "D-1086-2019#11221": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0350-2023#13183": {
+   "mark": "correct",
+   "kind": "bulk",
+   "note": "excipient raw material in a 20 kg bulk container"
+  },
+  "D-1193-2022#1271": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0416-2025#767": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-1205-2022#1276": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0691-2026#178": {
+   "mark": "correct",
+   "kind": "bulk"
+  },
+  "D-0517-2025#723": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0488-2026#339": {
+   "mark": "correct",
+   "kind": "bulk"
+  },
+  "D-0059-2024#13571": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0548-2022#14765": {
+   "mark": "incorrect",
+   "note": "finished dosage form in bulk packaging (bulk container, drum, bulk pack or pharmacy bulk package); not a drug substance, API, raw material or intermediate, and such products carry NDCs",
+   "kind": "bulk-finished"
+  },
+  "D-0154-2024#13141": {
+   "mark": "correct",
+   "kind": "bulk",
+   "note": "bulk API powder for prescription compounding"
+  },
+  "D-0112-2023#5038": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0414-2025#775": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-1227-2022#4606": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0117-2023#5140": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-1192-2022#1232": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0053-2024#12848": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-1200-2022#1270": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0116-2023#5107": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0538-2022#14626": {
+   "mark": "incorrect",
+   "note": "finished dosage form in bulk packaging (bulk container, drum, bulk pack or pharmacy bulk package); not a drug substance, API, raw material or intermediate, and such products carry NDCs",
+   "kind": "bulk-finished"
+  },
+  "D-0648-2022#14081": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0885-2023#16311": {
+   "mark": "incorrect",
+   "note": "finished dosage form in bulk packaging (bulk container, drum, bulk pack or pharmacy bulk package); not a drug substance, API, raw material or intermediate, and such products carry NDCs",
+   "kind": "bulk-finished"
+  },
+  "D-0298-2022#5437": {
+   "mark": "incorrect",
+   "note": "finished dosage form in bulk packaging (bulk container, drum, bulk pack or pharmacy bulk package); not a drug substance, API, raw material or intermediate, and such products carry NDCs",
+   "kind": "bulk-finished"
+  },
+  "D-0553-2022#14803": {
+   "mark": "incorrect",
+   "note": "finished dosage form in bulk packaging (bulk container, drum, bulk pack or pharmacy bulk package); not a drug substance, API, raw material or intermediate, and such products carry NDCs",
+   "kind": "bulk-finished"
+  },
+  "D-0760-2026#83": {
+   "mark": "correct",
+   "kind": "bulk",
+   "note": "API for prescription compounding"
+  },
+  "D-0863-2022#13800": {
+   "mark": "correct",
+   "kind": "bulk",
+   "note": "API for prescription compounding"
+  },
+  "D-0540-2022#14059": {
+   "mark": "incorrect",
+   "note": "finished dosage form in bulk packaging (bulk container, drum, bulk pack or pharmacy bulk package); not a drug substance, API, raw material or intermediate, and such products carry NDCs",
+   "kind": "bulk-finished"
+  },
+  "D-0039-2023#13281": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0927-2023#12799": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0525-2022#14812": {
+   "mark": "incorrect",
+   "note": "finished dosage form in bulk packaging (bulk container, drum, bulk pack or pharmacy bulk package); not a drug substance, API, raw material or intermediate, and such products carry NDCs",
+   "kind": "bulk-finished"
+  },
+  "D-1105-2023#14402": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0762-2026#115": {
+   "mark": "correct",
+   "kind": "bulk",
+   "note": "API for prescription compounding"
+  },
+  "D-1215-2022#1225": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0034-2023#13270": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0367-2026#439": {
+   "mark": "incorrect",
+   "note": "finished dosage form in bulk packaging (bulk container, drum, bulk pack or pharmacy bulk package); not a drug substance, API, raw material or intermediate, and such products carry NDCs",
+   "kind": "bulk-finished"
+  },
+  "D-0054-2024#13520": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0266-2023#13204": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0108-2023#5309": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0379-2026#461": {
+   "mark": "correct",
+   "kind": "bulk",
+   "note": "API for prescription compounding"
+  },
+  "D-1207-2022#1231": {
+   "mark": "correct",
+   "kind": "compounded"
+  },
+  "D-0230-2025#824": {
+   "mark": "incorrect",
+   "note": "finished dosage form in bulk packaging (bulk container, drum, bulk pack or pharmacy bulk package); not a drug substance, API, raw material or intermediate, and such products carry NDCs",
+   "kind": "bulk-finished"
+  }
+ },
+ "B": {
+  "D-0757-2016#8543": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-0475-2016#3326": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-1487-2014#3298": {
+   "mark": "not"
+  },
+  "D-0449-2016#3363": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-0154-2016#8374": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-0600-2016#8588": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-0746-2016#6419": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-827-2013#5873": {
+   "mark": "not"
+  },
+  "D-0785-2016#6841": {
+   "mark": "not"
+  },
+  "D-0064-2015#8768": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-1235-2014#7525": {
+   "mark": "not"
+  },
+  "D-0752-2016#8548": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-478-2013#5956": {
+   "mark": "missed",
+   "kind": "compounded",
+   "note": "no firm named; multi-dose vial with a 30-day expiration, the form of the pharmacy-compounded HCG records"
+  },
+  "D-0882-2016#6643": {
+   "mark": "not"
+  },
+  "D-0431-2016#1616": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-0167-2016#6562": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-0750-2016#8570": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-1183-2016#1757": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-1038-2015#9326": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-0424-2016#3335": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-1303-2014#8363": {
+   "mark": "not"
+  },
+  "D-0145-2016#8362": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-1456-2016#2726": {
+   "mark": "missed",
+   "kind": "bulk",
+   "note": "USP chemical in 500 g bottles, a raw material"
+  },
+  "D-1041-2015#7978": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-0137-2016#8385": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-0629-2016#9456": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-0523-2016#6752": {
+   "mark": "not"
+  },
+  "D-0772-2016#6425": {
+   "mark": "not"
+  },
+  "D-1041-2016#8771": {
+   "mark": "not"
+  },
+  "D-325-2016#6526": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-240-2013#5730": {
+   "mark": "not"
+  },
+  "D-1109-2014#3503": {
+   "mark": "missed",
+   "kind": "compounded",
+   "note": "no firm named; a two-ester mixture with no commercial equivalent"
+  },
+  "D-0426-2016#4383": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-0465-2016#1629": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-0448-2016#1613": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-1333-2014#6131": {
+   "mark": "not"
+  },
+  "D-300-2013#3317": {
+   "mark": "not"
+  },
+  "D-1020-2015#7928": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-1329-2014#5803": {
+   "mark": "not"
+  },
+  "D-0057-2015#6179": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-0383-2021#12309": {
+   "mark": "not"
+  },
+  "D-1601-2019#11597": {
+   "mark": "not"
+  },
+  "D-1303-2019#3745": {
+   "mark": "not"
+  },
+  "D-0207-2021#4583": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-1113-2020#12110": {
+   "mark": "not"
+  },
+  "D-1090-2018#4926": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-0601-2020#11434": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-0570-2017#7440": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-0967-2019#10893": {
+   "mark": "not"
+  },
+  "D-0259-2018#5205": {
+   "mark": "not"
+  },
+  "D-1092-2017#9872": {
+   "mark": "not"
+  },
+  "D-1632-2019#11504": {
+   "mark": "not"
+  },
+  "D-1087-2017#7608": {
+   "mark": "not"
+  },
+  "D-1773-2019#14245": {
+   "mark": "missed",
+   "kind": "compounded",
+   "note": "IV admixture of a commercial product prepared by an infusion pharmacy"
+  },
+  "D-0157-2021#12793": {
+   "mark": "not"
+  },
+  "D-1744-2019#820": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-0354-2021#12327": {
+   "mark": "not"
+  },
+  "D-0424-2018#1696": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-1615-2019#11512": {
+   "mark": "not"
+  },
+  "D-1554-2019#11663": {
+   "mark": "not"
+  },
+  "D-1106-2017#9513": {
+   "mark": "not"
+  },
+  "D-0831-2017#1591": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-0018-2020#11817": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-0830-2017#1636": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-1778-2019#15010": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-0171-2018#7465": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-1442-2020#12230": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-1603-2019#11452": {
+   "mark": "not"
+  },
+  "D-0961-2017#3082": {
+   "mark": "not"
+  },
+  "D-0635-2018#1731": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-0715-2021#12512": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-0231-2018#10153": {
+   "mark": "not"
+  },
+  "D-1724-2019#11484": {
+   "mark": "not"
+  },
+  "D-0658-2021#4517": {
+   "mark": "not"
+  },
+  "D-0368-2021#13036": {
+   "mark": "not"
+  },
+  "D-0881-2021#12917": {
+   "mark": "missed",
+   "kind": "bulk",
+   "note": "homeopathic bulk formula labeled For Manufacturing Use Only, an intermediate"
+  },
+  "D-1154-2017#9466": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-0864-2021#12565": {
+   "mark": "not"
+  },
+  "D-0699-2020#1344": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-0697-2018#10099": {
+   "mark": "not"
+  },
+  "D-1284-2022#13623": {
+   "mark": "not"
+  },
+  "D-0283-2026#475": {
+   "mark": "not"
+  },
+  "D-0522-2024#1011": {
+   "mark": "not"
+  },
+  "D-0826-2023#13389": {
+   "mark": "not"
+  },
+  "D-0838-2023#13460": {
+   "mark": "not"
+  },
+  "D-0829-2023#13393": {
+   "mark": "not"
+  },
+  "D-1458-2022#1195": {
+   "mark": "not"
+  },
+  "D-1468-2022#1217": {
+   "mark": "not"
+  },
+  "D-0053-2026#16957": {
+   "mark": "missed",
+   "kind": "compounded",
+   "note": "peptide and injectable line of a compounding outsourcer; judgment from the product line"
+  },
+  "D-0457-2023#1097": {
+   "mark": "not"
+  },
+  "D-0492-2022#12657": {
+   "mark": "not"
+  },
+  "D-0781-2023#12717": {
+   "mark": "not"
+  },
+  "D-0479-2022#12658": {
+   "mark": "not"
+  },
+  "D-0666-2026#147": {
+   "mark": "not"
+  },
+  "D-0391-2022#13109": {
+   "mark": "not"
+  },
+  "D-0273-2026#532": {
+   "mark": "not"
+  },
+  "D-0451-2024#12963": {
+   "mark": "not"
+  },
+  "D-1428-2022#1216": {
+   "mark": "not"
+  },
+  "D-0986-2022#13481": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-0813-2023#12714": {
+   "mark": "not"
+  },
+  "D-0388-2026#407": {
+   "mark": "not"
+  },
+  "D-0264-2023#5378": {
+   "mark": "not"
+  },
+  "D-0273-2023#16580": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-1449-2022#1218": {
+   "mark": "not"
+  },
+  "D-1366-2022#1162": {
+   "mark": "not"
+  },
+  "D-0225-2024#5135": {
+   "mark": "not"
+  },
+  "D-1398-2022#1157": {
+   "mark": "not"
+  },
+  "D-0200-2025#846": {
+   "mark": "not"
+  },
+  "D-0569-2026#268": {
+   "mark": "not"
+  },
+  "D-0226-2024#5493": {
+   "mark": "not"
+  },
+  "D-0193-2023#13670": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-0499-2022#12652": {
+   "mark": "not"
+  },
+  "D-1516-2022#5153": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-0287-2026#526": {
+   "mark": "not"
+  },
+  "D-0216-2023#945": {
+   "mark": "missed",
+   "kind": "compounded"
+  },
+  "D-0864-2023#13093": {
+   "mark": "not"
+  },
+  "D-0209-2025#15573": {
+   "mark": "not"
+  },
+  "D-0453-2025#752": {
+   "mark": "not"
+  },
+  "D-0049-2026#17036": {
+   "mark": "missed",
+   "kind": "compounded",
+   "note": "same firm and product line as E3 #9"
+  },
+  "D-0278-2026#565": {
+   "mark": "not"
+  }
+ }
+}

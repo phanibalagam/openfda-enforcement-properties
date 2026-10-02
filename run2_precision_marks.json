@@ -1,0 +1,96 @@
+{
+ "D-0699-2023": {
+  "mark": "correct"
+ },
+ "D-0044-2020": {
+  "mark": "correct",
+  "note": "10-digit, NDC-labeled; split not resolvable from the text"
+ },
+ "D-0882-2023": {
+  "mark": "correct"
+ },
+ "D-0436-2025": {
+  "mark": "correct"
+ },
+ "D-0246-2025": {
+  "mark": "correct"
+ },
+ "D-66458-1": {
+  "mark": "correct"
+ },
+ "D-0499-2023": {
+  "mark": "correct"
+ },
+ "D-0498-2019": {
+  "mark": "correct"
+ },
+ "D-0268-2022": {
+  "mark": "correct"
+ },
+ "D-1046-2019": {
+  "mark": "correct"
+ },
+ "D-0235-2016": {
+  "mark": "correct"
+ },
+ "D-0806-2022": {
+  "mark": "correct"
+ },
+ "D-0611-2018": {
+  "mark": "correct"
+ },
+ "D-1138-2017": {
+  "mark": "correct"
+ },
+ "D-0754-2018": {
+  "mark": "correct"
+ },
+ "D-1114-2019": {
+  "mark": "correct"
+ },
+ "D-1362-2019": {
+  "mark": "correct"
+ },
+ "D-0652-2024": {
+  "mark": "correct"
+ },
+ "D-527-2013": {
+  "mark": "correct"
+ },
+ "D-0689-2023": {
+  "mark": "correct"
+ },
+ "D-0791-2018": {
+  "mark": "correct"
+ },
+ "D-1281-2022": {
+  "mark": "correct"
+ },
+ "D-1621-2020": {
+  "mark": "correct"
+ },
+ "D-0955-2022": {
+  "mark": "correct"
+ },
+ "D-0392-2025": {
+  "mark": "correct"
+ },
+ "D-1668-2019": {
+  "mark": "correct"
+ },
+ "D-0589-2018": {
+  "mark": "correct",
+  "note": "the UPC after it was correctly not extracted"
+ },
+ "D-0626-2018": {
+  "mark": "correct"
+ },
+ "D-1294-2015": {
+  "mark": "incorrect",
+  "note": "labeled NDC, but 99999 is a placeholder labeler and a 5-4-2 with no zero-padded segment cannot be a real NDC"
+ },
+ "D-0786-2022": {
+  "mark": "correct",
+  "note": "no NDC label; 5-4-1 in the NDC position of an OTC hand sanitizer listing"
+ }
+}

@@ -1,0 +1,26 @@
+Data, results and figures in this repository
+============================================
+
+data/
+-----
+`data/drug-enforcement-0001-of-0001.json.zip` is an unmodified copy of the openFDA
+drug enforcement bulk export, a work of the United States federal government and
+therefore in the public domain in the United States. No copyright is claimed over
+it by the author, and no license is granted or needed.
+
+It is redistributed here deliberately. The export is a snapshot rather than a
+history, so re-downloading it on a later date returns a different file and the
+numbers reported in the accompanying manuscript would not reproduce. The exact
+snapshot the analysis was run on is therefore included, with its SHA-256 recorded
+in the README.
+
+results/ and figures/
+---------------------
+The recorded results and figure sources are the author's own derived work and are
+licensed under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0). https://creativecommons.org/licenses/by/4.0/
+
+Code
+----
+All code in this repository is licensed separately under the MIT License. See
+LICENSE.

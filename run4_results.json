@@ -1,0 +1,2758 @@
+{
+ "data": {
+  "sha256": "c6eb46526a3ad52102a88b65727874c2e23c43300b27e704eada05960d755092",
+  "records": 17975
+ },
+ "rule_sources": {
+  "run2_ndc_recovery.py": "892aacebdeb522adef4ca4f2beef658b8ac9a61f843f4631cb26d77f4571b263",
+  "run3_parser_validation.py": "2664f53f33943376233eb98fe4be2abbf7b0478e68f028886e053351ff9dad37"
+ },
+ "date_field": "report_date (year), as in runs 1-3",
+ "eras": [
+  [
+   "E1",
+   2013,
+   2016
+  ],
+  [
+   "E2",
+   2017,
+   2021
+  ],
+  [
+   "E3",
+   2022,
+   2026
+  ]
+ ],
+ "seeds_A": {
+  "E1": 41001,
+  "E2": 41002,
+  "E3": 41003
+ },
+ "seeds_B": {
+  "E1": 42001,
+  "E2": 42002,
+  "E3": 42003
+ },
+ "A": {
+  "E1": {
+   "population": 2465,
+   "population_compounding_rule": 1947,
+   "population_bulk_rule": 526,
+   "sample": [
+    {
+     "key": "D-436-2014#2901",
+     "year": 2014,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Papav/Phentol/PG E1, 30 mg/1 mg/20 mcg/mL, injectable, Rx only, Specialty Medicine Compounding Pharmacy, 350 S Lafayette, South Lyon, MI 48178",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-281-2014#5758",
+     "year": 2013,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Test Cypionate 20mg/ml 5ml, Main Street Compounding Pharmacy, 126 East Main Street, Newbern, TN 38059, 888-658-6200",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0996-2016#7125",
+     "year": 2016,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "M.l.C. Methyl B12, 25 MG/50MG/25MG/1 MG/ML, packaged in 5mL vials, Rx only, Well Care Compounding Pharmacy Las Vegas, NV 89121",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0178-2015#8393",
+     "year": 2014,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "BEVACIZUMAB/DEXAMETHASONE, 1.25/0.5 mL, Injectable, 0.05 mL plastic syringe, RX, Creative Compounds, Wilsonville, OR 97070.",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1638-2015#2764",
+     "year": 2015,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Sufentanil 50 mcg/ml + Bupivacaine 0.25 mg/ml Solution, Sterile-Preservative Free, The Compounding Pharmacy of America, Knoxville, TN",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0203-2016#6304",
+     "year": 2015,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "BIEST TD 80/20 (Estradiol (E2) Trit (Yellow)/Estriol USP Micronized (E3) : PROG (Progesterone USP Micronized) : DHEA (Dehydroepiandrosterone Micronized) IN VERSABASE W/V (weight/volume) 4 : 67.5 :10MG/ML Transdermal cream, dispensed in 10 mL prefilled, amber syringes, Rx only, The Compounder, 340 Marshall Avenue Unit 100, Aurora, IL 60506.",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-545-2015#8996",
+     "year": 2015,
+     "rule_compounding": false,
+     "rule_bulk": true,
+     "has_ndc": false,
+     "description": "Bismuth Subcarbonate active pharmaceutical ingredient packaged in varying grams or kg in bags or drums, Attix Pharmaceuticals, 184 Front Street East, Unit 801, Toronto, Ontario M5A 4N3, Canada",
+     "mark": "correct",
+     "kind": "bulk",
+     "note": ""
+    },
+    {
+     "key": "D-678-2013#5927",
+     "year": 2013,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Test cyp 75 mg-estradiol cyp 5 mg/ml, Clinical Specialties Compounding Pharmacy, 318 Baston Road, Augusta, GA 30907",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-301-2014#6036",
+     "year": 2013,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Testosterone Pellets 200mg, Main Street Compounding Pharmacy, 126 East Main Street, Newbern, TN 38059, 888-658-6200",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-252-2014#8724",
+     "year": 2013,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Oral B-12 30ml--cotton candy, Main Street Compounding Pharmacy, 126 East Main Street, Newbern, TN 38059, 888-658-6200",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-721-2013#2294",
+     "year": 2013,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Dextrose 50% Solution, compounded by Olympia Pharmacy, Orlando, FL",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-215-2014#6166",
+     "year": 2013,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Methylprednisolone 40mg PF 10ml, Main Street Compounding Pharmacy, 126 East Main Street, Newbern, TN 38059, 888-658-6200",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-243-2014#5861",
+     "year": 2013,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Minoxidil 10% 60ml, Main Street Compounding Pharmacy, 126 East Main Street, Newbern, TN 38059, 888-658-6200",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0294-2016#9765",
+     "year": 2015,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": true,
+     "description": "Zinc Sulfate (1 mg/mL), 10 mL Single Dose Vial, For IV Use After Dilution, Rx only, Compounded by US Compounding Pharmacy, Conway, Arkansas, 72032, NDC 62295-3226-07",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-993-2013#5702",
+     "year": 2013,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "PUMICE/LIDOCAINE HCL 1.5%/1% INJ SUSP, all presentations, FOR INTRAVENO AND SQ USE ONLY, STERILE, RX ONLY, Compounded by Beacon Hill Medical Pharmacy PC, dba Rxtra Solutions, Southfield, MI",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-734-2015#9570",
+     "year": 2015,
+     "rule_compounding": false,
+     "rule_bulk": true,
+     "has_ndc": false,
+     "description": "Irbesartan active pharmaceutical ingredient packaged in varying grams or kg in bags or drums, Attix Pharmaceuticals, 184 Front Street East, Unit 801, Toronto, Ontario M5A 4N3, Canada",
+     "mark": "correct",
+     "kind": "bulk",
+     "note": ""
+    },
+    {
+     "key": "D-1553-2015#3163",
+     "year": 2015,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Hydromorphone 60 mg/ml + Bupivacaine 30 mg/ml Solution, Sterile-Preservative Free, The Compounding Pharmacy of America, Knoxville, TN",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-841-2015#8021",
+     "year": 2015,
+     "rule_compounding": false,
+     "rule_bulk": true,
+     "has_ndc": false,
+     "description": "Phentolamine Mesylate active pharmaceutical ingredient packaged in varying grams or kg in bags or drums, Attix Pharmaceuticals, 184 Front Street East, Unit 801, Toronto, Ontario M5A 4N3, Canada",
+     "mark": "correct",
+     "kind": "bulk",
+     "note": ""
+    },
+    {
+     "key": "D-1273-2016#4041",
+     "year": 2016,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": true,
+     "description": "Promethazine 6.25 mg added to 0.9% Sodium Chloride 50 mL in 100 mL B/Braun PAB bag, Rx Only, Compounded by PHARMAKON Pharmaceuticals, Noblesville, IN 46060, NDC 45183-0177-41",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-140-2014#5942",
+     "year": 2013,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "HCG 380 iu prefilled syringes, Main Street Compounding Pharmacy, 126 East Main Street, Newbern, TN 38059, 888-658-6200",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1277-2016#3604",
+     "year": 2016,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": true,
+     "description": "Phenylephrine HCI 40mg/250 mL in 0.9% Sodium Chloride 250 mL bag, Rx Only, Compounded by PHARMAKON Pharmaceuticals, Noblesville, IN 46060, NDC 45183-0189-02",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-559-2013#13865",
+     "year": 2013,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Lipoic Acid 25 mg/mL Injectable, 100 mL vials, compounded by The Compounding Shop, St. Petersburg, FL",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-313-2014#8524",
+     "year": 2013,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Triamcinolone PF 40mg 2ml, Main Street Compounding Pharmacy, 126 East Main Street, Newbern, TN 38059, 888-658-6200",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-943-2013#5694",
+     "year": 2013,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "CALCIUM CHLORIDE 100 MG/ML INJECTABLE, all presentations, FOR INTRAVENO AND SQ USE ONLY, STERILE, RX ONLY, Compounded by Beacon Hill Medical Pharmacy PC, dba Rxtra Solutions, Southfield, MI",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1432-2016#7641",
+     "year": 2016,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": true,
+     "description": "6.66 mcg/mL Fentanyl Citrate and 0.125% Bupivacaine HCl (Preservative Free) in 0.9% Sodium Chloride; 15 mL in 20 mL BD Syringe, Service Code 2T6993Rx Only, Compounded by PharMEDium Services, LLC, Memphis, TN 36141, NDC 61553-993-86",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0198-2016#8305",
+     "year": 2015,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "BIEST TD 80/20 (Estradiol (E2) Trit (Yellow)/Estriol USP Micronized (E3) : PROG (Progesterone USP Micronized) : DHEA (Dehydroepiandrosterone Micronized) : TESTO (Testosterone Trit) W/V (weight/volume) VERSABASE 5.0 : 30 : 2.5 : 0.25 MG/ML Transdermal cream, dispensed in 10 mL prefilled, amber syringes, Rx only, The Compounder, 340 Marshall Avenue Unit 100, Aurora, IL 60506.",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0224-2015#8407",
+     "year": 2014,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "TESTOSTERONE CYPIONATE (SESAME OIL/CMPD), 200mg/mL, injectable, 5 mL glass vial, RX, Creative Compounds, Wilsonville, OR 97070",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-258-2014#5961",
+     "year": 2013,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Post-menopausal HCG Pk 3rd mont, Main Street Compounding Pharmacy, 126 East Main Street, Newbern, TN 38059, 888-658-6200",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0208-2015#6577",
+     "year": 2014,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "OMNIPAQUE, 300mgI/mL, injectable, 2 mL glass vial, RX, Creative Compounds, Wilsonville, OR 97070",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": "commercial contrast agent repackaged into vials by a compounding pharmacy; marked compounded"
+    },
+    {
+     "key": "D-1198-2015#4377",
+     "year": 2015,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Potassium Chloride, Dextrose 5% LR 1000 mL with 40mEq KCL, Qty: 1 1000 mL Bag, Rx Only. Compounded by: United Medical IV Center (Little Rock) 1527 South Bowman Rd. Ste. D Little Rock, AR 72211-4200.",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1292-2015#9327",
+     "year": 2015,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": true,
+     "description": "S-methylcobalamin 25 mg/mL (PF) Injection, Rx Only, 10 mL Vial, Apothecary Shoppe, Compounding Pharmacy, Tulsa OK 74135, NDC 13861-1701-19",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1604-2015#2310",
+     "year": 2015,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Morphine 42 mg/ml + Bupivacaine 8 mg/ml Solution, Sterile-Preservative Free, The Compounding Pharmacy of America, Knoxville, TN",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1397-2016#8689",
+     "year": 2016,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": true,
+     "description": "2 mcg/mL Fentanyl Citrate and 0.15% Bupivacaine HCl (Preservative Free) in 0.9% Sodium Chloride, 200 mL in 250 mL Baxter Intravia Bag, Service Code 2K8433, NDC 61553-433-58, Rx Only, Compounded by PharMEDium Services, LLC, Memphis, TN 36141",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1538-2016#9562",
+     "year": 2016,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Moxifloxacin HCl 1 mg/ml (0.1mg/0.1ml) and BSS solution, 2ml Single use vial, Rx, Vital Care Compounder, Hattiesburg, MS 39402",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1018-2016#9966",
+     "year": 2016,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "TRI-MIX # 3, packaged in 5mL vials, Rx only, Well Care Compounding Pharmacy Las Vegas, NV 89121",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1608-2015#4484",
+     "year": 2015,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Morphine 50 mg/ml + Bupivacaine 2.5 mg/ml Solution, Sterile-Preservative Free, The Compounding Pharmacy of America, Knoxville, TN",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1197-2015#4353",
+     "year": 2015,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Vancomycin 1000mg / NS 100mL, Packaged in 100 mL Bags, Rx Only. Compounded by: United Medical IV Center (Little Rock) 1527 South Bowman Rd. Ste. D Little Rock, AR 72211-4200.",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-866-2015#6713",
+     "year": 2015,
+     "rule_compounding": false,
+     "rule_bulk": true,
+     "has_ndc": false,
+     "description": "Procarbazine HCl active pharmaceutical ingredient packaged in varying grams or kg in bags or drums, Attix Pharmaceuticals, 184 Front Street East, Unit 801, Toronto, Ontario M5A 4N3, Canada",
+     "mark": "correct",
+     "kind": "bulk",
+     "note": ""
+    },
+    {
+     "key": "D-0242-2016#8443",
+     "year": 2015,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": true,
+     "description": "Bi-Mix (Papaverine 30 mg/mL, Phentolamine 1 mg/mL), 5 mL Multi-Dose Vial, Rx only, Compounded by US Compounding Pharmacy, Conway, Arkansas, 72032, NDC 62295-3254-05",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-760-2013#4533",
+     "year": 2013,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "MICC (Methionine, Inositol, Choline, Cyanocobalamin, Chromium) Inj and MICC 25/50/330 Inj, compounded by Olympia Pharmacy, Orlando, FL",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    }
+   ],
+   "marked": 40,
+   "correct": 40,
+   "precision_pct": 100.0,
+   "wilson95": [
+    91.24,
+    100.0
+   ],
+   "correct_kind": {
+    "compounded": 36,
+    "bulk": 4,
+    "both": 0
+   },
+   "incorrect_bulk_finished": 0,
+   "by_rule_component": {
+    "compounding_rule": [
+     36,
+     36
+    ],
+    "bulk_rule": [
+     4,
+     4
+    ]
+   }
+  },
+  "E2": {
+   "population": 1094,
+   "population_compounding_rule": 1011,
+   "population_bulk_rule": 93,
+   "sample": [
+    {
+     "key": "D-0168-2022#12734",
+     "year": 2021,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "TESTOSTERONE BI-BLEND 100/100MG/ML INJECTABLE, Rx only, Talon Compounding Pharmacy, 2950 Thousand Oaks Drive Ste 25, San Antonio, Texas 78247",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0250-2020#11353",
+     "year": 2019,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "S-SODIUM SELINITE 0.219% INJ, 19ml glass vials, Rx only, Red Mountain Compounding Rx",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0320-2018#9715",
+     "year": 2018,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "All sterile drug preparations remaining within expiry prepared from Fentanyl Citrate Base Solution dispensed between October 16, 2017 and November 17, 2017 Compounded by Intrathecal Compounding Specialists, Scott, LA 70583.",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0341-2017#7003",
+     "year": 2017,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Arginine/Citrulline/Ornit+Lido 100/100/100/10 mg/mL Injectable, 10 mL vials, Compounded by Wells Pharmacy Network, LLC, Ocala, FL",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0301-2017#7361",
+     "year": 2017,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Testosterone Cypionate/Zinc Gluconate in Sesame Oil, 200 mg/2 mg/mL, (5 ML and 10 ML). Compounded by Tri-Coast Pharmacy",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0053-2022#13265",
+     "year": 2021,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "ACETYLCYSTEINE 10% OPTH SOLN, Red Mountain Compounding Rx",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0930-2017#9285",
+     "year": 2017,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": true,
+     "description": "Ropivacaine HCl 0.2% 400 mL Total Volume in an ON-Q Pump in 0.9% Sodium Chloride Injection in 400 mL, Rx Only, Compounded by PharMEDium Services, LLC, Sugar Land, TX 77478, NDC: 61553-256-09",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1165-2018#10073",
+     "year": 2018,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Testosterone Enanthate/Cypionate injectable, 126/54 mg/mL, packaged in a) 3 mL and b) 5 mL Multiple Dose vials, Rx only, Central Drugs Compounding Pharmacy, 520 W. La Habra Blvd, La Habra, CA 90631",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0744-2017#1588",
+     "year": 2017,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "TRI MIX 20/30/1 5ML MDV MCG/MG/MG/ML INJ, Injection, 20mcg/30mg/1mg/mL, Rx only, 5 mL Glass/Multiple Dose vial, Prepared by Key Compounding Pharmacy",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0501-2018#9912",
+     "year": 2018,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": true,
+     "description": "Leucovorin Calcium USP for prescription compounding, packaged a) 100mg, (NDC 58597-8084-1); b) 1g (NDC 58597-8084-3); c) 5g (NDC 58597-8084-4); d) 25 g (NDC 58597-8084-5), RX only, packed by American Pharmaceutical Ingredients, LLC 6650 Highland Road, Waterford, MI 48327",
+     "mark": "correct",
+     "kind": "bulk",
+     "note": "API sold for prescription compounding"
+    },
+    {
+     "key": "D-0212-2022#12630",
+     "year": 2021,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "TRI-MIX PAPAVERINE 30/PHENTOLAMINE 2/PGE-1 30 INJ INJECTABLE, Rx only, Talon Compounding Pharmacy, 2950 Thousand Oaks Drive Ste 25, San Antonio, Texas 78247",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0273-2020#11774",
+     "year": 2019,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "S-METHYLCOBALAMIN 5,000MCG/ML MDV Injection, 30 ML glass vial, Rx Only, Red Mountain Compounding RX",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1106-2019#11176",
+     "year": 2019,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "PAPAVERINE-PHENTOLAMINE-PGE1 9-1 MG-10 MCG/ML* INJECTABLE, 18 ml, Professional Compounding Pharmacy, 996 NW Circle Blvd. #105 Corvallis, OR 97330 .",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1094-2019#11174",
+     "year": 2019,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "PAPAVERINE-PHENTOLAMINE-PGE1 12-1MG-10MCG/ML INJECTABLE, (a) 10ml, (b) 9ml, Professional Compounding Pharmacy, 996 NW Circle Blvd. #105 Corvallis, OR 97330",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0767-2017#2509",
+     "year": 2017,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "GSH/NAC INH PV 150/50MG/ML SOLN, Inhalation Solution, 150mg/50mg/mL, Rx only, 4mL Plastic/Multiple Dose vial, Prepared by Key Compounding Pharmacy",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1676-2019#10921",
+     "year": 2019,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": true,
+     "description": "MANGANESE SULFATE MONOHYDRATE (PFV) 0.1MG/ML INJ, 10 ML per syringe, RXQ Compounding, 340 West State Street, Unit 9, Athens, OH 45701. NDC: 70731-0952-10",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0260-2020#11367",
+     "year": 2019,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "S-DMSO 6.25% OPTH SOLN, 10 ml dropper bottle, Rx Only, Red Mountain Compounding Rx",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0771-2017#2084",
+     "year": 2017,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "PROCAINE HCL 50ML MDV (CALIF) 1% INJ, Injection, 1%, Rx only, 50mL Glass/Multiple Dose vial, Prepared by Key Compounding Pharmacy",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0119-2022#12716",
+     "year": 2021,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "IC B COMPLEX INJ INJECTABLE, Rx only, Talon Compounding Pharmacy, 2950 Thousand Oaks Drive Ste 25, San Antonio, Texas 78247",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1107-2019#10690",
+     "year": 2019,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "PAPAVERINE-PHENTOLAMINE-PGE1 30-1 MG-20 MCG/ML* INJECTABLE, 5 ml, Professional Compounding Pharmacy, 996 NW Circle Blvd. #105 Corvallis, OR 97330 .",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0249-2017#8924",
+     "year": 2017,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "BCAA (30 ML) (Isoleucine (L) 15 mg + Leucine (L) 10 mg+ Valine 40 mg+ Lidocaine HCL 10 mg/mL). Compounded by Tri-Coast Pharmacy.",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0107-2022#13226",
+     "year": 2021,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "BI-MIX PAPAVERINE 40/PHENTOLAMINE 2 INJ INJECTABLE, Rx only, Talon Compounding Pharmacy, 2950 Thousand Oaks Drive Ste 25, San Antonio, Texas 78247",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0304-2017#7524",
+     "year": 2017,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Testosterone Cypionate/Enanthate/Propionate, 160 mg/20 mg/20 mg/mL, (5 ML). Compounded by Tri-Coast Pharmacy",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0264-2017#7567",
+     "year": 2017,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Infuvite IV (Ascorbic Acid 200 mg+ Vitamin A Acetate 330 IU+Vitamin D3 200 IU+Thiamine HCL 6 mg+Riboflavin-5-Phosphate Sod 3.6 mg+Pyridoxine HCL 6 mg+Niacinamide 40 mg+Dexpanthenol 15 mg+Vitamin 40E Succinate 10 IU+Phytonadione (K1) 150 mcg/5 mL). 30 ML. Compounded by Tri-Coast Pharmacy.",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0892-2018#2234",
+     "year": 2018,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": true,
+     "description": "ESTRADIOL 20mg PELLET, 1-count 3ml amber vial. RX only. Compounded by: Qualgen 14844 Bristol Park Blvd, Edmond OK 73013. NDC 69761-020-01",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0136-2018#9974",
+     "year": 2018,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": true,
+     "description": "Fentanyl 10 mcg in 0.9% Sodium Chloride 1 mL, 1 mL Vial, Concentration: 10 mcg/mL, This is a compounded injectable drug; Rx only; Hospital/office use only. SSM St. Clare Outsourcing Facility, Fenton, MO. --- NDC: 88890-9010-81",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0708-2017#1605",
+     "year": 2017,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "5-MTHF 10ML MDV (CALIF) 5MG/ML INJ, Injection, 5mg/mL, Rx only, 10mLGlass/Multiple Dose vial, Prepared by Key Compounding Pharmacy",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0712-2017#2989",
+     "year": 2017,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "ATROPINE SULFATE 0.5% OPHTH, Ophthalmic 0.50%, Rx only, 15mlLGlass /Multiple Dose vial, Prepared by Key Compounding Pharmacy",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0444-2019#10936",
+     "year": 2019,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Amino Blend Injection, Ornithine/Arginine/Lysine/Lidocaine 75 mg/75 mg/75 mg/10 mg/mL 10 mL, Rx Only, Promise Pharmacy Compounding Specialists 31818 US Hwy 19N, Palm Harbor, FL 34684",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0054-2022#12969",
+     "year": 2021,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "ACETYLCYSTEINE 2% OPTH SOLN, Rx only, Red Mountain Compounding Rx",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1640-2019#11490",
+     "year": 2019,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": true,
+     "description": "BUFFERED LIDOCAINE HCL 1% INJECTION SOL (PF) SYR, 0.5 ML per vial, RXQ Compounding, 340 West State Street, Unit 9, Athens, OH 45701. NDC: 70731-0139-84",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0233-2020#11824",
+     "year": 2019,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "S-LIDOCAINE HCL 2% INHALATION SOLN SYRINGES, 2ML syringe, Red Mountain Compounding Rx",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0151-2022#12586",
+     "year": 2021,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "TEST CYPIONATE 200MG/ANASTROZOLE 0.5MG/DUTASTERIDE 0.5MG/ML IN OIL INJECTABLE, Rx only, Talon Compounding Pharmacy, 2950 Thousand Oaks Drive Ste 25, San Antonio, Texas 78247",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1178-2019#4762",
+     "year": 2019,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Serum Tears 30% Drops, 1 mL Droptainer, Anderson Compounding Pharmacy 310 Bluff City Hwy, Bristol, TN.",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1101-2019#10771",
+     "year": 2019,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "PAPAVERINE-PHENTOLAMINE-PGE1 30-2 MG-30 MCG/ML* INJECTABLE, 5ml, Professional Compounding Pharmacy, 996 NW Circle Blvd. #105 Corvallis, OR 97330 .",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1158-2019#4738",
+     "year": 2019,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Heparin 10,000 U/Bupivacaine 0.5% 10 mL, Sodium Bicarbonate 8.4% 50 mL, 61 mL Syringe, Anderson Compounding Pharmacy 310 Bluff City Hwy, Bristol, TN.",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1251-2019#11125",
+     "year": 2019,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": true,
+     "description": "HYDROmorphone 20 mg/100 mL Injectable Solution, Hydromorphone HCl 20 mg 0.9% Sodium Chloride 100 mL, Sterile single use bag, Compounded Drug, Avella of Houston 9265 Kirby Dr., Houston, TX 77054 (877) 794-0404, NDC: 42852-221-10",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1012-2018#4686",
+     "year": 2018,
+     "rule_compounding": false,
+     "rule_bulk": true,
+     "has_ndc": false,
+     "description": "Gaia Kratom (mitragyna speciosa) powder, White Horn, 1oz, 250g, 1kg packages, Gaia Ethnobotanical.com",
+     "mark": "incorrect",
+     "kind": "",
+     "note": "retail botanical (kratom) powder; the kg match is a package size, not a bulk substance"
+    },
+    {
+     "key": "D-0496-2018#7304",
+     "year": 2018,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": true,
+     "description": "Imiquimod USP for prescription compounding, packaged in a) 1g (NDC 58597-8317-1); b) 10g (NDC 58597-8317-3); c) 25g (NDC 58597-8317-4) RX only, packed by American Pharmaceutical Ingredients, LLC 6650 Highland Road, Waterford, MI 48327",
+     "mark": "correct",
+     "kind": "bulk",
+     "note": "API sold for prescription compounding"
+    },
+    {
+     "key": "D-1086-2019#11221",
+     "year": 2019,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "SODIUM CHLORIDE PRES-FREE 5% OPHTH STERILE* SOLUTION. 20ml eye drops, Professional Compounding Pharmacy, 996 NW Circle Blvd. #105 Corvallis, OR 97330",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    }
+   ],
+   "marked": 40,
+   "correct": 39,
+   "precision_pct": 97.5,
+   "wilson95": [
+    87.12,
+    99.56
+   ],
+   "correct_kind": {
+    "compounded": 37,
+    "bulk": 2,
+    "both": 0
+   },
+   "incorrect_bulk_finished": 0,
+   "by_rule_component": {
+    "compounding_rule": [
+     39,
+     39
+    ],
+    "bulk_rule": [
+     0,
+     1
+    ]
+   }
+  },
+  "E3": {
+   "population": 299,
+   "population_compounding_rule": 215,
+   "population_bulk_rule": 95,
+   "sample": [
+    {
+     "key": "D-0350-2023#13183",
+     "year": 2023,
+     "rule_compounding": false,
+     "rule_bulk": true,
+     "has_ndc": false,
+     "description": "Avicel PH- 102 NF, Microcrystalline Cellulose, NF, Ph. Eur., Jp, Net Content/Gross Weight 20.0 KG / 21.1 KG bulk container, Manufactured by: DuPont Nutrition USA, Inc., 1301 Ogletown Road, Newark, DE 19711, USA. Headquarters: DuPont Nutrition Biosciences ApS, Langebrogade 1, Copenhagen, Denmark",
+     "mark": "correct",
+     "kind": "bulk",
+     "note": "excipient raw material in a 20 kg bulk container"
+    },
+    {
+     "key": "D-1193-2022#1271",
+     "year": 2022,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Alprostadil/Papaverine/Phentolamine 60mcg/30mg/3mg/mL, 3mL-vial, Refrigerate, Tailor Made Compounding",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0416-2025#767",
+     "year": 2025,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": true,
+     "description": "TESTOSTERONE PELLET 200 mg BLUNT, 1 Pellet for Subcutaneous Use, This is a Compounded Drug, Not for Resale, RX or Office Use Only, Belmar Select Outsources, 12860 W. Cedar Drive #211, Lakewood, CO 80228, NDC: 70168-0121-01",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1205-2022#1276",
+     "year": 2022,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Glutathione 200mg/mL Preservative Free, Injectable, 30mL-vial, Refrigerate, Tailor Made Compounding",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0691-2026#178",
+     "year": 2026,
+     "rule_compounding": false,
+     "rule_bulk": true,
+     "has_ndc": false,
+     "description": "Clomiphene Citrate USP Active Pharmaceutical Ingredient (CAS : 50-41-9), Net Weight a)1 KG (NDC 84849-000-01), b) 500 g (NDC 84849-000-02), (c) 100 g (NDC 84849-000-03), Rx Only, Shimoga Chemicals Address -W-57A, MIDC Kupwad Samgli, Maharashtra, 416436, India.",
+     "mark": "correct",
+     "kind": "bulk",
+     "note": ""
+    },
+    {
+     "key": "D-0517-2025#723",
+     "year": 2025,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": true,
+     "description": "Testosterone 200 mg Pellet packaged in 1mL amber vials, Rx only, Compounded product. Qualgen 14844 Bristol Park Blvd Edmond OK 73013, NDC 69761-202-01",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0488-2026#339",
+     "year": 2026,
+     "rule_compounding": false,
+     "rule_bulk": true,
+     "has_ndc": true,
+     "description": "Magnesium Chloride, 6-Hydrate, Crystal, 500G per bottle, Bulk active pharmaceutical ingredient (API), Avantor Performance Materials, LLC, 100 Matsonford Road, Suite 200, Radnor, PA 19087, NDC 10106-2448-1",
+     "mark": "correct",
+     "kind": "bulk",
+     "note": ""
+    },
+    {
+     "key": "D-0059-2024#13571",
+     "year": 2023,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Lidocaine-phenylephrine 1%-1.5% 1mL Single Dose Vial, Rx only, Compounded by Pine Pharmaceuticals 355 Riverwalk Parkway, Tonawanda, NY 14150.",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0548-2022#14765",
+     "year": 2022,
+     "rule_compounding": false,
+     "rule_bulk": true,
+     "has_ndc": true,
+     "description": "APAP 325 mg (Acetaminophen 325 mg, Pamabrom 25 mg tablet) Bulk Container, ULTRAtab Laboratories, Inc., Highland, NY NDC 62959-700-00",
+     "mark": "incorrect",
+     "kind": "bulk-finished",
+     "note": "finished dosage form in bulk packaging (bulk container, drum, bulk pack or pharmacy bulk package); not a drug substance, API, raw material or intermediate, and such products carry NDCs"
+    },
+    {
+     "key": "D-0154-2024#13141",
+     "year": 2023,
+     "rule_compounding": true,
+     "rule_bulk": true,
+     "has_ndc": true,
+     "description": "NYSTATIN 5BU, Activity (as is): 6482 Units/mg, bulk powder container, Rx Only, For Prescription Compounding, Fagron, Inc. - 2400 Pilot Knob Rd. St Paul, MN 55120. NDC 51552-0041-5 Bar code 3 51552 00415 3",
+     "mark": "correct",
+     "kind": "bulk",
+     "note": "bulk API powder for prescription compounding"
+    },
+    {
+     "key": "D-0112-2023#5038",
+     "year": 2023,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Prostaglandin (E1) Injection Solution, 40mcg/ml, 2.5 mL Multiple-Dose vials, Rx Only, Compounded by: Akina Pharmacy, 23475 Rock Haven Way Suite 105, Sterling, VA 20166.",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0414-2025#775",
+     "year": 2025,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": true,
+     "description": "TESTOSTERONE PELLET 200 mg BLUNT (with Cholesterol </=2%), 1 Pellet for Subcutaneous Use, This is a Compounded Drug, Not for Resale, RX or Office Use Only, Belmar Select Outsources, 12860 W. Cedar Drive #211, Lakewood, CO 80228, NDC: 70168-0124-01",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1227-2022#4606",
+     "year": 2022,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Sermorelin/Glycine 2000mcg/5mg/mL, 4mL-vial, Refrigerate, Tailor Made Compounding",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0117-2023#5140",
+     "year": 2023,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "TriMix Plus 001 (PGE1/Papaverine HCl/Phentolamine Mesylate) 20mcg/30mg/2mg/mL INJECTABLE, 2.5 mL Multiple-Dose vials, Rx Only, Compounded by: Akina Pharmacy, 23475 Rock Haven Way Suite 105, Sterling, VA 20166.",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1192-2022#1232",
+     "year": 2022,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Alpha Lipoic Acid 25mg/mL, 30mL-vial, Refrigerate, Tailor Made Compounding",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0053-2024#12848",
+     "year": 2023,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Calcium Gluconate Ophthalmic Irrigation Solution 1%, 500 mL bags, Rx only, Compounded by Pine Pharmaceuticals 355 Riverwalk Parkway, Tonawanda, NY 14150.",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1200-2022#1270",
+     "year": 2022,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Dexpanthenol Preservative Free 250mg/mL, 2mL-vial, Room Temperature, Tailor Made Compounding",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0116-2023#5107",
+     "year": 2023,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "TriMix Injection (PGE1/Papaverine HCl/Phentolamine Mesylate) 100mcg/30mg/3mg/mL INJECTABLE, 2.5 mL Multiple-Dose vials, Rx Only, Compounded by: Akina Pharmacy, 23475 Rock Haven Way Suite 105, Sterling, VA 20166.",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0538-2022#14626",
+     "year": 2022,
+     "rule_compounding": false,
+     "rule_bulk": true,
+     "has_ndc": true,
+     "description": "HPC Tablet (Acetaminophen 110 mg, Aspirin 162 mg, Caffeine 32.4 mg, Salicylamide 152 mg) Bulk Container, ULTRAtab Laboratories, Inc., Highland, NY NDC 62969-242-00",
+     "mark": "incorrect",
+     "kind": "bulk-finished",
+     "note": "finished dosage form in bulk packaging (bulk container, drum, bulk pack or pharmacy bulk package); not a drug substance, API, raw material or intermediate, and such products carry NDCs"
+    },
+    {
+     "key": "D-0648-2022#14081",
+     "year": 2022,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": true,
+     "description": "HCG 6,000iu (lyo) Human Chorionic Gonadotropin Inj., For Sub-Q or IM Use Only, Not For IV Use, Vial, Rx Only, Compounded By: Revive Rx 3831 Golf Dr., Houston, TX 77018, NDC: 88888-1739-01.",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0885-2023#16311",
+     "year": 2023,
+     "rule_compounding": false,
+     "rule_bulk": true,
+     "has_ndc": true,
+     "description": "SnoreStop Naso Spray Bulk, liquid, Distributed by Green Pharma, NDC 61152-199-99",
+     "mark": "incorrect",
+     "kind": "bulk-finished",
+     "note": "finished dosage form in bulk packaging (bulk container, drum, bulk pack or pharmacy bulk package); not a drug substance, API, raw material or intermediate, and such products carry NDCs"
+    },
+    {
+     "key": "D-0298-2022#5437",
+     "year": 2022,
+     "rule_compounding": false,
+     "rule_bulk": true,
+     "has_ndc": false,
+     "description": "Klean Touch Hand Sanitizer (Ethyl Alcohol 70%) Ingredients Ethanol and Methanol, in 55-gallon drums, Aroma Release Technology, Inc., 7026 Discovery Drive, Chattanooga, TN 37416",
+     "mark": "incorrect",
+     "kind": "bulk-finished",
+     "note": "finished dosage form in bulk packaging (bulk container, drum, bulk pack or pharmacy bulk package); not a drug substance, API, raw material or intermediate, and such products carry NDCs"
+    },
+    {
+     "key": "D-0553-2022#14803",
+     "year": 2022,
+     "rule_compounding": false,
+     "rule_bulk": true,
+     "has_ndc": true,
+     "description": "Coated Back Relief Tablet (Acetaminophen 250 mg, Magnesium Salicylate 290 mg, Caffeine 50 mg) Bulk Container, ULTRAtab Laboratories, Inc., Highland, NY NDC 62959-800-00",
+     "mark": "incorrect",
+     "kind": "bulk-finished",
+     "note": "finished dosage form in bulk packaging (bulk container, drum, bulk pack or pharmacy bulk package); not a drug substance, API, raw material or intermediate, and such products carry NDCs"
+    },
+    {
+     "key": "D-0760-2026#83",
+     "year": 2026,
+     "rule_compounding": true,
+     "rule_bulk": true,
+     "has_ndc": true,
+     "description": "TADALAFIL USP, 0.100 KG, 0.1KG(100gm)-bag, Rx only, \"For Prescription Compounding Only\", Shoolin Pharma Chem LLP, Block/Survey no 408, B/H Ratnamani Tubes, Near Maruti Inox, Indrad, Kadi, Mahesania, Gujarat, 382715, India, (CAS NO 1715996-29-5), NDC 85702-002-02.",
+     "mark": "correct",
+     "kind": "bulk",
+     "note": "API for prescription compounding"
+    },
+    {
+     "key": "D-0863-2022#13800",
+     "year": 2022,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": true,
+     "description": "Nandrolone Decanoate, USP, 500 g per plastic container, Rx Only, For Prescription Compounding, Fagron, Inc. 2400 Pilot Knob Rd., St Paul, MN 55120. NDC 51552-1564-05",
+     "mark": "correct",
+     "kind": "bulk",
+     "note": "API for prescription compounding"
+    },
+    {
+     "key": "D-0540-2022#14059",
+     "year": 2022,
+     "rule_compounding": false,
+     "rule_bulk": true,
+     "has_ndc": true,
+     "description": "Cherry Antacid Tablet (Calcium Carbonate 420 mg) Bulk Container, ULTRAtab Laboratories, Inc., Highland, NY NDC 62959-304-00",
+     "mark": "incorrect",
+     "kind": "bulk-finished",
+     "note": "finished dosage form in bulk packaging (bulk container, drum, bulk pack or pharmacy bulk package); not a drug substance, API, raw material or intermediate, and such products carry NDCs"
+    },
+    {
+     "key": "D-0039-2023#13281",
+     "year": 2022,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "MITOMYCIN INJECTION 0.375 mg/mL SYR, 0.375 mg/mL solution, 1 mL syringe, Rx only, Vital Care Compounder, 115 S. 40th Ave., Hattiesburg, MS 39402",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0927-2023#12799",
+     "year": 2023,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": true,
+     "description": "PHENYLephrine HCl 10mg added to 0.9% Sodium Chloride 250mL, 250 mL IV Bag @60 Total volume), RX only, Advanced Compounding Solutions, 4 Constitution Way Ste L Woburn, MA 01801-1042, NDC: 71546-450-25;",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0525-2022#14812",
+     "year": 2022,
+     "rule_compounding": false,
+     "rule_bulk": true,
+     "has_ndc": false,
+     "description": "Zee Cold Tabs (Acetaminophen 325 mg, Guaifenesin 100 mg, Phenylephrine HCl 5 mg Bulk Container, ULTRAtab Laboratories, Inc., Highland, NY NDC 62959-111-xx",
+     "mark": "incorrect",
+     "kind": "bulk-finished",
+     "note": "finished dosage form in bulk packaging (bulk container, drum, bulk pack or pharmacy bulk package); not a drug substance, API, raw material or intermediate, and such products carry NDCs"
+    },
+    {
+     "key": "D-1105-2023#14402",
+     "year": 2023,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Semaglutide/Cyanocobalamin 2mg/0.4mg/mL, 1mLvials, Tailor Made Compounding.",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0762-2026#115",
+     "year": 2026,
+     "rule_compounding": true,
+     "rule_bulk": true,
+     "has_ndc": true,
+     "description": "TADALAFIL USP, 1.00 KG, 1KG(1000gm)-bag, Rx only, \"For Prescription Compounding Only\", Shoolin Pharma Chem LLP, Block/Survey no 408, B/H Ratnamani Tubes, Near Maruti Inox, Indrad, Kadi, Mahesania, Gujarat, 382715, India, (CAS NO 171596-29-5), NDC 85702-001-08",
+     "mark": "correct",
+     "kind": "bulk",
+     "note": "API for prescription compounding"
+    },
+    {
+     "key": "D-1215-2022#1225",
+     "year": 2022,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Methylcobalamin 10mg/mL, a) 1 mL-vial, b) 10mL-vial, c) 30 mL-vial, Room Temperature, Tailor Made Compounding",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0034-2023#13270",
+     "year": 2022,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "LAURETH-9 INJ 2% Solution, 30 ML vial, Rx only, Vital Care Compounder, 115 S. 40th Ave., Hattiesburg, MS 39402",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0367-2026#439",
+     "year": 2026,
+     "rule_compounding": false,
+     "rule_bulk": true,
+     "has_ndc": true,
+     "description": "BZK Antiseptic Towelettes (Benzalkonium Chloride 0.13%), 5\" x7\", 1000 ea Bulk, Med-Nap, Brooksville, FL 34601, Made in USA, NDC 0924-0246-02.",
+     "mark": "incorrect",
+     "kind": "bulk-finished",
+     "note": "finished dosage form in bulk packaging (bulk container, drum, bulk pack or pharmacy bulk package); not a drug substance, API, raw material or intermediate, and such products carry NDCs"
+    },
+    {
+     "key": "D-0054-2024#13520",
+     "year": 2023,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Calcium Gluconate 2.5% solution for inhalation, 5mL pre-filled syringes, Rx only, Compounded by Pine Pharmaceuticals 355 Riverwalk Parkway, Tonawanda, NY 14150.",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0266-2023#13204",
+     "year": 2023,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Thiamine Hydrochloride 200 mg/2mL (100mg/mL), Riboflavin 2 mg/2mL (1mg/mL) Injection, FOR INTRAMUSCULAR OR SLOW INTRAVENOUS USE, 2 mL Sterile Single Use Vial, Preservative-Free, Rx Only, Compounded for a licensed professional or patient use by: McGuff Compounding Pharmacy Services, Inc, Santa Ana, CA 92704.",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0108-2023#5309",
+     "year": 2023,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "QuadMix Super 002 (PGE1/Papaverine HCl/Phentolamine Mesylate/Atropine) 40mcg/30mg/4mg/0.4mg/mL INJECTABLE, packaged in 2.5 mL Multiple-Dose vials, Rx Only, Compounded by: Akina Pharmacy, 23475 Rock Haven Way Suite 105, Sterling, VA 20166.",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0379-2026#461",
+     "year": 2026,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": true,
+     "description": "Semaglutide, For Rx compounding use only, packaged in a) 1g, NDC 84385-106-01; b) 5g, NDC 84385-106-02; c) 10g, NDC 84385-106-06; d) 25g, NDC 84385-106-03; d) 50g, NDC 84385-106-04 Manufacturer: Harbin Jixianglong Biotech Co., Ltd., North of Baoan Road, East of Changqing Street, Limin Development Zone, Harbin, China",
+     "mark": "correct",
+     "kind": "bulk",
+     "note": "API for prescription compounding"
+    },
+    {
+     "key": "D-1207-2022#1231",
+     "year": 2022,
+     "rule_compounding": true,
+     "rule_bulk": false,
+     "has_ndc": false,
+     "description": "Gonadorelin 100mcg/mL, 10mL per vial, Refrigerate, Tailor Made Compounding",
+     "mark": "correct",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0230-2025#824",
+     "year": 2025,
+     "rule_compounding": false,
+     "rule_bulk": true,
+     "has_ndc": false,
+     "description": "Phenylephrine HCl Injection, USP 100 mg/10 mL (10 mg/mL) vials, Rx only, Pharmacy Bulk Package (supplied as a single unit), Dist. by: Provepharm, Inc., Collegeville, PA 19426",
+     "mark": "incorrect",
+     "kind": "bulk-finished",
+     "note": "finished dosage form in bulk packaging (bulk container, drum, bulk pack or pharmacy bulk package); not a drug substance, API, raw material or intermediate, and such products carry NDCs"
+    }
+   ],
+   "marked": 40,
+   "correct": 31,
+   "precision_pct": 77.5,
+   "wilson95": [
+    62.5,
+    87.68
+   ],
+   "correct_kind": {
+    "compounded": 23,
+    "bulk": 8,
+    "both": 0
+   },
+   "incorrect_bulk_finished": 9,
+   "by_rule_component": {
+    "compounding_rule": [
+     28,
+     28
+    ],
+    "bulk_rule": [
+     6,
+     15
+    ]
+   }
+  }
+ },
+ "A_pooled": {
+  "correct": 110,
+  "marked": 120,
+  "precision_pct": 91.67,
+  "wilson95": [
+   85.34,
+   95.41
+  ]
+ },
+ "B": {
+  "E1": {
+   "population": 1659,
+   "sample": [
+    {
+     "key": "D-0757-2016#8543",
+     "year": 2016,
+     "description": "Hydromorphone HCL 25 mg/ml/Bupivacaine HCL 4 mg/ml, vol. 40 ml syringe, Rx only, Hartley Med Ctr Pharmacy, Long Beach, CA",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0475-2016#3326",
+     "year": 2015,
+     "description": "HCG 1000unit/10mL MTU vial, Rx, Western Drug Inc. 106 E. Main Street, Springerville, Arizona 85938",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1487-2014#3298",
+     "year": 2014,
+     "description": "Dermamedics Post Procedure Cream, 1 ounce containers which were distributed with a SKU number of DM 1026",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0449-2016#3363",
+     "year": 2015,
+     "description": "Sal-Acid 60% Plaster Paste, Rx, Western Drug Inc. 106 E. Main Street, Springerville, Arizona 85938",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0154-2016#8374",
+     "year": 2015,
+     "description": "VITAMIN D3 OIL, Injectable Solution, 400,000 UNITS/ML, syringe size: 20 mL, Rx only, JD & SN Inc, DBA Moses Lake Professional Pharmacy, 1555 S. Pilgrim St. Moses Lake WA 98837, (509)764-2314",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0600-2016#8588",
+     "year": 2016,
+     "description": "Ketamine 100 mg/mL, injectable packed in syringes, Total dosage 100 mg/ 1mL, Rx only, PHARMAKON Pharmaceuticals, Inc.",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0746-2016#6419",
+     "year": 2016,
+     "description": "Hydromorphone HCL 10 mg/ml/Bupivacaine HCL 30 mg/ml, vol. 20 ml syringe, Rx only, Hartley Med Ctr Pharmacy, Long Beach, CA",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-827-2013#5873",
+     "year": 2013,
+     "description": "DayQuil Sinex DayTime Sinus Relief (acetaminophen 325 mg and phenylephrine HCl 5 mg) liquicaps and NyQuil Sinex NightTime Sinus Relief (acetaminophen 325 mg, doxylamine succinate 6.25 mg, and phenylephrine HCl 5 mg) liquicaps Combopack, each 48-count liquicaps per carton contains 32 DayQuil Sinex DayTime Liquicaps and 16 NyQuil Sinex NightTime Liquicaps per carton, Made In Canada, Dist. by Procter & Gamble, Cincinnati, OH 45202, UPC 3 23900 01454 1.",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0785-2016#6841",
+     "year": 2016,
+     "description": "Phenobarbital/Hyoscyamine/ Atropine/Scopolamine 16.2/0.1037/0.0194/0.0065 mg DONNATAL ELIXIR, 5 ml Cup grape, Alcohol 23.8%, Rx Only, MFG: Concordia, PKG BY: SAFECOR HEALTH, WOBURN, MA, C5921242304.",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0064-2015#8768",
+     "year": 2014,
+     "description": "Bupivacaine hydrochloride 0.25% injectable packaged in an amber glass injectable vial,Martin Avenue Pharmacy, 1247 Rickert Dr, Naperville, IL.",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1235-2014#7525",
+     "year": 2014,
+     "description": "Prolifta Dietary Supplement Prolifta, 400mg/capsule, Packaged in 1 and 2 capsule blister packs and 4, 12, and 24 capsule bottles Made in the USA Distributed by: Prolifta LLC 1+877.239.8231 www.proliftaherbal.com.",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0752-2016#8548",
+     "year": 2016,
+     "description": "Hydromorphone HCL 10 mg/ml, vol. 40 ml syringe, Rx only, Hartley Med Ctr Pharmacy, Long Beach, CA",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-478-2013#5956",
+     "year": 2013,
+     "description": "HCG Inj 1250 un/ml MDV, 4 ml Subcutaneous, 30 day expiration,",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": "no firm named; multi-dose vial with a 30-day expiration, the form of the pharmacy-compounded HCG records"
+    },
+    {
+     "key": "D-0882-2016#6643",
+     "year": 2016,
+     "description": "Pink Bikini capsules, (all colors and all strengths), packaged in 30-count bottle, Manufactured and Distributed by: Lucy's Weight Loss System (dba Waisted With Lucy), Arlington, TX 76010",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0431-2016#1616",
+     "year": 2015,
+     "description": "Hydrochloric Acid 2mg Injection, Rx, Western Drug Inc. 106 E. Main Street, Springerville, Arizona 85938",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0167-2016#6562",
+     "year": 2015,
+     "description": "Testosterone Cypionate 250 mg/mL Injection, 10 mL vial, Rx, B & B Health Mart Pharmacy, Bellflower, CA",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0750-2016#8570",
+     "year": 2016,
+     "description": "Hydromorphone HCL 25 mg/ml, vol. 40 ml syringe, Rx only, Hartley Med Ctr Pharmacy, Long Beach, CA",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1183-2016#1757",
+     "year": 2016,
+     "description": "ESTRADIOLVAL 3MG/TEST CYP 35MG/ TEST PROP 35MG/ML W/PRES. (BENZYL ETOH 2%), 3ML Vials, MEDAUS PHARMACY",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1038-2015#9326",
+     "year": 2015,
+     "description": "Rifampin 25 mg/1 mL Susp, Health Innov Pharmacy, 295 Pinehurst Ave, Southern Pines, NC 28387, (910) 246-5155",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0424-2016#3335",
+     "year": 2015,
+     "description": "Cantharidin 0.7% Sol, Rx, Western Drug Inc. 106 E. Main Street, Springerville, Arizona 85938",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1303-2014#8363",
+     "year": 2014,
+     "description": "Mangiacotti - Lemon Verbena Hand Sanitizer Spray, alcohol free, 0.5 fl. Oz., 15 mL spray bottle, UPC 870678005306, Active Ingredient Benzalkonium Chloride 0.1%, Dist by: Mangiacotti, Attleboro, MA 02703.",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0145-2016#8362",
+     "year": 2015,
+     "description": "TESTOSTERONE/ANASTROZOLE, Pellet, 120/8 mg, Rx only, JD & SN Inc, DBA Moses Lake Professional Pharmacy, 1555 S. Pilgrim St. Moses Lake WA 98837, (509)764-2314",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1456-2016#2726",
+     "year": 2016,
+     "description": "Zinc Acetate, Crystal, USP, packaged in 500 gram bottles, Spectrum Chemical MFG, CORP., New Brunswick, NJ 08901",
+     "mark": "missed",
+     "kind": "bulk",
+     "note": "USP chemical in 500 g bottles, a raw material"
+    },
+    {
+     "key": "D-1041-2015#7978",
+     "year": 2015,
+     "description": "Hydroquinone 10% Cream, Health Innov Pharmacy, 295 Pinehurst Ave, Southern Pines, NC 28387, (910) 246-5155",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0137-2016#8385",
+     "year": 2015,
+     "description": "TESTOSTERONE, Pellet, 70 mg, Rx only, JD & SN Inc, DBA Moses Lake Professional Pharmacy, 1555 S. Pilgrim St. Moses Lake WA 98837, (509)764-2314",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0629-2016#9456",
+     "year": 2016,
+     "description": "CEFEPIME, Packaged a) 1GM in 50ML Homepumps, b) 2GM in 100ML Homepumps, and c) 12GM in 600ML Homepumps, Rx Only. SENTARA HOME HEALTH SENTARA RX, 535 Independence Pkwy ste.300, Chesapeake, VA 23320-5176.",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0523-2016#6752",
+     "year": 2015,
+     "description": "HPMC Visoelastic Topical, 8,000 cps, Reference 5200, 1.5 mL in 3-mL Syringe, OASIS Medical Inc, 514 South Vermont Avenue Glendora, CA 91741",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0772-2016#6425",
+     "year": 2016,
+     "description": "Rhino 7 Platinum 3000, 1 count Blister Pack, Distributed by Rhino 7, Made in USA, UPC 700729253748",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-1041-2016#8771",
+     "year": 2016,
+     "description": "VERMOX Tablets 100 mg; 6-count box, UPC 7501109900619",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-325-2016#6526",
+     "year": 2015,
+     "description": "Sermorelin 1000 mcg/mL SUB-Q* Injection, packaged in a) 3 mL, b) 6mL, c) 7.5ml, d) 9 mL or e) 10 mL vials, Rx only, Essential Wellness PHARMACY, 4625 N. University, Peoria, IL 61614.",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-240-2013#5730",
+     "year": 2013,
+     "description": "TEV-TROPIN (somatropin (rDNA origin) for injection) 5 mg (15 IU). Prescription Only. Distributed By: TEVA Biologics & Specialty Products Division of Teva Pharmaceuticals USA, Sellersville, PA 18960 Manufactured in Israel.",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-1109-2014#3503",
+     "year": 2014,
+     "description": "Estradiol Cypionate 2mg/cc testosterone cypionoate 50mg",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": "no firm named; a two-ester mixture with no commercial equivalent"
+    },
+    {
+     "key": "D-0426-2016#4383",
+     "year": 2015,
+     "description": "Dexpanthanol B5 250mg/mL Injection, Rx, Western Drug Inc. 106 E. Main Street, Springerville, Arizona 85938",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0465-2016#1629",
+     "year": 2015,
+     "description": "Tri-Test 1:1:1 300mg/mL Injection, Rx, Western Drug Inc. 106 E. Main Street, Springerville, Arizona 85938",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0448-2016#1613",
+     "year": 2015,
+     "description": "Quad Mix Inj, Rx, Western Drug Inc. 106 E. Main Street, Springerville, Arizona 85938",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1333-2014#6131",
+     "year": 2014,
+     "description": "Esbelder Fem Mezcla con L-Carnitina Suplemento Alimenticio,30 capsule bottle, Hecho en Mexico: Soluciones HGC S. de R.L. de C.V. Av. Independencia #1060 Fracc. La Rinconada, Aguascalientes, Ags. Mex. C.P. 20136. UPC 7502011000251",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-300-2013#3317",
+     "year": 2013,
+     "description": "Pentrexcilina Jarabe NF (dextromethorphan HBr and guaifenesin) liquid, 118 mL/ 4 fl oz bottle, Distributed by Laboratorios Nordimex Co., San Diego, CA 92154, UPC 0 91965 02001 1.",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-1020-2015#7928",
+     "year": 2015,
+     "description": "Pregnenolone 20 mg SR Capsule, Health Innov Pharmacy, 295 Pinehurst Ave, Southern Pines, NC 28387, (910) 246-5155",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1329-2014#5803",
+     "year": 2014,
+     "description": "Esbelin Siloutte Mezcal Herbal con L-Carnitine Suplemento Alimenticio, 30 capsule bottle, Hecho En Mexico Por: Soluciones HGC S. de R.L. de C.V. Av. Independicia #1016 Frac. La Rinconada Aguascalientes, Ags. Mex C.P. 20136, UPC 7502011000060",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0057-2015#6179",
+     "year": 2014,
+     "description": "Alprostadil alcohol 500 mcg/mL injectable packaged in amber glass injectable vial, Martin Avenue Pharmacy, 1247 Rickert Dr, Naperville, IL.",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    }
+   ],
+   "marked": 40,
+   "missed": 27,
+   "miss_rate_pct": 67.5,
+   "wilson95": [
+    52.02,
+    79.92
+   ],
+   "missed_kind": {
+    "compounded": 26,
+    "bulk": 1,
+    "both": 0
+   }
+  },
+  "E2": {
+   "population": 2047,
+   "sample": [
+    {
+     "key": "D-0383-2021#12309",
+     "year": 2021,
+     "description": "Triple SupremeZen Plus 3500, packaged in cardboard blisters containing one capsule per card, Distributed by Yolo Studio, Cliffside Park, NJ",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-1601-2019#11597",
+     "year": 2019,
+     "description": "Herpes-P, 500 mg Capsules, 90-count bottles, Herbal Doctor Remedies Alhambra, CA 91801-7081 USA, 1(800) 600-0808",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-1303-2019#3745",
+     "year": 2019,
+     "description": "DrKids Children's Natural Cough Syrup English Ivy Leaf Organic Agave Nectar Pre-measured Single-Use 0.17 fl. oz. (5 mL), Manufactured in USA by: Unipharma, LLC. Tamarac, FL 33321, UPC 370302489019",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0207-2021#4583",
+     "year": 2021,
+     "description": "Sodium Citrate 4% 3 mL Anticoagulation Solution (40mg/mL), Rx only, 3 mL Single Dose Syringe, SCA Pharmaceuticals, 755 Rainbow Rd., Windsor, CT, 06095, barcode 70004090025",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1113-2020#12110",
+     "year": 2020,
+     "description": "Blood Clot Purger, Distributed by Herbal Doctor Remedies Alhambra, CA 91801-7081 USA, 1(800) 600-0808",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-1090-2018#4926",
+     "year": 2018,
+     "description": "P/P/P (Prostaglandin/Papaverine/Phentolamine) Injection, 0.02/30/2 mg/mL, 5 mL vial, Rx only, Ranier's Rx Laboratory, 1107 Lowry Avenue Suite A, Jeannette, PA 15644.",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0601-2020#11434",
+     "year": 2019,
+     "description": "Morphine Sulfate and Bupivacaine HCL and Baclofen and Clonidine HCL in all strengths, all doses and all packaging, AnazaoHealth 5710 Hoover Blvd Tampa, FL 33634.",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0570-2017#7440",
+     "year": 2017,
+     "description": "REVERSE DML LOTION (Ketoconazole 2%, Metronidazole 2%, sulfacetamide sodium 10%), Rx only, Synergy RX, 4901 Morena Blvd # 504-A San Diego, CA 92117 (855) 792-6676",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0967-2019#10893",
+     "year": 2019,
+     "description": "Dr. King's Natural Medicine Stress Control, 59 mL, (liquid/liquide), DIN-HM 80041740 UPC 357955180524",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0259-2018#5205",
+     "year": 2018,
+     "description": "Medline Concordia Nurse Bag Kit. Packaged in USA for Medline Industries, Inc., Northfield, IL 60093",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-1092-2017#9872",
+     "year": 2017,
+     "description": "GEC LX Laxoplex 60 capsules Dietary Supplement, 60 count bottle, Manufactured by GEC, McKinney, TX, 75070, UPC: 700580499842",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-1632-2019#11504",
+     "year": 2019,
+     "description": "DrKids Children's Allergy Relief Diphenhydramine HCl 12.5 mg/5 mL Antihistamine, Mixed berry Flavor, 20 Pre-measured Single-Use vials per Carton, Manufactured in USA by: Unipharma, LLC. Tamarac, FL 33321, UPC 370302255010",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-1087-2017#7608",
+     "year": 2017,
+     "description": "Biotech Underground Tri-Ton Hardcore Formula capsules, 90-count bottle, Distributed by: Dynamic Technical Formulations 12850 Hwy 9 Suite 600-441 Alpharetta, GA 30004",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-1773-2019#14245",
+     "year": 2019,
+     "description": "ENTYVIO 300 MG /250 ML 0.9% NACL, Rx Only, Infusion Options, Inc. 5924 13the Ave, Brooklyn, NY 11219-4934, 718-283-7233",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": "IV admixture of a commercial product prepared by an infusion pharmacy"
+    },
+    {
+     "key": "D-0157-2021#12793",
+     "year": 2020,
+     "description": "Best Choice, Clotrimazole Cream, USP 1%, Antifungal, NET WT 0.5 OZ (14.2g), Distributed by: Valu Merchandisers, CO . 5000 Kansas Ave. Kansas City, KS 66106 Made in Canada. UPC 0-70038-20355-1",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-1744-2019#820",
+     "year": 2019,
+     "description": "Oxytocin 60 units/1000 mL Lactated Ringers Intravenous Solution, Rx Only, Infusion Options, Inc. 5924 13the Ave, Brooklyn, NY 11219-4934, 718-283-7233",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0354-2021#12327",
+     "year": 2021,
+     "description": "Triple SupremeZen Gold 3500, Packaged in paper packaging with a pill blister,1 capsule per box, Distributed by VIEW LIFE Distributors Los Angeles CA 90005 UPC 7 15122 05089 4",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0424-2018#1696",
+     "year": 2018,
+     "description": "100 mcg / mL Phenylephrine HCl (Preservative Free) Injection, 10 mL syringe, Rx only, PharMEDium Serivces, LLC",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1615-2019#11512",
+     "year": 2019,
+     "description": "Sperm Booster, Distributed by Herbal Doctor Remedies Alhambra, CA 91801-7081 USA, 1(800) 600-0808",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-1554-2019#11663",
+     "year": 2019,
+     "description": "AIR HEADS PINK LEMONADE SCENTED ANTIBACTERIAL HAND GEL (Ethyl Alcohol 62%), 1.35 fl oz / 40 mL, OTC, Distributed by: JFL Enterprises, Inc. Cleveland, Ohio 44102.",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-1106-2017#9513",
+     "year": 2017,
+     "description": "Make Up Perfect ivory (Titanium Dioxide) SPF 10 liquid make-up, 1 oz. Net Wt. 30 ml bottle, Art. 03300, Made in Germany, Doctor Eckstein, Linde Eckstein GMBH Co. Kg, 90522 Oberasbach, Germany, UPC 4 035219 033002.",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0831-2017#1591",
+     "year": 2017,
+     "description": "Succinylcholine Chloride all strengths, all dosage forms and all packaging, Rx Only, Avella of Houston, Houston, TX 77054",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0018-2020#11817",
+     "year": 2019,
+     "description": "C-METHYLCOBALAMIN 25MG/ML INJECTION PFS, packaged in 0.3 mL, 0.5 mL, 1 mL, and 3 mL syringes, Rx only, Colonia Care Pharmacy, 515 Inman Ave., Suite A, Colonia, N.J. 07067",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0830-2017#1636",
+     "year": 2017,
+     "description": "Amiodarone all strengths, all dosage forms and all packaging, Rx Only, Avella of Houston, Houston, TX 77054",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1778-2019#15010",
+     "year": 2019,
+     "description": "FOSAPREPITANT 150 mg/150 ml NS IVPB, Rx Only, Infusion Options, Inc. 5924 13the Ave, Brooklyn, NY 11219-4934, 718-283-7233",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0171-2018#7465",
+     "year": 2018,
+     "description": "Chloramphenicol 500 mg Sulfamethoxazole 500 mg Amphotericin 50 mg Otic Powder packaged in jars, Rx Only, KRS Global Biotechnology, 791 Park of Commerce Blvd, Boca Raton, FL 33487.",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1442-2020#12230",
+     "year": 2020,
+     "description": "Vardenafil 20 mg Troche, 30 troches per bottle, MasterPharm, 115-02 Liberty Ave, Richmond Hill, NY 11419, (866) 630-5600",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1603-2019#11452",
+     "year": 2019,
+     "description": "Herpes-V Balm, Distributed by Herbal Doctor Remedies Alhambra, CA 91801-7081 USA, 1(800) 600-0808",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0961-2017#3082",
+     "year": 2017,
+     "description": "UPROAR All Natural Male Enhancement Herbal Dietary Supplement Capsules, supplied in 2, 4 and 10 count packages, Distributed by AH Distribution, DelRay, Beach, FL ---- UPC Code 680474229260",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0635-2018#1731",
+     "year": 2018,
+     "description": "B-complex (B1-200mg, B2-4mg, B3-200mg,B5-4mg,B6-4mg) /mL, 5 mL amber vial, Rx only, Partell Specialty Pharmacy, 5835 S. Eastern Ave. #101, Las Vegas, NV 89119 (702) 791-3800",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0715-2021#12512",
+     "year": 2021,
+     "description": "MORPHINE-BUPIVACAINE-FENTANYL PF 30MG-15MG-2000MCG/ML INJECTABLE 21 mL syringe, Rx only, Med Shop Total Care 470 East Loop 281 Longview, TX 75605",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0231-2018#10153",
+     "year": 2018,
+     "description": "Day Cream SPF15 Cr\u00bfme de jour FPS 15, { Avobenzone 2%, Octinoxate 7%, Oxybenzone 5%} 15 ml / 0.5 fl. oz jar. Made in Canada, Kamins Dermatologics Inc. Montreal, Quebec H9R 2Y6. Distributed by Kamins Dermatologics Montreal, Quebec H9R 2Y6 Made in Fabrique au Canada. UPC code 6 26354 10955 0",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-1724-2019#11484",
+     "year": 2019,
+     "description": "CVS Health Glycerin Suppositories, 50-count box, Distributed by: CVS Pharmacy, Inc. One CVS Drive Woonsocket, RI 02895. UPC 0 50428 33106 4",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0658-2021#4517",
+     "year": 2021,
+     "description": "Durisan Antimicrobial Solutions (benzalkonium chloride) Hand Sanitizer, listed as 0.1% or 0.13%, Alcohol-Free, packaged in a) 18 mL Net Content 0.61 fl oz credit card size container, (UPC 8 52379 00614 1); b) 50 mL Net Content 1.69 oz bottle, (UPC 8 52379 00634 9 and 8 52379 00612 7); c) 118 mL Net Content 4 oz bottle, (UPC 8 52379 00634 9 and 8 52379 00612 9); d) 236.58 mL Net Content 8 oz bottle, (UPC 8 52379 00635 6); e) 250 mL Net Contents 8.45 oz (UPC 8 52379 00611 0); f) 300 mL Net Content 10 oz bottle, (UPC 8 52379 00697 4); g) 550 mL Net Content 18.59 oz bottle, (UPC 8 52379 00620 2) ; h) 1000 mL Net Content 33.81 oz kidney bottle dispensing 0.4 or 0.8 each actuation, (UPC 8 50008 48507 7 and 8 52379 00610 3); and i) 1 Gallon Net Content 128 oz bottle, (UPC 8 52379 00621 9); Sanit Technologies, LLC 7810 25th Court East, Unit 106 Sarasota, Florida 34243",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0368-2021#13036",
+     "year": 2021,
+     "description": "IMPERIAL GOLD 2000, Male Sexual Performance Enhancement, 1 Capsule, UPC 718122040702",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0881-2021#12917",
+     "year": 2021,
+     "description": "ZTE-1020 Formula. Contents 1000ml. WHP Homeopathic Medicine, For Manufacturing Use Only, REMEDY: Aurum Metallicum 10X, Crataegus Oxyacantha 10X, Baryta Carbonica 10X, Digitalis Purpurea 10X, Zincum Muriaticum 13X, Chromium Sulphuricum 10X, Manganum Metallicum 10X, Dilution Alcohol 20%. Manufactured for Optimal Health Dimensions. RX Only, Manufactured by Washington Homeopathic Products, Inc. 260 JR Hawvermale Way, Berkeley Springs, WV, 25411.",
+     "mark": "missed",
+     "kind": "bulk",
+     "note": "homeopathic bulk formula labeled For Manufacturing Use Only, an intermediate"
+    },
+    {
+     "key": "D-1154-2017#9466",
+     "year": 2017,
+     "description": "L-Glutamine 100mg, 30 mL vials, Rx only, Bella Pharma 3101 W. Devon Ave., Chicago, IL 60659, 1 (877) BELLA.",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0864-2021#12565",
+     "year": 2021,
+     "description": "Cinnamomum 6X, Flatulence* Sucrose/Lactose Pills, Packaged as a) 4 Dram, b) 1 oz, and Cinnamomum 30X, Flatulence* Sucrose/Lactose Pills, Packaged as 4 Dram, WHP Homeopathic Medicine, Washington Homeopathic Products 260 JR Hawvermale Way, Berkeley Springs WV 25411",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0699-2020#1344",
+     "year": 2020,
+     "description": "BUP 30MG/ FENT 400MCG/ML INJ in 20 mL syringe Assurance Infusion (713) 533-8800",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0697-2018#10099",
+     "year": 2018,
+     "description": "All Alka-Seltzer Plus\u00bf packages with a full front panel instant Redeemable Coupon (IRC) affixed to the individual carton. The recalled products can be identified by checking the Bayer logo located on the lower left corner of the front of the carton. If the logo has an orange or green background, the product is included in the recall.",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    }
+   ],
+   "marked": 40,
+   "missed": 18,
+   "miss_rate_pct": 45.0,
+   "wilson95": [
+    30.71,
+    60.17
+   ],
+   "missed_kind": {
+    "compounded": 17,
+    "bulk": 1,
+    "both": 0
+   }
+  },
+  "E3": {
+   "population": 966,
+   "sample": [
+    {
+     "key": "D-1284-2022#13623",
+     "year": 2022,
+     "description": "Arti King Refozado con Ortiga y Omega 3 Tablets, 100-count bottles, Hecho en Mexico por: \"PLANTAS MEDICINALES DE MEXICO\", Melchor Ocampo No. 55 Local D, Delegacion Xochimilco, C.P. 16800 Mexico, UPC 7 501031 111138",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0283-2026#475",
+     "year": 2026,
+     "description": "Personal Care, Vaporizing Chest Rub, 4 oz, 12 count, UPC 048155903319",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0522-2024#1011",
+     "year": 2024,
+     "description": "Bull Frog SPF 50 Amphibious Lotion SPF 50 Amphibious Lotion with Water Armor Tech, Broad Spectrum Sunscreen with UVA/UVB Protection, NEW WT. 5 FL OZ (148ML), Distributed by: Bullfrog Brands LLC, PO Box 600207, Dallas, TX 75360 USA. UPC 8 50016 52112 5",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0826-2023#13389",
+     "year": 2023,
+     "description": "Lorazepam Oral Concentrate, USP, 2mg per mL, 30 mL bottles, Rx Only, Sterile, Distributed by: Akorn Operating Company, LLC., Gurnee, IL 60031. ALL NDCs",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0838-2023#13460",
+     "year": 2023,
+     "description": "Promethazine HCl Oral Solution, USP, 6.25 mg/5mL, 473 mL bottles, Rx Only, Distributed by: Akorn Operating Company LLC, Gurnee, IL 60031. ALL NDCs",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0829-2023#13393",
+     "year": 2023,
+     "description": "Moxifloxacin HCl Ophthalmic Solution, USP, 0.5%, 3 mL bottles, Rx Only, Manufactured by: Akorn, Inc., Lake Forest, IL 60045. ALL NDCs",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-1458-2022#1195",
+     "year": 2022,
+     "description": "HYLANDS 4KIDS COLD N MUCUS RELIEF 4 FL OZ distributed to specific Family Dollar Stores 04/30/2022 through 06/10/2022.",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-1468-2022#1217",
+     "year": 2022,
+     "description": "Colgate Anticavity Fluoride Toothpaste, OPTIC WHITE with CHARCOAL COOL MINT PASTE, Net Wt. 4.2 OZ. UPC 0 35000 97872 1. Dist. by: Colgate-Palmolive Company New York, NY 10022 U.S.A.",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0053-2026#16957",
+     "year": 2025,
+     "description": "Glutathione Preserved for Injection, all strengths and presentations, GenoGenix LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": "peptide and injectable line of a compounding outsourcer; judgment from the product line"
+    },
+    {
+     "key": "D-0457-2023#1097",
+     "year": 2023,
+     "description": "Purely Soothing MSM Nasal Spray, 15%, packaged in 30ml, 1.014 fl. oz bottles, Manufactured by: Pharmedica USA, Phoenix, AZ, UPC 7 31034 91380 5",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0492-2022#12657",
+     "year": 2022,
+     "description": "PAINAID (acetaminophen 110 mg, aspirin 162mg, caffeine 32.4 mg, salicylamide 152mg) 2 tablet packets, Dist. by ZEE Medical Distributors, LLC Mason, OH 45040",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0781-2023#12717",
+     "year": 2023,
+     "description": "Acetic Acid Otic Solution, 15 mL per bottle, Rx only, Distributed by: Akorn Operating Company LLC, Gurnee, IL 60031. ALL NDCs",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0479-2022#12658",
+     "year": 2022,
+     "description": "Lite Remfresh Advanced Ion-Powered Melatonin (Melatonin 0.5mg) Tablets, 36-count blisters, Physician's Seal LLC, Boca Raton, FL 33487",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0666-2026#147",
+     "year": 2026,
+     "description": "Gasco Isopropyl Alcohol 70%, Net Contents: 1 US Gallon (3.78 L), Manufactured by: Gasco Industrial Corp., PO Box 1360, Gurabo, PR 00778, Made in USA",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0391-2022#13109",
+     "year": 2022,
+     "description": "Extra Strength Headache (acetaminophen 250 mg, aspirin 250 mg, caffeine 65 mg) tablets, packaged in 2-count tablets per packet, Manufactured for: Lil' Drug Store Products, Inc., Cedar Rapids, IA 52404",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0273-2026#532",
+     "year": 2026,
+     "description": "NYQUIL COLD & FLU -32CT/2PK",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0451-2024#12963",
+     "year": 2024,
+     "description": "Samurai-X Honey 6800, UPC 2 56891 27553 3.",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-1428-2022#1216",
+     "year": 2022,
+     "description": "FLEET GLYCERIN SUPPOSITORIES 50 CT distributed to specific Family Dollar Stores 04/30/2022 through 06/10/2022.",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0986-2022#13481",
+     "year": 2022,
+     "description": "Ethanol for Injection 95%, 67 mL Multi-Dose vial, Rx only, US Specialty Formulations, 1403 South Albert Street, Allentown, PA 18103, PN: 69389-06229",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0813-2023#12714",
+     "year": 2023,
+     "description": "Ketorolac Tromethamine Ophthalmic Solution, 0.5%, Sterile, packaged in a) 3mL bottles, b bottles) 5 mL, and c)10 mL bottles, Rx Only, Manufactured by: Akorn, Inc., Lake Forest, IL 60045. ALL NDCs",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0388-2026#407",
+     "year": 2026,
+     "description": "SILINTAN 25/pills, packaged in a 25-count bottle, Shanghai Chinese Medical Works, Shanghai, China",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0264-2023#5378",
+     "year": 2023,
+     "description": "Ohm Sanitizer Spray (alcohol (ethyl alcohol) 80% v/v, 8 FL OZ (237 ML) bottles.",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0273-2023#16580",
+     "year": 2023,
+     "description": "Amikacin 450MG IN NS 45ML, Antibiotic, used in a HOMEPUMP, Sentara Home Infusion Pharmacy Services, 535 Independence Pkwy, Ste 300 Chesapeake, VA 23320,",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-1449-2022#1218",
+     "year": 2022,
+     "description": "GS ANTI DIARRHEAL LOPERAMIDE CAPLET 12 CT SKU 915632 IMODIUM AD MINT 4 OZ SKU 902080 IMODIUM AD CAPLET 6 CT SKU 915628 distributed to specific Family Dollar Stores 04/30/2022 through 06/10/2022.",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-1366-2022#1162",
+     "year": 2022,
+     "description": "Dermasil Dry Skin Treatment 10 OZ SKU 2098068 Aveeno Daily Moisturizing Lotion 5 OZ SKU 2005444 Aveeno Baby Daily Moistue Lotion 8 OZ SKU 900016 Vaseline Mens Extra Strength Body and Face Lotion 10 OZ SKU 2003674 distributed to specific Family Dollar Stores 04/30/2022 through 06/10/2022.",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0225-2024#5135",
+     "year": 2023,
+     "description": "Reumo Flex caplets, packaged in 30-count boxes, Manufactured by: Grupo Yepenza de Mexico, SA de CV, Comerciantes 5824 Col Arcos de Guadalupe, Zapopan Jal Mexico, UPC 7 502214 014598",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-1398-2022#1157",
+     "year": 2022,
+     "description": "AZO YEAST PLUS 20 CT distributed to specific Family Dollar Stores 04/30/2022 through 06/10/2022.",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0200-2025#846",
+     "year": 2025,
+     "description": "Systane Lubricant Eye Drops, Ultra PF, Sterile, 25 Vials (0.7mL Each), Manufactured for: Alcon Laboratories, Inc. Forth Worth, TX 76134",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0569-2026#268",
+     "year": 2026,
+     "description": "FAMILY WELLNESS, ULTRA STRENGT, ANTACID TABLETS, Calcium Carbonate 1000 mg, 72 CHEWABLE TABLETS, DISTRIBUTED BY: MIDWOOD BRANDS, LLC, 500 VOLVO PKWY, CHESAPEAKE, VA 23320 USA., UP: 0 32251-92282-4.",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0226-2024#5493",
+     "year": 2023,
+     "description": "Kuka Flex Forte caplets, packaged in 30-count bottles, Manufactured by: Kukamonga, Gonzalez Ortega No 170 Col Centro, 44100 Guadalajara Jal, UPC 0736640810265",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0193-2023#13670",
+     "year": 2023,
+     "description": "Apomorphine HCL 2MG/ML (10ML vial) Injectable, Rx Only, Pharmacy Innovations, 2936 W 17th St., Erie, PA.",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0499-2022#12652",
+     "year": 2022,
+     "description": "PAPENOL (acetaminophen 500 mg), 2 tablet packets, Manufactured for: Afassco Inc. Minden, NV 89423",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-1516-2022#5153",
+     "year": 2022,
+     "description": "MIC/B12 25/50/50/1 MG/ML Injectable, 10 ML vial, Rx only, Carolina Infusion LLC, 95 Bees Creek Road, Ridgeland, SC 29936.",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0287-2026#526",
+     "year": 2026,
+     "description": "Toothpaste: a) COLGATE, TOOTHPASTE, WHITENING, 2.5oz, 24ct; UPC: 035000511065; b) COLGATE, TOOTHPASTE, Regular, 2.5oz, 24ct, UPC: 035000511058; c) COLGATE, TOOTHPASTE, TRIPLE, 2.5oz, 24ct, UPC: 035000512109; d) COLGATE, TOOTHPASTE, MINT ZING, 24CT, 2.5oz, UPC: 035000744609; COLGATE, MAXFRESH, SPICY FRESH, RED TOOTH PASTE, 72CT, 150G; e) CREST, TOOTHPASTE, 40CT, 8.2OZ, UPC: 037000247081",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0216-2023#945",
+     "year": 2023,
+     "description": "KETAMINE 50MG/ML (10ML VIAL) INJECTABLE, Rx Only, Pharmacy Innovations, 2936 W 17th St., Erie, PA.",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": ""
+    },
+    {
+     "key": "D-0864-2023#13093",
+     "year": 2023,
+     "description": "Tropicamide Ophthalmic Solution, USP 0.1%, 15 mL bottles, Rx only, Distributed by: Akorn Operating Company LLC, Gurnee, IL 60031. ALL NDCs",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0209-2025#15573",
+     "year": 2025,
+     "description": "BADGER 50, ADVENTURE SPORT MINERAL SUNSCREEN WITH CLEAR ZINC, (uncoated 25% zinc oxide), 2.4 oz., Tin, W.S. Badger Company, Inc, 768 Route 10, Gilsum NH, 03448 UPC 6 34084 47150 2",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0453-2025#752",
+     "year": 2025,
+     "description": "ENDURANCE BOOST WITH HORNY GOAT WEED, 500mg, 20 capsules per carton, VEPEMVA Nutrition Supplement....rgy and Endurance, UPC X004BB9Z8N",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    },
+    {
+     "key": "D-0049-2026#17036",
+     "year": 2025,
+     "description": "Calcium Chloride for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692.",
+     "mark": "missed",
+     "kind": "compounded",
+     "note": "same firm and product line as E3 #9"
+    },
+    {
+     "key": "D-0278-2026#565",
+     "year": 2026,
+     "description": "Halls Cough Drops a) BAGS, MENTHOL, 12CT; b) BAGS, HONEY LEM, 12CT; c) BAGS, DEFENSE CITRUS, 12CT; d) BAGS, CHERRY, 12CT; e) M. CHERRY, 20 STK; f) BRAZIL, Cherry, 21CT/27.5G; f) LEMON. HONEY, 20CT #1180E; g) LIME FRESH, 20CT, #1182; h) MENTHOL BLUE, 20CT, #1180A; i) BRAZIL, Menthol, 21CT/27.5G, j) M . STRAWBERRY, 20 STK; k) DEFENSE, VITAMIN C, 20CT, #1181",
+     "mark": "not",
+     "kind": "",
+     "note": ""
+    }
+   ],
+   "marked": 40,
+   "missed": 7,
+   "miss_rate_pct": 17.5,
+   "wilson95": [
+    8.75,
+    31.95
+   ],
+   "missed_kind": {
+    "compounded": 7,
+    "bulk": 0,
+    "both": 0
+   }
+  }
+ },
+ "boundary_redactions": 0,
+ "C": {
+  "complete": true,
+  "V1_pooled_precision_pct": 91.67,
+  "V1_lower_wilson_pct": 85.34,
+  "V1_pass": true,
+  "V2_max_spread_pp": 22.5,
+  "V2_pass": false,
+  "V3_E3_minus_E1_pp": -50.0,
+  "V3_pass": true,
+  "verdict": "EXPLANATION DOES NOT STAND",
+  "sensitivity_bulk_finished_correct": {
+   "precision_by_era": {
+    "E1": 100.0,
+    "E2": 97.5,
+    "E3": 100.0
+   },
+   "pooled_pct": 99.17,
+   "pooled_wilson95": [
+    95.43,
+    99.85
+   ],
+   "V1_pass": true,
+   "V2_spread_pp": 2.5,
+   "V2_pass": true
+  }
+ },
+ "D_years": [
+  {
+   "year": 2013,
+   "n": 1377,
+   "flagged": 678,
+   "other": 699,
+   "flagged_share_pct": 49.24,
+   "other_share_pct": 50.76,
+   "flagged_with_ndc": 3,
+   "other_with_ndc": 408,
+   "flagged_ndc_pct": 0.44,
+   "other_ndc_pct": 58.37,
+   "coverage_pct": 29.85,
+   "flagged_compounding_rule": 651,
+   "flagged_bulk_rule": 27
+  },
+  {
+   "year": 2014,
+   "n": 1562,
+   "flagged": 163,
+   "other": 1399,
+   "flagged_share_pct": 10.44,
+   "other_share_pct": 89.56,
+   "flagged_with_ndc": 30,
+   "other_with_ndc": 971,
+   "flagged_ndc_pct": 18.4,
+   "other_ndc_pct": 69.41,
+   "coverage_pct": 64.08,
+   "flagged_compounding_rule": 153,
+   "flagged_bulk_rule": 13
+  },
+  {
+   "year": 2015,
+   "n": 2020,
+   "flagged": 1194,
+   "other": 826,
+   "flagged_share_pct": 59.11,
+   "other_share_pct": 40.89,
+   "flagged_with_ndc": 87,
+   "other_with_ndc": 354,
+   "flagged_ndc_pct": 7.29,
+   "other_ndc_pct": 42.86,
+   "coverage_pct": 21.83,
+   "flagged_compounding_rule": 719,
+   "flagged_bulk_rule": 478
+  },
+  {
+   "year": 2016,
+   "n": 1254,
+   "flagged": 430,
+   "other": 824,
+   "flagged_share_pct": 34.29,
+   "other_share_pct": 65.71,
+   "flagged_with_ndc": 185,
+   "other_with_ndc": 356,
+   "flagged_ndc_pct": 43.02,
+   "other_ndc_pct": 43.2,
+   "coverage_pct": 43.14,
+   "flagged_compounding_rule": 424,
+   "flagged_bulk_rule": 8
+  },
+  {
+   "year": 2017,
+   "n": 1073,
+   "flagged": 333,
+   "other": 740,
+   "flagged_share_pct": 31.03,
+   "other_share_pct": 68.97,
+   "flagged_with_ndc": 63,
+   "other_with_ndc": 484,
+   "flagged_ndc_pct": 18.92,
+   "other_ndc_pct": 65.41,
+   "coverage_pct": 50.98,
+   "flagged_compounding_rule": 319,
+   "flagged_bulk_rule": 22
+  },
+  {
+   "year": 2018,
+   "n": 1426,
+   "flagged": 175,
+   "other": 1251,
+   "flagged_share_pct": 12.27,
+   "other_share_pct": 87.73,
+   "flagged_with_ndc": 99,
+   "other_with_ndc": 752,
+   "flagged_ndc_pct": 56.57,
+   "other_ndc_pct": 60.11,
+   "coverage_pct": 59.68,
+   "flagged_compounding_rule": 134,
+   "flagged_bulk_rule": 43
+  },
+  {
+   "year": 2019,
+   "n": 2152,
+   "flagged": 375,
+   "other": 1777,
+   "flagged_share_pct": 17.43,
+   "other_share_pct": 82.57,
+   "flagged_with_ndc": 96,
+   "other_with_ndc": 1222,
+   "flagged_ndc_pct": 25.6,
+   "other_ndc_pct": 68.77,
+   "coverage_pct": 61.25,
+   "flagged_compounding_rule": 366,
+   "flagged_bulk_rule": 9
+  },
+  {
+   "year": 2020,
+   "n": 1035,
+   "flagged": 23,
+   "other": 1012,
+   "flagged_share_pct": 2.22,
+   "other_share_pct": 97.78,
+   "flagged_with_ndc": 7,
+   "other_with_ndc": 545,
+   "flagged_ndc_pct": 30.43,
+   "other_ndc_pct": 53.85,
+   "coverage_pct": 53.33,
+   "flagged_compounding_rule": 11,
+   "flagged_bulk_rule": 12
+  },
+  {
+   "year": 2021,
+   "n": 1016,
+   "flagged": 188,
+   "other": 828,
+   "flagged_share_pct": 18.5,
+   "other_share_pct": 81.5,
+   "flagged_with_ndc": 7,
+   "other_with_ndc": 558,
+   "flagged_ndc_pct": 3.72,
+   "other_ndc_pct": 67.39,
+   "coverage_pct": 55.61,
+   "flagged_compounding_rule": 181,
+   "flagged_bulk_rule": 7
+  },
+  {
+   "year": 2022,
+   "n": 1349,
+   "flagged": 134,
+   "other": 1215,
+   "flagged_share_pct": 9.93,
+   "other_share_pct": 90.07,
+   "flagged_with_ndc": 41,
+   "other_with_ndc": 899,
+   "flagged_ndc_pct": 30.6,
+   "other_ndc_pct": 73.99,
+   "coverage_pct": 69.68,
+   "flagged_compounding_rule": 97,
+   "flagged_bulk_rule": 39
+  },
+  {
+   "year": 2023,
+   "n": 1252,
+   "flagged": 90,
+   "other": 1162,
+   "flagged_share_pct": 7.19,
+   "other_share_pct": 92.81,
+   "flagged_with_ndc": 34,
+   "other_with_ndc": 867,
+   "flagged_ndc_pct": 37.78,
+   "other_ndc_pct": 74.61,
+   "coverage_pct": 71.96,
+   "flagged_compounding_rule": 66,
+   "flagged_bulk_rule": 28
+  },
+  {
+   "year": 2024,
+   "n": 657,
+   "flagged": 20,
+   "other": 637,
+   "flagged_share_pct": 3.04,
+   "other_share_pct": 96.96,
+   "flagged_with_ndc": 16,
+   "other_with_ndc": 531,
+   "flagged_ndc_pct": 80.0,
+   "other_ndc_pct": 83.36,
+   "coverage_pct": 83.26,
+   "flagged_compounding_rule": 17,
+   "flagged_bulk_rule": 3
+  },
+  {
+   "year": 2025,
+   "n": 765,
+   "flagged": 26,
+   "other": 739,
+   "flagged_share_pct": 3.4,
+   "other_share_pct": 96.6,
+   "flagged_with_ndc": 20,
+   "other_with_ndc": 589,
+   "flagged_ndc_pct": 76.92,
+   "other_ndc_pct": 79.7,
+   "coverage_pct": 79.61,
+   "flagged_compounding_rule": 22,
+   "flagged_bulk_rule": 4
+  },
+  {
+   "year": 2026,
+   "n": 603,
+   "flagged": 29,
+   "other": 574,
+   "flagged_share_pct": 4.81,
+   "other_share_pct": 95.19,
+   "flagged_with_ndc": 25,
+   "other_with_ndc": 475,
+   "flagged_ndc_pct": 86.21,
+   "other_ndc_pct": 82.75,
+   "coverage_pct": 82.92,
+   "flagged_compounding_rule": 13,
+   "flagged_bulk_rule": 21
+  }
+ ],
+ "D_decomposition": {
+  "reference": "pooled 2013-2026: flagged share 0.2199, NDC rate flagged 0.1848, NDC rate other 0.6586",
+  "y2013_to_y2026": {
+   "coverage_from_pct": 29.85,
+   "coverage_to_pct": 82.92,
+   "total_change_pp": 53.07,
+   "composition_pp": 21.05,
+   "within_pp": 37.88,
+   "interaction_pp": -5.86,
+   "composition_share_pct": 39.7,
+   "within_share_pct": 71.4,
+   "interaction_share_pct": -11.0,
+   "inputs": {
+    "s_from": 0.4924,
+    "pF_from": 0.0044,
+    "pO_from": 0.5837,
+    "s_to": 0.0481,
+    "pF_to": 0.8621,
+    "pO_to": 0.8275,
+    "s_pooled": 0.2199,
+    "pF_pooled": 0.1848,
+    "pO_pooled": 0.6586
+   }
+  },
+  "E1_to_E3": {
+   "coverage_from_pct": 38.53,
+   "coverage_to_pct": 75.59,
+   "total_change_pp": 37.06,
+   "composition_pp": 15.73,
+   "within_pp": 24.4,
+   "interaction_pp": -3.07,
+   "composition_share_pct": 42.5,
+   "within_share_pct": 65.8,
+   "interaction_share_pct": -8.3,
+   "inputs": {
+    "s_from": 0.3967,
+    "pF_from": 0.1237,
+    "pO_from": 0.5574,
+    "s_to": 0.0646,
+    "pF_to": 0.4548,
+    "pO_to": 0.7768,
+    "s_pooled": 0.2199,
+    "pF_pooled": 0.1848,
+    "pO_pooled": 0.6586
+   }
+  }
+ }
+}

@@ -1,0 +1,643 @@
+{
+ "data": {
+  "sha256": "c6eb46526a3ad52102a88b65727874c2e23c43300b27e704eada05960d755092",
+  "bytes": 4004072,
+  "records": 17975
+ },
+ "seed": 20260928,
+ "criterion": {
+  "C1_min_pooled_pct": 35.0,
+  "C2_max_dev_pp": 10.0,
+  "C3_max_abs_spearman": 0.5
+ },
+ "yield": {
+  "records_without_openfda_ndc": 14739,
+  "run1_pattern_records": 6002,
+  "run1_pattern_records_with_accepted_ndc": 5960,
+  "run1_pattern_records_with_more_than_one": 1012,
+  "all_records_with_accepted_ndc": 6651,
+  "all_records_with_more_than_one": 1019,
+  "recovered_outside_run1_pattern": 691,
+  "accepted_by_shape": {
+   "10-digit": 135,
+   "11-digit": 575,
+   "4-4-2": 1134,
+   "5-3-2": 3438,
+   "5-4-1": 1618,
+   "5-4-2": 1570
+  },
+  "rejected_by_reason": {
+   "all-zero labeler or product segment": 12,
+   "labeled barcode": 88,
+   "labeled mfg": 4,
+   "labeled sku": 2,
+   "labeled upc": 134,
+   "shape not accepted": 29,
+   "unhyphenated without NDC label": 1
+  }
+ },
+ "corroboration": {
+  "distinct_parsed_codes": 7574,
+  "match_openfda_package_ndc": 171,
+  "match_openfda_package_pct": 2.26,
+  "match_openfda_product_ndc": 185,
+  "match_openfda_product_pct": 2.44,
+  "recovered_records_with_a_product_match": 178,
+  "recovered_records_with_a_product_match_pct": 2.68,
+  "openfda_distinct_product_ndcs": 4382,
+  "openfda_distinct_package_ndcs": 11009,
+  "openfda_package_values_not_three_segments": 243
+ },
+ "precision": {
+  "seed": 20260928,
+  "n": 30,
+  "population": 6651,
+  "marked": 30,
+  "correct": 29,
+  "precision_pct": 96.67,
+  "boundary_redactions": 0,
+  "sample": [
+   {
+    "n": 1,
+    "recall_number": "D-0699-2023",
+    "report_year": "2023",
+    "extracted": [
+     "71285-0430-1"
+    ],
+    "snippet": "..., Inc., Lehigh Valley, 6580 Snowdrift Road, Allentown, PA 18106, NDC 71285-0430-1.",
+    "mark": "correct",
+    "note": ""
+   },
+   {
+    "n": 2,
+    "recall_number": "D-0044-2020",
+    "report_year": "2019",
+    "extracted": [
+     "3321674166"
+    ],
+    "snippet": "...al Biotechnology 791 Park of Commerce Blvd, Boca Raton, FL 33487. NDC 3321674166",
+    "mark": "correct",
+    "note": "10-digit, NDC-labeled; split not resolvable from the text"
+   },
+   {
+    "n": 3,
+    "recall_number": "D-1294-2015",
+    "report_year": "2015",
+    "extracted": [
+     "99999-1775-10"
+    ],
+    "snippet": "...mL Vial, Apothecary Shoppe, Compounding Pharmacy, Tulsa OK 74135, NDC 99999-1775-10",
+    "mark": "incorrect",
+    "note": "labeled NDC, but 99999 is a placeholder labeler and a 5-4-2 with no zero-padded segment cannot be a real NDC"
+   },
+   {
+    "n": 4,
+    "recall_number": "D-0882-2023",
+    "report_year": "2023",
+    "extracted": [
+     "55758-036-01"
+    ],
+    "snippet": "...L Oz (15 mL) bottles, distributed by Pharmadel LLC Georgetown, DE NDC 55758-036-01",
+    "mark": "correct",
+    "note": ""
+   },
+   {
+    "n": 5,
+    "recall_number": "D-0436-2025",
+    "report_year": "2025",
+    "extracted": [
+     "53247-131-02"
+    ],
+    "snippet": "... in India, Dist. by Bob Barker Co. Inc., Fuquay-Varina, NC 27526, NDC 53247-131-02",
+    "mark": "correct",
+    "note": ""
+   },
+   {
+    "n": 6,
+    "recall_number": "D-0246-2025",
+    "report_year": "2025",
+    "extracted": [
+     "45802-0134-30"
+    ],
+    "snippet": "... For Topical Use Only, Manufactured by Padagis, Yeruham, Israel, NDC: 45802-0134-30",
+    "mark": "correct",
+    "note": ""
+   },
+   {
+    "n": 7,
+    "recall_number": "D-66458-1",
+    "report_year": "2013",
+    "extracted": [
+     "0781-5780-92"
+    ],
+    "snippet": "...India by Sandoz Private Ltd, for Sandoz Inc, Princeton, NJ 08540, NDC 0781-5780-92",
+    "mark": "correct",
+    "note": ""
+   },
+   {
+    "n": 8,
+    "recall_number": "D-0499-2023",
+    "report_year": "2023",
+    "extracted": [
+     "70518-2750-00"
+    ],
+    "snippet": "...les, Rx only, Repackaged by: RemedyRepack Inc., Indiana, PA 15701, NDC70518-2750-00",
+    "mark": "correct",
+    "note": ""
+   },
+   {
+    "n": 9,
+    "recall_number": "D-0498-2019",
+    "report_year": "2019",
+    "extracted": [
+     "42852-703-99"
+    ],
+    "snippet": "..., Rx only, Avella of Houston, 9265 Kirby Dr., Houston, TX 77054, NDC 42852-703-99.",
+    "mark": "correct",
+    "note": ""
+   },
+   {
+    "n": 10,
+    "recall_number": "D-0268-2022",
+    "report_year": "2021",
+    "extracted": [
+     "69842-249-20"
+    ],
+    "snippet": "...armacy, Inc., One CVS Drive, Woonsocket, RI 02895, Made in India, NDC 69842-249-20",
+    "mark": "correct",
+    "note": ""
+   },
+   {
+    "n": 11,
+    "recall_number": "D-1046-2019",
+    "report_year": "2019",
+    "extracted": [
+     "50268-514-15"
+    ],
+    "snippet": "...oxes, Rx Only Manufactured for: AvKARE Inc. Pulaski, TN 38478 --- NDC 50268-514-15",
+    "mark": "correct",
+    "note": ""
+   },
+   {
+    "n": 12,
+    "recall_number": "D-0235-2016",
+    "report_year": "2015",
+    "extracted": [
+     "51079-090-20"
+    ],
+    "snippet": "... Pharmaceutical Companies, Inc., Spring Valley, NY 10977. Mylan. NDC: 51079-090-20.",
+    "mark": "correct",
+    "note": ""
+   },
+   {
+    "n": 13,
+    "recall_number": "D-0806-2022",
+    "report_year": "2022",
+    "extracted": [
+     "73198-0023-10"
+    ],
+    "snippet": "...pia Pharmaceuticals 6700 Convoy Rd., Ste. 155, Orlando, FL 32835. NDC 73198-0023-10.",
+    "mark": "correct",
+    "note": ""
+   },
+   {
+    "n": 14,
+    "recall_number": "D-0611-2018",
+    "report_year": "2018",
+    "extracted": [
+     "50383-720-15",
+     "50383-720-18",
+     "50383-720-19"
+    ],
+    "snippet": "Chlorhexidine Gluconate Oral Rinse, 0.12%, 15 mL unit dose cups (NDC 50383-720-15) packaged in 100-count (10 x 10) cups per case pack (NDC 50383-720-18 or 50383-720-19), Rx Only, Hi-Tech Pharmacal ...",
+    "mark": "correct",
+    "note": ""
+   },
+   {
+    "n": 15,
+    "recall_number": "D-1138-2017",
+    "report_year": "2017",
+    "extracted": [
+     "53329-090-16"
+    ],
+    "snippet": "...actured for Medline Industries, Inc., Northfield, IL 60093 USA. NDC: 53329-090-16",
+    "mark": "correct",
+    "note": ""
+   },
+   {
+    "n": 16,
+    "recall_number": "D-0754-2018",
+    "report_year": "2018",
+    "extracted": [
+     "50111-0787-66"
+    ],
+    "snippet": "Azithromycin 250 mg tablet #18 TEV NDC 50111-0787-66 28 days supply",
+    "mark": "correct",
+    "note": ""
+   },
+   {
+    "n": 17,
+    "recall_number": "D-1114-2019",
+    "report_year": "2019",
+    "extracted": [
+     "13668-113-90",
+     "13668-113-10"
+    ],
+    "snippet": "LOSARTAN POTASSIUM TABLETS, USP, 25 mg, a) 90-count (NDC: 13668-113-90), b) 1000-count (NDC: 13668-113-10), per bottle, Rx only, Manufa...",
+    "mark": "correct",
+    "note": ""
+   },
+   {
+    "n": 18,
+    "recall_number": "D-1362-2019",
+    "report_year": "2019",
+    "extracted": [
+     "64980-424-15"
+    ],
+    "snippet": "Acetic Acid Otic Solution, USP, 2%, Rx Only, 15 mL bottle, NDC: 64980-424-15, Manufactured by Bio-Pharm In...",
+    "mark": "correct",
+    "note": ""
+   },
+   {
+    "n": 19,
+    "recall_number": "D-0652-2024",
+    "report_year": "2024",
+    "extracted": [
+     "84139-225-01"
+    ],
+    "snippet": "...ose Vial, Rx Only, Compounded Drug, Mfd by: ProRX Exton, PA19341, NDC 84139-225-01",
+    "mark": "correct",
+    "note": ""
+   },
+   {
+    "n": 20,
+    "recall_number": "D-527-2013",
+    "report_year": "2013",
+    "extracted": [
+     "58605-151-01",
+     "58605-151-02"
+    ],
+    "snippet": "...DM LIQUID, Antihistamine, Decongestant, a) 16 fl oz. bottle, OTC, NDC 58605-151-01 b) 20 ml NDC 58605-151-02, Manufactured for: Pernix Th...",
+    "mark": "correct",
+    "note": ""
+   },
+   {
+    "n": 21,
+    "recall_number": "D-0786-2022",
+    "report_year": "2022",
+    "extracted": [
+     "76590-8347-1"
+    ],
+    "snippet": "...Topical Solution, Hand Sanitizer Non-Sterile Solution, FDA Approved, 76590-8347-1, 3780 mL, 3.78 Liters (1 Gall...",
+    "mark": "correct",
+    "note": "no NDC label; 5-4-1 in the NDC position of an OTC hand sanitizer listing"
+   },
+   {
+    "n": 22,
+    "recall_number": "D-0689-2023",
+    "report_year": "2023",
+    "extracted": [
+     "71285-0418-1"
+    ],
+    "snippet": "..., Inc., Lehigh Valley, 6580 Snowdrift Road, Allentown, PA 18106, NDC 71285-0418-1.",
+    "mark": "correct",
+    "note": ""
+   },
+   {
+    "n": 23,
+    "recall_number": "D-0791-2018",
+    "report_year": "2018",
+    "extracted": [
+     "00378-2512-78"
+    ],
+    "snippet": "Capecitabine 500 mg Tablet NDC 00378-2512-78 28 days supply and 21 days su...",
+    "mark": "correct",
+    "note": ""
+   },
+   {
+    "n": 24,
+    "recall_number": "D-1281-2022",
+    "report_year": "2022",
+    "extracted": [
+     "69374-919-10"
+    ],
+    "snippet": "...cing facility, 4500 12th St. Extension, West Columbia, SC 29172, NDC: 69374-919-10",
+    "mark": "correct",
+    "note": ""
+   },
+   {
+    "n": 25,
+    "recall_number": "D-1621-2020",
+    "report_year": "2020",
+    "extracted": [
+     "68788-9283-01"
+    ],
+    "snippet": "...y, Mfg: RLC Labs; Cave Creek, AZ, Preferred Pharmaceuticals, Inc. NDC 68788-9283-01",
+    "mark": "correct",
+    "note": ""
+   },
+   {
+    "n": 26,
+    "recall_number": "D-0955-2022",
+    "report_year": "2022",
+    "extracted": [
+     "69374-903-05"
+    ],
+    "snippet": "...cing facility, 4500 12th St. Extension, West Columbia, SC 29172, NDC: 69374-903-05",
+    "mark": "correct",
+    "note": ""
+   },
+   {
+    "n": 27,
+    "recall_number": "D-0392-2025",
+    "report_year": "2025",
+    "extracted": [
+     "71300-6564-1",
+     "71300-6564-3"
+    ],
+    "snippet": "...ot for Injection, NUBRATORI RX, 381 Van Ness Ave# 1507, CA 90501, NDC 71300-6564-1 (box), 71300-6564-3 (vial).",
+    "mark": "correct",
+    "note": ""
+   },
+   {
+    "n": 28,
+    "recall_number": "D-1668-2019",
+    "report_year": "2019",
+    "extracted": [
+     "70731-0999-30"
+    ],
+    "snippet": "...Q Compounding, 340 West State Street, Unit 9, Athens, OH 45701. NDC: 70731-0999-30",
+    "mark": "correct",
+    "note": ""
+   },
+   {
+    "n": 29,
+    "recall_number": "D-0589-2018",
+    "report_year": "2018",
+    "extracted": [
+     "52389-745-56"
+    ],
+    "snippet": "...buted by: ALVA-AMCO Pharmacal Cos., Inc., Niles, IL 60714, USA. NDC 52389-745-56, UPC 0 72959 01045 4.",
+    "mark": "correct",
+    "note": "the UPC after it was correctly not extracted"
+   },
+   {
+    "n": 30,
+    "recall_number": "D-0626-2018",
+    "report_year": "2018",
+    "extracted": [
+     "55700-0412-01"
+    ],
+    "snippet": "...I 48182 Mfr. CSPC Ouyl Pharm Co., Ltd. Shijazhuang, Hebei, China; NDC 55700-0412-01",
+    "mark": "correct",
+    "note": ""
+   }
+  ]
+ },
+ "year_table": [
+  {
+   "year": 2012,
+   "total": 434,
+   "openfda": 56,
+   "recovered": 107,
+   "combined": 163,
+   "combined_pct": 37.56,
+   "openfda_pct": 12.9,
+   "in_gate": false
+  },
+  {
+   "year": 2013,
+   "total": 1377,
+   "openfda": 119,
+   "recovered": 292,
+   "combined": 411,
+   "combined_pct": 29.85,
+   "openfda_pct": 8.64,
+   "in_gate": true
+  },
+  {
+   "year": 2014,
+   "total": 1562,
+   "openfda": 165,
+   "recovered": 836,
+   "combined": 1001,
+   "combined_pct": 64.08,
+   "openfda_pct": 10.56,
+   "in_gate": true
+  },
+  {
+   "year": 2015,
+   "total": 2020,
+   "openfda": 103,
+   "recovered": 338,
+   "combined": 441,
+   "combined_pct": 21.83,
+   "openfda_pct": 5.1,
+   "in_gate": true
+  },
+  {
+   "year": 2016,
+   "total": 1254,
+   "openfda": 80,
+   "recovered": 461,
+   "combined": 541,
+   "combined_pct": 43.14,
+   "openfda_pct": 6.38,
+   "in_gate": true
+  },
+  {
+   "year": 2017,
+   "total": 1073,
+   "openfda": 137,
+   "recovered": 410,
+   "combined": 547,
+   "combined_pct": 50.98,
+   "openfda_pct": 12.77,
+   "in_gate": true
+  },
+  {
+   "year": 2018,
+   "total": 1426,
+   "openfda": 209,
+   "recovered": 642,
+   "combined": 851,
+   "combined_pct": 59.68,
+   "openfda_pct": 14.66,
+   "in_gate": true
+  },
+  {
+   "year": 2019,
+   "total": 2152,
+   "openfda": 213,
+   "recovered": 1105,
+   "combined": 1318,
+   "combined_pct": 61.25,
+   "openfda_pct": 9.9,
+   "in_gate": true
+  },
+  {
+   "year": 2020,
+   "total": 1035,
+   "openfda": 184,
+   "recovered": 368,
+   "combined": 552,
+   "combined_pct": 53.33,
+   "openfda_pct": 17.78,
+   "in_gate": true
+  },
+  {
+   "year": 2021,
+   "total": 1016,
+   "openfda": 300,
+   "recovered": 265,
+   "combined": 565,
+   "combined_pct": 55.61,
+   "openfda_pct": 29.53,
+   "in_gate": true
+  },
+  {
+   "year": 2022,
+   "total": 1349,
+   "openfda": 315,
+   "recovered": 625,
+   "combined": 940,
+   "combined_pct": 69.68,
+   "openfda_pct": 23.35,
+   "in_gate": true
+  },
+  {
+   "year": 2023,
+   "total": 1252,
+   "openfda": 270,
+   "recovered": 631,
+   "combined": 901,
+   "combined_pct": 71.96,
+   "openfda_pct": 21.57,
+   "in_gate": true
+  },
+  {
+   "year": 2024,
+   "total": 657,
+   "openfda": 310,
+   "recovered": 237,
+   "combined": 547,
+   "combined_pct": 83.26,
+   "openfda_pct": 47.18,
+   "in_gate": true
+  },
+  {
+   "year": 2025,
+   "total": 765,
+   "openfda": 400,
+   "recovered": 209,
+   "combined": 609,
+   "combined_pct": 79.61,
+   "openfda_pct": 52.29,
+   "in_gate": true
+  },
+  {
+   "year": 2026,
+   "total": 603,
+   "openfda": 375,
+   "recovered": 125,
+   "combined": 500,
+   "combined_pct": 82.92,
+   "openfda_pct": 62.19,
+   "in_gate": true
+  }
+ ],
+ "gate": {
+  "pooled_total": 17541,
+  "pooled_combined": 9724,
+  "C1_pooled_pct": 55.44,
+  "C1_pass": true,
+  "C2_deviations_pp": [
+   [
+    2013,
+    -25.59
+   ],
+   [
+    2014,
+    8.65
+   ],
+   [
+    2015,
+    -33.6
+   ],
+   [
+    2016,
+    -12.29
+   ],
+   [
+    2017,
+    -4.46
+   ],
+   [
+    2018,
+    4.24
+   ],
+   [
+    2019,
+    5.81
+   ],
+   [
+    2020,
+    -2.1
+   ],
+   [
+    2021,
+    0.17
+   ],
+   [
+    2022,
+    14.25
+   ],
+   [
+    2023,
+    16.53
+   ],
+   [
+    2024,
+    27.82
+   ],
+   [
+    2025,
+    24.17
+   ],
+   [
+    2026,
+    27.48
+   ]
+  ],
+  "C2_worst_year": 2015,
+  "C2_worst_dev_pp": -33.6,
+  "C2_years_outside": [
+   2013,
+   2015,
+   2016,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "C2_pass": false,
+  "C3_spearman": 0.8198,
+  "C3_pass": false,
+  "openfda_only_spearman": 0.9121,
+  "verdict": "FAIL"
+ },
+ "censoring": {
+  "max_report_date": "2026-09-16",
+  "openfda_only": {
+   "index_units": 6550,
+   "censored_naive_365": 803,
+   "censored_365_plus_lag168": 1182
+  },
+  "combined": {
+   "index_units": 13110,
+   "censored_naive_365": 961,
+   "censored_365_plus_lag168": 1418
+  }
+ }
+}

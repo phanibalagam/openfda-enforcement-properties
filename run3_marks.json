@@ -1,0 +1,744 @@
+{
+ "marked_by": "run 3 author, by reading every snippet and every full description in RUN3-REPORT.md",
+ "A": {
+  "D-849-2013#17906": {
+   "mark": "correct"
+  },
+  "D-66458-1#981": {
+   "mark": "correct"
+  },
+  "D-879-2014#3172": {
+   "mark": "correct"
+  },
+  "D-246-2013#17952": {
+   "mark": "correct"
+  },
+  "D-488-2014#3572": {
+   "mark": "correct"
+  },
+  "D-0185-2017#3276": {
+   "mark": "correct"
+  },
+  "D-541-2013#7294": {
+   "mark": "correct"
+  },
+  "D-1065-2015#9505": {
+   "mark": "correct"
+  },
+  "D-0261-2016#8466": {
+   "mark": "correct"
+  },
+  "D-0243-2015#8399": {
+   "mark": "correct"
+  },
+  "D-485-2014#1940": {
+   "mark": "correct"
+  },
+  "D-1300-2015#6531": {
+   "mark": "incorrect",
+   "note": "11-digit form with no pad zero: printed by the firm as its NDC but structurally impossible as an FDA NDC"
+  },
+  "D-166-2013#9206": {
+   "mark": "correct"
+  },
+  "D-637-2014#3528": {
+   "mark": "correct"
+  },
+  "D-975-2014#2769": {
+   "mark": "correct"
+  },
+  "D-1264-2016#2637": {
+   "mark": "correct"
+  },
+  "D-0212-2017#8844": {
+   "mark": "correct"
+  },
+  "D-465-2014#2843": {
+   "mark": "correct"
+  },
+  "D-339-2014#3330": {
+   "mark": "correct",
+   "note": "labeler name redacted by the boundary filter"
+  },
+  "D-1479-2016#1445": {
+   "mark": "correct"
+  },
+  "D-0285-2015#8766": {
+   "mark": "correct"
+  },
+  "D-853-2014#2697": {
+   "mark": "correct"
+  },
+  "D-688-2014#3756": {
+   "mark": "correct"
+  },
+  "D-0203-2017#1469": {
+   "mark": "correct"
+  },
+  "D-1827-2015#9000": {
+   "mark": "correct"
+  },
+  "D-0190-2017#1477": {
+   "mark": "correct"
+  },
+  "D-1195-2014#7430": {
+   "mark": "correct"
+  },
+  "D-0237-2016#6261": {
+   "mark": "correct"
+  },
+  "D-928-2013#8002": {
+   "mark": "correct"
+  },
+  "D-826-2014#1977": {
+   "mark": "correct"
+  },
+  "D-826-2013#5954": {
+   "mark": "correct"
+  },
+  "D-1305-2015#6536": {
+   "mark": "incorrect",
+   "note": "11-digit form with no pad zero: printed by the firm as its NDC but structurally impossible as an FDA NDC"
+  },
+  "D-0094-2017#9683": {
+   "mark": "correct"
+  },
+  "D-1251-2015#6332": {
+   "mark": "correct"
+  },
+  "D-1336-2016#1804": {
+   "mark": "correct"
+  },
+  "D-1490-2016#2955": {
+   "mark": "correct"
+  },
+  "D-0399-2015#8795": {
+   "mark": "correct"
+  },
+  "D-1269-2015#8304": {
+   "mark": "correct"
+  },
+  "D-616-2014#4229": {
+   "mark": "correct"
+  },
+  "D-1338-2016#1464": {
+   "mark": "correct"
+  },
+  "D-0942-2020#12033": {
+   "mark": "correct"
+  },
+  "D-0529-2018#9635": {
+   "mark": "correct"
+  },
+  "D-0121-2021#17472": {
+   "mark": "correct"
+  },
+  "D-1009-2017#9826": {
+   "mark": "correct"
+  },
+  "D-1635-2019#11453": {
+   "mark": "correct"
+  },
+  "D-0623-2019#10841": {
+   "mark": "correct"
+  },
+  "D-0955-2019#10352": {
+   "mark": "correct"
+  },
+  "D-0902-2019#10597": {
+   "mark": "correct"
+  },
+  "D-0110-2019#10577": {
+   "mark": "correct"
+  },
+  "D-1051-2020#3452": {
+   "mark": "correct"
+  },
+  "D-0235-2019#2112": {
+   "mark": "correct"
+  },
+  "D-1376-2019#11262": {
+   "mark": "correct"
+  },
+  "D-1526-2020#12345": {
+   "mark": "correct"
+  },
+  "D-1005-2020#5141": {
+   "mark": "correct"
+  },
+  "D-1712-2019#11570": {
+   "mark": "correct"
+  },
+  "D-0534-2019#10549": {
+   "mark": "correct"
+  },
+  "D-1656-2019#11386": {
+   "mark": "correct"
+  },
+  "D-1197-2018#10040": {
+   "mark": "correct"
+  },
+  "D-0825-2019#11010": {
+   "mark": "correct"
+  },
+  "D-0947-2020#11745": {
+   "mark": "correct"
+  },
+  "D-0634-2019#10588": {
+   "mark": "correct"
+  },
+  "D-0088-2019#4817": {
+   "mark": "correct"
+  },
+  "D-1023-2020#1697": {
+   "mark": "correct",
+   "note": "eight store-brand NDCs, all NDC-labeled"
+  },
+  "D-1673-2019#11314": {
+   "mark": "correct"
+  },
+  "D-0365-2020#14236": {
+   "mark": "correct"
+  },
+  "D-0426-2017#3247": {
+   "mark": "correct",
+   "note": "labeled \"NDA\", evidently a typo for NDC; shape is a valid padded NDC"
+  },
+  "D-0889-2017#9996": {
+   "mark": "correct"
+  },
+  "D-0520-2017#9153": {
+   "mark": "correct"
+  },
+  "D-0668-2019#10373": {
+   "mark": "correct"
+  },
+  "D-0535-2020#1792": {
+   "mark": "correct"
+  },
+  "D-0309-2020#11668": {
+   "mark": "correct"
+  },
+  "D-0685-2019#10413": {
+   "mark": "correct"
+  },
+  "D-0604-2019#10324": {
+   "mark": "correct"
+  },
+  "D-0099-2020#11624": {
+   "mark": "correct"
+  },
+  "D-0639-2021#12566": {
+   "mark": "correct"
+  },
+  "D-0890-2019#10853": {
+   "mark": "correct"
+  },
+  "D-0621-2019#10602": {
+   "mark": "correct"
+  },
+  "D-1024-2019#11184": {
+   "mark": "correct"
+  },
+  "D-0638-2020#2180": {
+   "mark": "correct"
+  },
+  "D-1091-2020#14138": {
+   "mark": "correct"
+  },
+  "D-1249-2022#13584": {
+   "mark": "correct"
+  },
+  "D-0446-2022#5045": {
+   "mark": "correct"
+  },
+  "D-0328-2022#12982": {
+   "mark": "correct"
+  },
+  "D-0252-2024#13897": {
+   "mark": "correct"
+  },
+  "D-0398-2022#5052": {
+   "mark": "correct"
+  },
+  "D-0618-2023#13531": {
+   "mark": "correct"
+  },
+  "D-1507-2022#15936": {
+   "mark": "correct"
+  },
+  "D-0473-2022#12927": {
+   "mark": "correct"
+  },
+  "D-0152-2023#13314": {
+   "mark": "correct"
+  },
+  "D-0689-2022#13872": {
+   "mark": "correct"
+  },
+  "D-0577-2022#15324": {
+   "mark": "correct"
+  },
+  "D-0420-2024#14312": {
+   "mark": "correct"
+  },
+  "D-0310-2024#12807": {
+   "mark": "correct"
+  },
+  "D-1057-2022#912": {
+   "mark": "correct"
+  },
+  "D-0558-2022#12738": {
+   "mark": "correct"
+  },
+  "D-0362-2023#14343": {
+   "mark": "correct"
+  },
+  "D-0002-2025#887": {
+   "mark": "correct"
+  },
+  "D-0380-2024#14215": {
+   "mark": "correct"
+  },
+  "D-0717-2023#15741": {
+   "mark": "correct"
+  },
+  "D-0396-2022#5086": {
+   "mark": "correct"
+  },
+  "D-0640-2023#12670": {
+   "mark": "correct"
+  },
+  "D-0322-2026#432": {
+   "mark": "incorrect",
+   "note": "11-digit form with no pad zero: printed by the firm as its NDC but structurally impossible as an FDA NDC"
+  },
+  "D-0360-2026#60": {
+   "mark": "correct"
+  },
+  "D-0438-2024#16692": {
+   "mark": "correct"
+  },
+  "D-0025-2024#14347": {
+   "mark": "correct"
+  },
+  "D-0957-2023#14634": {
+   "mark": "correct"
+  },
+  "D-1484-2022#15525": {
+   "mark": "correct"
+  },
+  "D-0508-2023#14704": {
+   "mark": "correct"
+  },
+  "D-0297-2025#15404": {
+   "mark": "incorrect",
+   "note": "11-digit form with no pad zero: printed by the firm as its NDC but structurally impossible as an FDA NDC"
+  },
+  "D-0681-2023#15515": {
+   "mark": "correct"
+  },
+  "D-1073-2023#14195": {
+   "mark": "correct"
+  },
+  "D-0377-2026#380": {
+   "mark": "correct"
+  },
+  "D-0685-2022#13392": {
+   "mark": "correct"
+  },
+  "D-0568-2024#17645": {
+   "mark": "correct"
+  },
+  "D-0729-2023#14419": {
+   "mark": "correct"
+  },
+  "D-0297-2023#16836": {
+   "mark": "correct"
+  },
+  "D-0606-2023#13298": {
+   "mark": "correct"
+  },
+  "D-0476-2022#12644": {
+   "mark": "correct"
+  },
+  "D-0480-2023#13966": {
+   "mark": "correct"
+  },
+  "D-0716-2022#13083": {
+   "mark": "correct"
+  }
+ },
+ "B": {
+  "D-1491-2014#2552": {
+   "mark": "none"
+  },
+  "D-581-2013#5641": {
+   "mark": "none"
+  },
+  "D-1191-2016#1432": {
+   "mark": "none"
+  },
+  "D-0449-2016#3363": {
+   "mark": "none"
+  },
+  "D-0069-2017#9106": {
+   "mark": "none"
+  },
+  "D-487-2013#8080": {
+   "mark": "none"
+  },
+  "D-1614-2015#1658": {
+   "mark": "none"
+  },
+  "D-066-2014#5893": {
+   "mark": "none"
+  },
+  "D-782-2013#4562": {
+   "mark": "none"
+  },
+  "D-155-2014#6034": {
+   "mark": "none"
+  },
+  "D-0207-2015#9173": {
+   "mark": "none"
+  },
+  "D-113-2014#6163": {
+   "mark": "none"
+  },
+  "D-0994-2015#9114": {
+   "mark": "none"
+  },
+  "D-783-2015#9260": {
+   "mark": "none"
+  },
+  "D-1169-2015#3964": {
+   "mark": "none"
+  },
+  "D-145-2014#6008": {
+   "mark": "none"
+  },
+  "D-310-2014#5988": {
+   "mark": "none"
+  },
+  "D-479-2013#5825": {
+   "mark": "none"
+  },
+  "D-737-2015#8585": {
+   "mark": "none"
+  },
+  "D-448-2014#3984": {
+   "mark": "none"
+  },
+  "D-828-2015#8039": {
+   "mark": "none"
+  },
+  "D-826-2015#9612": {
+   "mark": "none"
+  },
+  "D-600-2015#8037": {
+   "mark": "none"
+  },
+  "D-0488-2016#4048": {
+   "mark": "none"
+  },
+  "D-787-2015#7897": {
+   "mark": "none"
+  },
+  "D-0208-2016#9248": {
+   "mark": "none"
+  },
+  "D-1378-2014#6310": {
+   "mark": "none"
+  },
+  "D-1341-2014#7667": {
+   "mark": "none",
+   "note": "finished branded product, but no code in the text"
+  },
+  "D-0688-2016#3090": {
+   "mark": "none"
+  },
+  "D-0733-2016#6991": {
+   "mark": "none"
+  },
+  "D-946-2015#6339": {
+   "mark": "none"
+  },
+  "D-0940-2016#8710": {
+   "mark": "none"
+  },
+  "D-1066-2015#8119": {
+   "mark": "none"
+  },
+  "D-0003-2015#7728": {
+   "mark": "none"
+  },
+  "D-404-2013#4270": {
+   "mark": "none"
+  },
+  "D-0081-2016#6680": {
+   "mark": "none"
+  },
+  "D-1054-2015#6311": {
+   "mark": "none"
+  },
+  "D-0532-2016#6674": {
+   "mark": "none"
+  },
+  "D-0126-2017#2818": {
+   "mark": "none"
+  },
+  "D-136-2013#8849": {
+   "mark": "missed",
+   "note": "NDC printed with periods, 27854.101.01; dotted form is outside the accepted shapes"
+  },
+  "D-1072-2020#11962": {
+   "mark": "none"
+  },
+  "D-1159-2019#4665": {
+   "mark": "none"
+  },
+  "D-0477-2021#13817": {
+   "mark": "missed",
+   "note": "NDC/UPC 173060202, a 10-digit NDC with its leading zero dropped (9 digits); outside the accepted shapes"
+  },
+  "D-0030-2020#11830": {
+   "mark": "none"
+  },
+  "D-0134-2019#10140": {
+   "mark": "none"
+  },
+  "D-0422-2017#8918": {
+   "mark": "none"
+  },
+  "D-1195-2020#4855": {
+   "mark": "none"
+  },
+  "D-0266-2020#11372": {
+   "mark": "none"
+  },
+  "D-1138-2020#12014": {
+   "mark": "none"
+  },
+  "D-0405-2021#13836": {
+   "mark": "none"
+  },
+  "D-1543-2019#11666": {
+   "mark": "none"
+  },
+  "D-0057-2022#12440": {
+   "mark": "none"
+  },
+  "D-0308-2018#5208": {
+   "mark": "none"
+  },
+  "D-0594-2017#8872": {
+   "mark": "none"
+  },
+  "D-1083-2019#11097": {
+   "mark": "none"
+  },
+  "D-0254-2020#11757": {
+   "mark": "none"
+  },
+  "D-0724-2018#9688": {
+   "mark": "none"
+  },
+  "D-0281-2018#5175": {
+   "mark": "none"
+  },
+  "D-1726-2019#11432": {
+   "mark": "none"
+  },
+  "D-0266-2017#9117": {
+   "mark": "none"
+  },
+  "D-0565-2018#2923": {
+   "mark": "none"
+  },
+  "D-0730-2018#10046": {
+   "mark": "none"
+  },
+  "D-0014-2022#13121": {
+   "mark": "none"
+  },
+  "D-0804-2021#13074": {
+   "mark": "none"
+  },
+  "D-1008-2020#4791": {
+   "mark": "none"
+  },
+  "D-0685-2020#1867": {
+   "mark": "none"
+  },
+  "D-1455-2020#5479": {
+   "mark": "none"
+  },
+  "D-1551-2019#11225": {
+   "mark": "none"
+  },
+  "D-0302-2018#5161": {
+   "mark": "none"
+  },
+  "D-0266-2022#13078": {
+   "mark": "none"
+  },
+  "D-0062-2022#12593": {
+   "mark": "none"
+  },
+  "D-0273-2017#7548": {
+   "mark": "none"
+  },
+  "D-1015-2018#4525": {
+   "mark": "none"
+  },
+  "D-0384-2017#7566": {
+   "mark": "none"
+  },
+  "D-1772-2019#14162": {
+   "mark": "none"
+  },
+  "D-1569-2019#11677": {
+   "mark": "none"
+  },
+  "D-1137-2019#4642": {
+   "mark": "none"
+  },
+  "D-1085-2018#4811": {
+   "mark": "none"
+  },
+  "D-0669-2018#2669": {
+   "mark": "none"
+  },
+  "D-0676-2020#1309": {
+   "mark": "none"
+  },
+  "D-0418-2025#759": {
+   "mark": "none"
+  },
+  "D-1421-2022#1160": {
+   "mark": "none"
+  },
+  "D-0061-2024#12775": {
+   "mark": "none"
+  },
+  "D-1183-2022#13198": {
+   "mark": "none"
+  },
+  "D-0298-2023#16866": {
+   "mark": "none"
+  },
+  "D-0360-2025#749": {
+   "mark": "none"
+  },
+  "D-0465-2025#739": {
+   "mark": "none"
+  },
+  "D-1405-2022#1131": {
+   "mark": "none"
+  },
+  "D-0487-2022#12920": {
+   "mark": "missed",
+   "note": "NDC 69103-2556, product-level NDC with no package segment; outside the accepted shapes"
+  },
+  "D-1517-2022#5154": {
+   "mark": "none"
+  },
+  "D-0056-2024#13530": {
+   "mark": "none"
+  },
+  "D-0290-2023#16934": {
+   "mark": "none"
+  },
+  "D-0781-2022#5258": {
+   "mark": "none"
+  },
+  "D-0556-2025#707": {
+   "mark": "none"
+  },
+  "D-0670-2026#200": {
+   "mark": "none"
+  },
+  "D-0317-2023#15643": {
+   "mark": "none"
+  },
+  "D-0182-2023#12847": {
+   "mark": "none",
+   "upc_ndc": true,
+   "note": "UPC 3 0573 0169 49 3 encodes NDC 0573-0169-49; a UPC is not an NDC, counted in the named category"
+  },
+  "D-1377-2022#1185": {
+   "mark": "none"
+  },
+  "D-1414-2022#1158": {
+   "mark": "none"
+  },
+  "D-1197-2022#1197": {
+   "mark": "none"
+  },
+  "D-0323-2023#16604": {
+   "mark": "none"
+  },
+  "D-1298-2022#14128": {
+   "mark": "none"
+  },
+  "D-0609-2025#621": {
+   "mark": "none"
+  },
+  "D-0640-2026#205": {
+   "mark": "none",
+   "upc_ndc": true,
+   "note": "UPC 3 52410 30503 0 encodes an NDC; a UPC is not an NDC, counted in the named category"
+  },
+  "D-0376-2025#745": {
+   "mark": "none"
+  },
+  "D-0061-2026#15739": {
+   "mark": "none"
+  },
+  "D-0664-2022#12944": {
+   "mark": "none"
+  },
+  "D-1206-2022#1238": {
+   "mark": "none"
+  },
+  "D-0088-2026#17082": {
+   "mark": "none"
+  },
+  "D-1448-2022#1214": {
+   "mark": "none"
+  },
+  "D-0775-2022#5332": {
+   "mark": "none"
+  },
+  "D-0659-2025#654": {
+   "mark": "none"
+  },
+  "D-0986-2022#13481": {
+   "mark": "none",
+   "note": "PN: 69389-06229 is labeled a product number, not presented as an NDC"
+  },
+  "D-0772-2026#71": {
+   "mark": "none"
+  },
+  "D-0009-2023#1058": {
+   "mark": "none"
+  },
+  "D-1385-2022#1182": {
+   "mark": "none"
+  },
+  "D-0284-2025#15463": {
+   "mark": "none"
+  },
+  "D-0004-2025#891": {
+   "mark": "none"
+  },
+  "D-0450-2024#12470": {
+   "mark": "none"
+  },
+  "D-0790-2023#13379": {
+   "mark": "none",
+   "note": "says ALL NDCs but gives no code"
+  }
+ }
+}

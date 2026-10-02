@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software or its recorded results, please cite it as below."
+title: "Properties of the openFDA drug enforcement export: code, recorded results and hand-mark records"
+type: software
+authors:
+  - family-names: "Balagam"
+    given-names: "Phani Kumar"
+    orcid: "https://orcid.org/0009-0007-6762-399X"
+    affiliation: "Independent Researcher"
+license: MIT
+repository-code: "https://github.com/phanibalagam/openfda-enforcement-properties"
+abstract: >-
+  Code, recorded results and hand-mark records for a manuscript on the properties
+  of the openFDA drug enforcement bulk export. Five validation runs, 750 hand
+  marks, a National Drug Code recovery parser and its validation, and two
+  independently designed labels testing whether a change in product mix can be
+  attributed from the text. This work was carried out independently, on personal time and equipment, and is not connected to the author's employment. The views expressed are the author's own and do not represent the views, positions or policies of any current, former or future employer or client. No proprietary, confidential or internal data of any organization was used.
+keywords:
+  - openFDA
+  - drug enforcement
+  - National Drug Code
+  - data quality
+  - reproducibility
+  - negative results
